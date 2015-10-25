@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4B8B52A7-4C41-417B-9E34-CF98D01EE631</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5682FFFD5C3EF402E91D962453656CCC2C8845F8</key>
+		<string>https://bitbucket.org/fineblkwoman/pevo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pevo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5682FFFD5C3EF402E91D962453656CCC2C8845F8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/fineblkwoman/pevo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5682FFFD5C3EF402E91D962453656CCC2C8845F8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5682FFFD5C3EF402E91D962453656CCC2C8845F8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pevo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
