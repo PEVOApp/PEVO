@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="15B22c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dUK-fs-e8Z">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C40a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dUK-fs-e8Z">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -52,10 +52,6 @@
             <string>HelveticaNeue</string>
             <string>HelveticaNeue</string>
             <string>HelveticaNeue</string>
-            <string>HelveticaNeue-Bold</string>
-            <string>HelveticaNeue-Bold</string>
-            <string>HelveticaNeue-Bold</string>
-            <string>HelveticaNeue-Bold</string>
         </mutableArray>
         <mutableArray key="TimesNewRomanBold.ttf">
             <string>TimesNewRomanPS-BoldMT</string>
@@ -787,18 +783,21 @@ The app for iPhone has been completed and released last May 2014 and now, the de
         <!--Shelter-->
         <scene sceneID="SJY-ep-Z3a">
             <objects>
-                <tableViewController definesPresentationContext="YES" id="Sxb-yC-wf4" customClass="ShelterSearchTableViewController" sceneMemberID="viewController">
+                <tableViewController definesPresentationContext="YES" id="Sxb-yC-wf4" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="112" sectionHeaderHeight="22" sectionFooterHeight="22" id="dIF-Ls-DXc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Search" id="jsg-is-mLn">
+                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Search Shelter" id="jsg-is-mLn">
                             <rect key="frame" x="0.0" y="64" width="320" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <animations/>
                             <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <textInputTraits key="textInputTraits"/>
+                            <scopeButtonTitles>
+                                <string>Title</string>
+                            </scopeButtonTitles>
                             <connections>
                                 <outlet property="delegate" destination="Sxb-yC-wf4" id="KFW-si-hLV"/>
                             </connections>
@@ -845,8 +844,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 <animations/>
                                 <connections>
                                     <outlet property="cityLabel" destination="YMo-Aj-f6g" id="ve2-hC-b3P"/>
+                                    <outlet property="cityName" destination="YMo-Aj-f6g" id="EAp-yY-cAR"/>
                                     <outlet property="hotlineNumber" destination="9Nc-OD-aq4" id="Ey4-WL-ztF"/>
                                     <outlet property="shelterLabel" destination="ngE-sd-7yP" id="azV-tR-BaP"/>
+                                    <outlet property="shelterName" destination="ngE-sd-7yP" id="85i-i8-9qE"/>
+                                    <outlet property="shelterNumber" destination="9Nc-OD-aq4" id="PdT-UH-xmR"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -863,6 +865,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="RQz-FE-t66" id="WAX-Ng-S5h"/>
+                        <outlet property="searchTableView" destination="dIF-Ls-DXc" id="Ba2-Nb-gZn"/>
                         <outlet property="sidebarButton" destination="DoE-dQ-ao7" id="M4M-ZP-LOu"/>
                     </connections>
                 </tableViewController>
@@ -877,114 +880,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="-3549" y="-266"/>
-        </scene>
-        <!--Shelters-->
-        <scene sceneID="WS6-6P-Txe">
-            <objects>
-                <viewController id="ZPN-2d-Ocz" customClass="ShelterSearchViewController" customModule="Pevo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="McA-ZR-aBQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="Ouh-6T-uEG"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="v1s-kk-CpF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="150" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="DA8-cz-SWZ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <animations/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="searchCell" rowHeight="150" id="vGs-Iq-WOz">
-                                        <rect key="frame" x="0.0" y="86" width="320" height="150"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vGs-Iq-WOz" id="6RQ-CJ-0Rv">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="149"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ShelterName" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="ELj-Zz-0lT">
-                                                    <rect key="frame" x="8" y="51" width="280" height="47"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Crisis Line" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPb-Sx-hFk">
-                                                    <rect key="frame" x="8" y="107" width="108" height="21"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="(888) 888-8888" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yOw-Nj-lJG">
-                                                    <rect key="frame" x="148" y="99" width="164" height="29"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
-                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                                    <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
-                                                </textView>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CityName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="81A-dW-YOe">
-                                                    <rect key="frame" x="8" y="30" width="280" height="19"/>
-                                                    <animations/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <animations/>
-                                        </tableViewCellContentView>
-                                        <animations/>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="ZPN-2d-Ocz" id="Sax-6Z-WL9"/>
-                                    <outlet property="delegate" destination="ZPN-2d-Ocz" id="gHE-wr-0PQ"/>
-                                </connections>
-                            </tableView>
-                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="YIJ-bH-VEO">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <animations/>
-                                <textInputTraits key="textInputTraits"/>
-                                <scopeButtonTitles>
-                                    <string>CityName</string>
-                                    <string>ShelterName</string>
-                                </scopeButtonTitles>
-                                <connections>
-                                    <outlet property="delegate" destination="ZPN-2d-Ocz" id="fo4-Ns-4Xr"/>
-                                </connections>
-                            </searchBar>
-                        </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="DA8-cz-SWZ" firstAttribute="bottom" secondItem="Ouh-6T-uEG" secondAttribute="top" id="01B-3c-yAu"/>
-                            <constraint firstItem="DA8-cz-SWZ" firstAttribute="leading" secondItem="v1s-kk-CpF" secondAttribute="leading" id="8xq-u8-Obp"/>
-                            <constraint firstAttribute="trailing" secondItem="DA8-cz-SWZ" secondAttribute="trailing" id="YDP-2H-ey8"/>
-                            <constraint firstItem="DA8-cz-SWZ" firstAttribute="top" secondItem="v1s-kk-CpF" secondAttribute="top" id="kjB-Qm-6cQ"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Shelters" id="83w-45-gjX">
-                        <barButtonItem key="leftBarButtonItem" image="menu.png" id="yL4-zs-Ntm">
-                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="searchDisplayController" destination="kBH-ku-ev6" id="3Ny-nK-NKb"/>
-                        <outlet property="searchTableView" destination="DA8-cz-SWZ" id="DbI-PS-4Ky"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="j8X-Ue-DjO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="kBH-ku-ev6">
-                    <connections>
-                        <outlet property="delegate" destination="ZPN-2d-Ocz" id="7Wc-Xf-c8s"/>
-                        <outlet property="searchBar" destination="YIJ-bH-VEO" id="Qqw-ey-zfG"/>
-                        <outlet property="searchContentsController" destination="ZPN-2d-Ocz" id="bdO-9r-UZW"/>
-                        <outlet property="searchResultsDataSource" destination="ZPN-2d-Ocz" id="Z4I-k0-kfD"/>
-                        <outlet property="searchResultsDelegate" destination="ZPN-2d-Ocz" id="Zef-KK-dxg"/>
-                    </connections>
-                </searchDisplayController>
-            </objects>
-            <point key="canvasLocation" x="-3898" y="-249"/>
+            <point key="canvasLocation" x="-4034" y="-258"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="Lux-GS-xNm">
@@ -1765,12 +1661,12 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="ZPN-2d-Ocz" kind="push" identifier="SearchSegue" id="gDs-jJ-6ST"/>
+                        <segue destination="Sxb-yC-wf4" kind="push" identifier="SearchSegue" id="rSz-In-SdE"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VlL-jK-nBp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4313" y="-249"/>
+            <point key="canvasLocation" x="-4467" y="-258"/>
         </scene>
         <!--Camera View Controller-->
         <scene sceneID="lcf-hm-kbx">
