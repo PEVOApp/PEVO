@@ -28,6 +28,7 @@
 		995C67C11C03DEE000E69614 /* ShelterSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C67C01C03DEE000E69614 /* ShelterSearchViewController.swift */; };
 		995C67C31C03EC4700E69614 /* ShelterSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C67C21C03EC4700E69614 /* ShelterSearchBar.swift */; };
 		995C67C71C048E1A00E69614 /* ShelterSearch.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995C67C61C048E1A00E69614 /* ShelterSearch.plist */; };
+		995C67C91C0A205900E69614 /* ShelterCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C67C81C0A205900E69614 /* ShelterCities.swift */; };
 		996DF32019EDAC830008991F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 996DF31F19EDAC830008991F /* MediaPlayer.framework */; };
 		996ECB7C1A1C1A240044DDC5 /* PPWEBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 996ECB7B1A1C1A240044DDC5 /* PPWEBViewController.m */; };
 		99A1502E19E4BA6A00C52F99 /* DVImmigrantsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A1502D19E4BA6A00C52F99 /* DVImmigrantsTableViewController.m */; };
@@ -38,7 +39,6 @@
 		99AADE3718D93ED700521AEC /* PPMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6F280718A14E8800FA54DB /* PPMainTableViewController.m */; };
 		99AADE3818D93EDD00521AEC /* PPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C1960218A27AD0002BF343 /* PPMainViewController.m */; };
 		99AADE3918D93EE600521AEC /* SideBarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C1962618AC8E8E002BF343 /* SideBarTableViewController.m */; };
-		99AADE3B18D93F0100521AEC /* ShelterSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AADE3418D91CE100521AEC /* ShelterSearchTableViewController.m */; };
 		99AADE4118D93F3100521AEC /* DVLawTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9956219E1884945200541044 /* DVLawTableViewController.m */; };
 		99AADE4218D93F3700521AEC /* DVDetailLawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 995621A61885709400541044 /* DVDetailLawViewController.m */; };
 		99AADE4318D93F3F00521AEC /* TheLaw.m in Sources */ = {isa = PBXBuildFile; fileRef = 995621A918857ED800541044 /* TheLaw.m */; };
@@ -54,7 +54,6 @@
 		99AADE4F18D93FBA00521AEC /* SuccessStory.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EF418F18881208004A148F /* SuccessStory.m */; };
 		99AADE5018D93FC800521AEC /* FindHelpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2D0E9188F5D1B00BCB3F3 /* FindHelpTableViewController.m */; };
 		99AADE5818D950B300521AEC /* ShelterSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AADE5718D950B300521AEC /* ShelterSearchTableViewCell.m */; };
-		99AADE5F18E1FC4C00521AEC /* Cities.m in Sources */ = {isa = PBXBuildFile; fileRef = 99AADE5E18E1FC4C00521AEC /* Cities.m */; };
 		99ADB5981B5A826E00A29A53 /* MenuPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99ADB5971B5A826E00A29A53 /* MenuPList.plist */; };
 		99ADB59C1B5A858800A29A53 /* WisconsinPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99ADB59B1B5A858800A29A53 /* WisconsinPList.plist */; };
 		99ADB59E1B5A85B700A29A53 /* MinnesotaPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99ADB59D1B5A85B700A29A53 /* MinnesotaPList.plist */; };
@@ -152,6 +151,7 @@
 		995C67C01C03DEE000E69614 /* ShelterSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShelterSearchViewController.swift; path = "../../Pevo/The Purple PocketBook/ShelterSearchViewController.swift"; sourceTree = "<group>"; };
 		995C67C21C03EC4700E69614 /* ShelterSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShelterSearchBar.swift; path = "../../Pevo/The Purple PocketBook/ShelterSearchBar.swift"; sourceTree = "<group>"; };
 		995C67C61C048E1A00E69614 /* ShelterSearch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ShelterSearch.plist; path = ../Pevo/ShelterSearch.plist; sourceTree = "<group>"; };
+		995C67C81C0A205900E69614 /* ShelterCities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShelterCities.swift; path = "../../Pevo/The Purple PocketBook/ShelterCities.swift"; sourceTree = "<group>"; };
 		996DF31F19EDAC830008991F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		996ECB7A1A1C1A230044DDC5 /* PPWEBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPWEBViewController.h; path = ../PPWEBViewController.h; sourceTree = "<group>"; };
 		996ECB7B1A1C1A240044DDC5 /* PPWEBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPWEBViewController.m; path = ../PPWEBViewController.m; sourceTree = "<group>"; };
@@ -163,12 +163,8 @@
 		99A1503319E4BB7500C52F99 /* DVImmigrants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DVImmigrants.m; path = ../DVImmigrants.m; sourceTree = "<group>"; };
 		99A1503C19EB36E100C52F99 /* SponsorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SponsorsViewController.h; path = ../SponsorsViewController.h; sourceTree = "<group>"; };
 		99A1503D19EB36E100C52F99 /* SponsorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SponsorsViewController.m; path = ../SponsorsViewController.m; sourceTree = "<group>"; };
-		99AADE3318D91CE100521AEC /* ShelterSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShelterSearchTableViewController.h; path = "the purple pocketbook/ShelterSearchTableViewController.h"; sourceTree = SOURCE_ROOT; };
-		99AADE3418D91CE100521AEC /* ShelterSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShelterSearchTableViewController.m; path = "the purple pocketbook/ShelterSearchTableViewController.m"; sourceTree = SOURCE_ROOT; };
 		99AADE5618D950B300521AEC /* ShelterSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShelterSearchTableViewCell.h; path = "the purple pocketbook/ShelterSearchTableViewCell.h"; sourceTree = SOURCE_ROOT; };
 		99AADE5718D950B300521AEC /* ShelterSearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShelterSearchTableViewCell.m; path = "the purple pocketbook/ShelterSearchTableViewCell.m"; sourceTree = SOURCE_ROOT; };
-		99AADE5D18E1FC4C00521AEC /* Cities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cities.h; path = "the purple pocketbook/Cities.h"; sourceTree = SOURCE_ROOT; };
-		99AADE5E18E1FC4C00521AEC /* Cities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cities.m; path = "the purple pocketbook/Cities.m"; sourceTree = SOURCE_ROOT; };
 		99ADB5971B5A826E00A29A53 /* MenuPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MenuPList.plist; sourceTree = "<group>"; };
 		99ADB59B1B5A858800A29A53 /* WisconsinPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WisconsinPList.plist; sourceTree = "<group>"; };
 		99ADB59D1B5A85B700A29A53 /* MinnesotaPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MinnesotaPList.plist; sourceTree = "<group>"; };
@@ -260,12 +256,9 @@
 			children = (
 				995C67C21C03EC4700E69614 /* ShelterSearchBar.swift */,
 				995C67C01C03DEE000E69614 /* ShelterSearchViewController.swift */,
-				99AADE3318D91CE100521AEC /* ShelterSearchTableViewController.h */,
-				99AADE3418D91CE100521AEC /* ShelterSearchTableViewController.m */,
+				995C67C81C0A205900E69614 /* ShelterCities.swift */,
 				99AADE5618D950B300521AEC /* ShelterSearchTableViewCell.h */,
 				99AADE5718D950B300521AEC /* ShelterSearchTableViewCell.m */,
-				99AADE5D18E1FC4C00521AEC /* Cities.h */,
-				99AADE5E18E1FC4C00521AEC /* Cities.m */,
 			);
 			name = "Shelter Search";
 			sourceTree = "<group>";
@@ -703,9 +696,9 @@
 				99A1503419E4BB7500C52F99 /* DVImmigrants.m in Sources */,
 				99AADE5018D93FC800521AEC /* FindHelpTableViewController.m in Sources */,
 				99AADE5818D950B300521AEC /* ShelterSearchTableViewCell.m in Sources */,
+				995C67C91C0A205900E69614 /* ShelterCities.swift in Sources */,
 				99AADE4F18D93FBA00521AEC /* SuccessStory.m in Sources */,
 				99A1502E19E4BA6A00C52F99 /* DVImmigrantsTableViewController.m in Sources */,
-				99AADE5F18E1FC4C00521AEC /* Cities.m in Sources */,
 				99E073F719C2442D00F8DA22 /* PPSponsorsTableViewController.m in Sources */,
 				995C67C11C03DEE000E69614 /* ShelterSearchViewController.swift in Sources */,
 				99AADE4E18D93FB000521AEC /* WebsitesViewController.m in Sources */,
@@ -728,7 +721,6 @@
 				99CA72EB1B4C716700FD16F6 /* SWRevealViewController.m in Sources */,
 				99AADE4218D93F3700521AEC /* DVDetailLawViewController.m in Sources */,
 				99AADE4118D93F3100521AEC /* DVLawTableViewController.m in Sources */,
-				99AADE3B18D93F0100521AEC /* ShelterSearchTableViewController.m in Sources */,
 				9949295C19D98C8B003872B8 /* StayingSafe.m in Sources */,
 				99AADE3918D93EE600521AEC /* SideBarTableViewController.m in Sources */,
 				99AADE3818D93EDD00521AEC /* PPMainViewController.m in Sources */,

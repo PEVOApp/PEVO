@@ -783,7 +783,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
         <!--Shelter-->
         <scene sceneID="SJY-ep-Z3a">
             <objects>
-                <tableViewController definesPresentationContext="YES" id="Sxb-yC-wf4" sceneMemberID="viewController">
+                <tableViewController definesPresentationContext="YES" id="Sxb-yC-wf4" customClass="ShelterSearchViewController" customModule="Pevo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="112" sectionHeaderHeight="22" sectionFooterHeight="22" id="dIF-Ls-DXc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -803,7 +803,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ShelterSearchTableViewCell" rowHeight="112" id="Eu4-3Y-yyC" customClass="ShelterSearchTableViewCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="112" id="Eu4-3Y-yyC" customClass="ShelterSearchTableViewCell">
                                 <rect key="frame" x="0.0" y="130" width="320" height="112"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Eu4-3Y-yyC" id="789-Kb-ojl">

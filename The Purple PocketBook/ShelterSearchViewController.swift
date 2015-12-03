@@ -12,11 +12,11 @@ protocol ShelterSearchControllerDelegate {
 
 }
 
-class ShelterSearchViewController: UITableViewController {
+class ShelterSearchViewController: UITableViewController, NSFetchedResultsControllerDelegate, UISearchResultsUpdating {
     
     var searchController:UISearchController!
-    var shelterCities:[Cities] = []
-    var searchResults:[Cities] = []
+    var cities:[ShelterCities] = []
+    var searchResults:[ShelterCities] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +26,10 @@ class ShelterSearchViewController: UITableViewController {
         searchController = UISearchController(searchResultsController: nil)
         tableView.tableHeaderView = searchController.searchBar
         
+        searchController.searchResultsUpdater = self
+        searchController.dimsBackgroundDuringPresentation = false
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,12 +38,63 @@ class ShelterSearchViewController: UITableViewController {
     }
     
     func filterContentForSearchText(searchText:String){
-        searchResults = shelterCities.filter({ (city:Cities) ->
+        searchResults = cities.filter({ (city:ShelterCities) ->
             Bool in
             let nameMatch = city.cityName.rangeOfString(searchText,
                 options: NSStringCompareOptions.CaseInsensitiveSearch)
             return nameMatch != nil
         })
+    }
+    
+    func updateSearchResultsForSearchController(searchController: UISearchController) {
+        
+        if let searchText = searchController.searchBar.text {
+            filterContentForSearchText(searchText)
+            tableView.reloadData()
+        }
+        
+    }
+    
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if searchController.active {
+            return searchResults.count
+        } else {
+            return cities.count
+        }
+    }
+    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        let cellIdentifier = "Cell"
+        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! ShelterSearchTableViewCell
+        
+        let city = (searchController.active) ? searchResults[indexPath.row] : cities[indexPath.row]
+        
+        cell.cityLabel!.text = city.cityName
+        cell.shelterLabel!.text = city.shelterName
+        
+        return cell
+        
+    }
+    
+    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        
+        if searchController.active {
+            return false
+        } else {
+            return true
+
+        }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        if segue.identifier == "SearchSegue" {
+            if let row = tableView.indexPathForSelectedRow?.row {
+                let destinationController = segue.destinationViewController as! DetailViewController
+                destinationController.city = (searchController.active) ? searchResults[row] : cities[row]
+            }
+        }
+
     }
     
 
