@@ -789,22 +789,9 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Search Shelter" id="jsg-is-mLn">
-                            <rect key="frame" x="0.0" y="64" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <animations/>
-                            <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <scopeButtonTitles>
-                                <string>Title</string>
-                            </scopeButtonTitles>
-                            <connections>
-                                <outlet property="delegate" destination="Sxb-yC-wf4" id="KFW-si-hLV"/>
-                            </connections>
-                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="112" id="Eu4-3Y-yyC" customClass="ShelterSearchTableViewCell">
-                                <rect key="frame" x="0.0" y="130" width="320" height="112"/>
+                                <rect key="frame" x="0.0" y="86" width="320" height="112"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Eu4-3Y-yyC" id="789-Kb-ojl">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
@@ -854,7 +841,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                         </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="Sxb-yC-wf4" id="jr5-Iq-yWd"/>
-                            <outlet property="delegate" destination="Sxb-yC-wf4" id="qae-vM-AdC"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Shelter" id="Rda-gh-zvE">
@@ -865,7 +851,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="RQz-FE-t66" id="WAX-Ng-S5h"/>
-                        <outlet property="searchTableView" destination="dIF-Ls-DXc" id="Ba2-Nb-gZn"/>
+                        <outlet property="shelterSearchView" destination="dIF-Ls-DXc" id="BIe-M8-QkM"/>
                         <outlet property="sidebarButton" destination="DoE-dQ-ao7" id="M4M-ZP-LOu"/>
                     </connections>
                 </tableViewController>
@@ -873,7 +859,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                 <searchDisplayController id="RQz-FE-t66">
                     <connections>
                         <outlet property="delegate" destination="Sxb-yC-wf4" id="ymi-6o-e9f"/>
-                        <outlet property="searchBar" destination="jsg-is-mLn" id="0Et-q1-TCV"/>
                         <outlet property="searchContentsController" destination="Sxb-yC-wf4" id="bLb-wy-B8K"/>
                         <outlet property="searchResultsDataSource" destination="Sxb-yC-wf4" id="gsu-Y5-fl4"/>
                         <outlet property="searchResultsDelegate" destination="Sxb-yC-wf4" id="voA-uM-CGz"/>
@@ -958,7 +943,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="6Q7-tm-EN3">
                             <connections>
-                                <segue destination="KgI-Ti-0bN" kind="modal" id="njk-DE-Ehi"/>
+                                <segue destination="KgI-Ti-0bN" kind="modal" identifier="searchSegue" id="njk-DE-Ehi"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

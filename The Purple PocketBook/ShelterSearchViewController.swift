@@ -2,34 +2,41 @@
 //  ShelterSearchViewController.swift
 //  Pevo
 //
-//  Created by Alicia MacBook Pro on 11/23/15.
+//  Created by Alicia MacBook Pro on 12/3/15.
 //  Copyright © 2015 Alicia MacBook Pro. All rights reserved.
 //
 
 import UIKit
 
-protocol ShelterSearchControllerDelegate {
-
-}
-
-class ShelterSearchViewController: UITableViewController, NSFetchedResultsControllerDelegate, UISearchResultsUpdating {
+class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchResultsUpdating, UISearchBarDelegate {
     
-    var searchController:UISearchController!
+    @IBOutlet var shelterSearchView: UITableView!
+    
     var cities:[ShelterCities] = []
     var searchResults:[ShelterCities] = []
+    
+    var searchController: UISearchController!
+    
+    
+    var dataArray = [String]()
+    
+    var filteredArray = [String]()
+    
+    var shouldShowSearchResults = false
+    
+    var shelterSearchController: ShelterSearchController!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        searchController = UISearchController(searchResultsController: nil)
-        tableView.tableHeaderView = searchController.searchBar
+        configureSearchController()
         
-        searchController.searchResultsUpdater = self
-        searchController.dimsBackgroundDuringPresentation = false
+        loadListShelterSearch()
         
-        
+        configureCustomSearchController()
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,67 +44,122 @@ class ShelterSearchViewController: UITableViewController, NSFetchedResultsContro
         // Dispose of any resources that can be recreated.
     }
     
-    func filterContentForSearchText(searchText:String){
-        searchResults = cities.filter({ (city:ShelterCities) ->
-            Bool in
-            let nameMatch = city.cityName.rangeOfString(searchText,
-                options: NSStringCompareOptions.CaseInsensitiveSearch)
-            return nameMatch != nil
-        })
-    }
+    // MARK: Custom functions
     
-    func updateSearchResultsForSearchController(searchController: UISearchController) {
+    func loadListShelterSearch() {
+        // Specify the path to the countries list file.
+        let pathToFile = NSBundle.mainBundle().pathForResource("ShelterSearch", ofType: "plist")
         
-        if let searchText = searchController.searchBar.text {
-            filterContentForSearchText(searchText)
-            tableView.reloadData()
-        }
-        
-    }
-    
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if searchController.active {
-            return searchResults.count
-        } else {
-            return cities.count
+        if let path = pathToFile {
+            // Load the file contents as a string.
+            let countriesString = try! String(contentsOfFile: path, encoding: NSUTF8StringEncoding)
+            
+            // Append the countries from the string to the dataArray array by breaking them using the line change character.
+            dataArray = countriesString.componentsSeparatedByString("\n")
+            
+            // Reload the tableview.
+            shelterSearchView.reloadData()
         }
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if shouldShowSearchResults {
+            return filteredArray.count
+        }
+        else {
+            return dataArray.count
+        }
+    }
+    
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cellIdentifier = "Cell"
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! ShelterSearchTableViewCell
         
+        // Configure the cell...
         let city = (searchController.active) ? searchResults[indexPath.row] : cities[indexPath.row]
         
         cell.cityLabel!.text = city.cityName
         cell.shelterLabel!.text = city.shelterName
+
         
-        return cell
+        return cell    }
+    
+    func configureSearchController() {
+        
+        searchController = UISearchController(searchResultsController: nil)
+        searchController.searchResultsUpdater = self
+        searchController.dimsBackgroundDuringPresentation = true
+        searchController.searchBar.placeholder = "Search here......"
+        searchController.searchBar.delegate = self
+        searchController.searchBar.sizeToFit()
+        shelterSearchView.tableHeaderView = searchController.searchBar
+        
         
     }
     
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+    
+    func configureCustomSearchController() {
+        shelterSearchController = ShelterSearchController(searchResultsController: self, searchBarFrame: CGRectMake(0.0, 0.0, shelterSearchView.frame.size.width, 50.0), searchBarFont: UIFont(name: "Futura", size: 16.0)!, searchBarTextColor: UIColor.orangeColor(), searchBarTintColor: UIColor.blackColor())
         
-        if searchController.active {
-            return false
-        } else {
-            return true
+        shelterSearchController.shelterSearchBar.placeholder = "Search in this awesome bar..."
+        shelterSearchView.tableHeaderView = shelterSearchController.shelterSearchBar
 
+    }
+
+
+    
+    // MARK: UISearchBarDelegate functions
+    
+    func searchBarTextDidBeginEditing(searchBar: UISearchBar) {
+        shouldShowSearchResults = true
+        shelterSearchView.reloadData()
+    }
+    
+    
+    func searchBarCancelButtonClicked(searchBar: UISearchBar) {
+        shouldShowSearchResults = false
+        shelterSearchView.reloadData()
+    }
+    
+    
+    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+        if !shouldShowSearchResults {
+            shouldShowSearchResults = true
+            shelterSearchView.reloadData()
         }
+        
+        searchController.searchBar.resignFirstResponder()
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-        if segue.identifier == "SearchSegue" {
-            if let row = tableView.indexPathForSelectedRow?.row {
-                let destinationController = segue.destinationViewController as! DetailViewController
-                destinationController.city = (searchController.active) ? searchResults[row] : cities[row]
-            }
-        }
-
+    // MARK: UISearchResultsUpdating delegate function
+    
+    func updateSearchResultsForSearchController(searchController: UISearchController) {
+        let searchText = searchController.searchBar.text
+        
+        filterContentForSearchText(searchText!)
+        
+        shelterSearchView.reloadData()
     }
     
+    func filterContentForSearchText(searchText: String) {
+        
+        searchResults = cities.filter({ ( city: ShelterCities) -> Bool in
+            
+            let nameMatch = city.cityName.rangeOfString(searchText, options: NSStringCompareOptions.CaseInsensitiveSearch)
+            let locationMatch = city.shelterName.rangeOfString(searchText, options: NSStringCompareOptions.CaseInsensitiveSearch)
+            
+            return nameMatch != nil || locationMatch != nil
+            
+        })
+        
+    }
 
+
+    
+    
+    
     /*
     // MARK: - Navigation
 

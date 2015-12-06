@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		992A816C19AD2984002BE8AB /* PPQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 992A816B19AD2984002BE8AB /* PPQuizViewController.m */; };
 		992EF04319A19B4F005E6E08 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 992EF04519A19B4F005E6E08 /* Localizable.strings */; };
+		993B5CC51C10B1C400AEC0AF /* ShelterSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993B5CC41C10B1C400AEC0AF /* ShelterSearchViewController.swift */; };
 		9949295C19D98C8B003872B8 /* StayingSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9949295719D98C8B003872B8 /* StayingSafe.m */; };
 		9949295D19D98C8B003872B8 /* StayingSafeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9949295919D98C8B003872B8 /* StayingSafeTableViewController.m */; };
 		9949295E19D98C8B003872B8 /* StayingSafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9949295B19D98C8B003872B8 /* StayingSafeViewController.m */; };
@@ -25,7 +26,6 @@
 		9956218A188486CB00541044 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9956216C188486CA00541044 /* UIKit.framework */; };
 		99562192188486CB00541044 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99562190188486CB00541044 /* InfoPlist.strings */; };
 		99562194188486CB00541044 /* The_Purple_PocketBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99562193188486CB00541044 /* The_Purple_PocketBookTests.m */; };
-		995C67C11C03DEE000E69614 /* ShelterSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C67C01C03DEE000E69614 /* ShelterSearchViewController.swift */; };
 		995C67C31C03EC4700E69614 /* ShelterSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C67C21C03EC4700E69614 /* ShelterSearchBar.swift */; };
 		995C67C71C048E1A00E69614 /* ShelterSearch.plist in Resources */ = {isa = PBXBuildFile; fileRef = 995C67C61C048E1A00E69614 /* ShelterSearch.plist */; };
 		995C67C91C0A205900E69614 /* ShelterCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995C67C81C0A205900E69614 /* ShelterCities.swift */; };
@@ -59,6 +59,7 @@
 		99ADB59E1B5A85B700A29A53 /* MinnesotaPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99ADB59D1B5A85B700A29A53 /* MinnesotaPList.plist */; };
 		99ADB5A01B5A9D5000A29A53 /* OregonPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99ADB59F1B5A9D5000A29A53 /* OregonPList.plist */; };
 		99B7A8EB1BC192590027C140 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99492056199F212B00D77982 /* AVFoundation.framework */; };
+		99B7F6D11C130C7900ABFB6C /* ShelterSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B7F6D01C130C7900ABFB6C /* ShelterSearchController.swift */; };
 		99C195C2189FB21C002BF343 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C195C1189FB21C002BF343 /* CoreData.framework */; };
 		99C1962C18AC9484002BF343 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C1962B18AC9484002BF343 /* QuartzCore.framework */; };
 		99C196C718AD883D002BF343 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C196C418AD883D002BF343 /* menu.png */; };
@@ -96,6 +97,7 @@
 		992EF04819A19B5B005E6E08 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		992EF04919A19B5C005E6E08 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		992EF04A19A19B5D005E6E08 /* ur-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ur-IN"; path = "ur-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		993B5CC41C10B1C400AEC0AF /* ShelterSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShelterSearchViewController.swift; sourceTree = "<group>"; };
 		99492017199D2A9700D77982 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99492018199D2A9700D77982 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99492019199D2AA000D77982 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -148,7 +150,6 @@
 		995621A61885709400541044 /* DVDetailLawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVDetailLawViewController.m; sourceTree = "<group>"; };
 		995621A818857ED700541044 /* TheLaw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheLaw.h; sourceTree = "<group>"; };
 		995621A918857ED800541044 /* TheLaw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheLaw.m; sourceTree = "<group>"; };
-		995C67C01C03DEE000E69614 /* ShelterSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShelterSearchViewController.swift; path = "../../Pevo/The Purple PocketBook/ShelterSearchViewController.swift"; sourceTree = "<group>"; };
 		995C67C21C03EC4700E69614 /* ShelterSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShelterSearchBar.swift; path = "../../Pevo/The Purple PocketBook/ShelterSearchBar.swift"; sourceTree = "<group>"; };
 		995C67C61C048E1A00E69614 /* ShelterSearch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ShelterSearch.plist; path = ../Pevo/ShelterSearch.plist; sourceTree = "<group>"; };
 		995C67C81C0A205900E69614 /* ShelterCities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShelterCities.swift; path = "../../Pevo/The Purple PocketBook/ShelterCities.swift"; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 		99ADB59B1B5A858800A29A53 /* WisconsinPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WisconsinPList.plist; sourceTree = "<group>"; };
 		99ADB59D1B5A85B700A29A53 /* MinnesotaPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MinnesotaPList.plist; sourceTree = "<group>"; };
 		99ADB59F1B5A9D5000A29A53 /* OregonPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OregonPList.plist; sourceTree = "<group>"; };
+		99B7F6D01C130C7900ABFB6C /* ShelterSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShelterSearchController.swift; sourceTree = "<group>"; };
 		99C195C1189FB21C002BF343 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		99C195E9189FE093002BF343 /* RSSurveyQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSurveyQuestionViewController.h; sourceTree = "<group>"; };
 		99C195EA189FE093002BF343 /* RSSurveyQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSurveyQuestionViewController.m; sourceTree = "<group>"; };
@@ -254,8 +256,9 @@
 		990E1F4318D37E780076687B /* Shelter Search */ = {
 			isa = PBXGroup;
 			children = (
+				993B5CC41C10B1C400AEC0AF /* ShelterSearchViewController.swift */,
+				99B7F6D01C130C7900ABFB6C /* ShelterSearchController.swift */,
 				995C67C21C03EC4700E69614 /* ShelterSearchBar.swift */,
-				995C67C01C03DEE000E69614 /* ShelterSearchViewController.swift */,
 				995C67C81C0A205900E69614 /* ShelterCities.swift */,
 				99AADE5618D950B300521AEC /* ShelterSearchTableViewCell.h */,
 				99AADE5718D950B300521AEC /* ShelterSearchTableViewCell.m */,
@@ -700,7 +703,7 @@
 				99AADE4F18D93FBA00521AEC /* SuccessStory.m in Sources */,
 				99A1502E19E4BA6A00C52F99 /* DVImmigrantsTableViewController.m in Sources */,
 				99E073F719C2442D00F8DA22 /* PPSponsorsTableViewController.m in Sources */,
-				995C67C11C03DEE000E69614 /* ShelterSearchViewController.swift in Sources */,
+				993B5CC51C10B1C400AEC0AF /* ShelterSearchViewController.swift in Sources */,
 				99AADE4E18D93FB000521AEC /* WebsitesViewController.m in Sources */,
 				99D5F6FA1B8BA6E6007FB316 /* Calculator.swift in Sources */,
 				9949295E19D98C8B003872B8 /* StayingSafeViewController.m in Sources */,
@@ -709,6 +712,7 @@
 				99AADE4B18D93F9000521AEC /* PPSuccessTableViewController.m in Sources */,
 				99AADE4918D93F8100521AEC /* TechSecurityViewController.m in Sources */,
 				99AADE4818D93F7700521AEC /* DVTechologyTableViewController.m in Sources */,
+				99B7F6D11C130C7900ABFB6C /* ShelterSearchController.swift in Sources */,
 				995C67C31C03EC4700E69614 /* ShelterSearchBar.swift in Sources */,
 				99C36D4419DFA74C00703E46 /* PPInfo.m in Sources */,
 				99AADE4718D93F6E00521AEC /* RSSurveyResultsViewController.m in Sources */,
@@ -855,7 +859,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "The Purple PocketBook/The Purple PocketBook-Prefix.pch";
 				INFOPLIST_FILE = "The Purple PocketBook/The Purple PocketBook-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "";
@@ -977,7 +981,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "The Purple PocketBook/The Purple PocketBook-Prefix.pch";
 				INFOPLIST_FILE = "The Purple PocketBook/The Purple PocketBook-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "";
@@ -1003,7 +1007,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "The Purple PocketBook/The Purple PocketBook-Prefix.pch";
 				INFOPLIST_FILE = "The Purple PocketBook/The Purple PocketBook-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "";
