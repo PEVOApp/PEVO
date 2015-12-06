@@ -30,7 +30,7 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.dskjfklsjdgkljlkgjslkdjglksdgj
+        // Do any additional setup after loading the view.
         
         configureSearchController()
         
