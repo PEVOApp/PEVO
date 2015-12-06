@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchResultsUpdating, UISearchBarDelegate {
+class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchResultsUpdating, UISearchBarDelegate, SearchControllerDelegate {
     
     @IBOutlet var shelterSearchView: UITableView!
     
@@ -105,6 +105,8 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
         
         shelterSearchController.shelterSearchBar.placeholder = "Search in this awesome bar..."
         shelterSearchView.tableHeaderView = shelterSearchController.shelterSearchBar
+        
+        shelterSearchController.shelterSearchDelegate = self
 
     }
 
@@ -155,19 +157,48 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
         })
         
     }
-
-
     
-    
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func didStartSearching() {
+        
+        shouldShowSearchResults = true
+        shelterSearchView.reloadData()
     }
-    */
+    
+    func didTapOnSearchButton() {
+        
+        if !shouldShowSearchResults {
+            shouldShowSearchResults = true
+            shelterSearchView.reloadData()
+        }
+   
+    }
+    
+    func didTapOnCancelButton() {
+        
+        shouldShowSearchResults = false
+        shelterSearchView.reloadData()
 
+    }
+    
+    
+    func didChangeSearchText(searchText: String) {
+        // Filter the data array and get only those countries that match the search text.
+        filteredArray = dataArray.filter({ (statesearch) -> Bool in
+            let stateText: NSString = statesearch
+            
+            return (stateText.rangeOfString(searchText, options: NSStringCompareOptions.CaseInsensitiveSearch).location) != NSNotFound
+        })
+        
+        // Reload the tableview.
+        shelterSearchView.reloadData()
+    }
 }
+
+
+
+
+
+
+
+
+

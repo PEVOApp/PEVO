@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ShelterSearchControllerDelegate {
+protocol SearchControllerDelegate {
     
     func didStartSearching()
     func didTapOnSearchButton()
@@ -21,7 +21,7 @@ class ShelterSearchController: UISearchController, UISearchBarDelegate {
     
     var shelterSearchBar: ShelterSearchBar!
     
-    var  shelterSearchDelegate: ShelterSearchControllerDelegate!
+    var  shelterSearchDelegate: SearchControllerDelegate!
     
     
 
@@ -69,19 +69,28 @@ class ShelterSearchController: UISearchController, UISearchBarDelegate {
 
     }
     
+    func searchBarTextDidBeginEditing(searchBar: UISearchBar) {
+        
+        shelterSearchDelegate.didStartSearching()
+        
+    }
+    
+    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+        
+        shelterSearchBar.resignFirstResponder()
+        shelterSearchDelegate.didTapOnSearchButton()
+    }
+    
+    func searchBarCancelButtonClicked(searchBar: UISearchBar) {
+        
+        shelterSearchBar.resignFirstResponder()
+        shelterSearchDelegate.didTapOnCancelButton()
+    }
+
+    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
+        
+        shelterSearchDelegate.didChangeSearchText(searchText)
+    }
 
     
-
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
