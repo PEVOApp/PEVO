@@ -821,6 +821,9 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NT5-Aj-XhJ">
                                 <rect key="frame" x="74" y="360" width="163" height="30"/>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <segue destination="CGj-zv-H9S" kind="push" id="NWN-5d-4fA"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sNu-xi-Zx6">
                                 <rect key="frame" x="36" y="196" width="235" height="30"/>
@@ -869,6 +872,12 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="1m7-bU-8rL"/>
+                    <connections>
+                        <outlet property="emailField" destination="9pe-ao-e8t" id="MRT-qW-sDa"/>
+                        <outlet property="passwordField" destination="jLY-iA-DmF" id="DPR-8z-OL5"/>
+                        <outlet property="usernameField" destination="Dvv-s7-S23" id="xSI-Ju-a6j"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Awa-8Y-I49" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
