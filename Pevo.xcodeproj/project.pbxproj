@@ -64,6 +64,23 @@
 		99C1962C18AC9484002BF343 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C1962B18AC9484002BF343 /* QuartzCore.framework */; };
 		99C196C718AD883D002BF343 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C196C418AD883D002BF343 /* menu.png */; };
 		99C196C818AD883D002BF343 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99C196C518AD883D002BF343 /* menu@2x.png */; };
+		99C244151C3487A700FCFCB9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C2440F1C3487A600FCFCB9 /* Bolts.framework */; };
+		99C244161C3487A700FCFCB9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C244101C3487A600FCFCB9 /* Parse.framework */; };
+		99C244171C3487A700FCFCB9 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C244111C3487A600FCFCB9 /* ParseFacebookUtils.framework */; };
+		99C244181C3487A700FCFCB9 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C244121C3487A600FCFCB9 /* ParseFacebookUtilsV4.framework */; };
+		99C244191C3487A700FCFCB9 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C244131C3487A600FCFCB9 /* ParseTwitterUtils.framework */; };
+		99C2441A1C3487A700FCFCB9 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C244141C3487A600FCFCB9 /* ParseUI.framework */; };
+		99C2441C1C34883700FCFCB9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C2441B1C34883700FCFCB9 /* AudioToolbox.framework */; };
+		99C2441E1C34884000FCFCB9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C2441D1C34884000FCFCB9 /* CFNetwork.framework */; };
+		99C244201C34889B00FCFCB9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C2441F1C34889B00FCFCB9 /* Security.framework */; };
+		99C244221C3488AA00FCFCB9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C244211C3488AA00FCFCB9 /* StoreKit.framework */; };
+		99C244231C3488B800FCFCB9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9949205A199F215500D77982 /* SystemConfiguration.framework */; };
+		99C244251C3488C300FCFCB9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C244241C3488C300FCFCB9 /* libz.tbd */; };
+		99C244271C3488D700FCFCB9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C244261C3488D700FCFCB9 /* libsqlite3.tbd */; };
+		99C2442A1C348E5C00FCFCB9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C244291C348E5C00FCFCB9 /* LoginViewController.swift */; };
+		99C2442C1C348E7700FCFCB9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C2442B1C348E7700FCFCB9 /* HomeViewController.swift */; };
+		99C2442E1C348E8E00FCFCB9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C2442D1C348E8E00FCFCB9 /* SignUpViewController.swift */; };
+		99C244301C348EA600FCFCB9 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C2442F1C348EA600FCFCB9 /* ResetPasswordViewController.swift */; };
 		99C36D3519DF979100703E46 /* InfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C36D3419DF979100703E46 /* InfoTableViewController.m */; };
 		99C36D3819DF99C700703E46 /* PPHelpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C36D3719DF99C700703E46 /* PPHelpTableViewController.m */; };
 		99C36D3B19DF9DC500703E46 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C36D3A19DF9DC500703E46 /* InfoViewController.m */; };
@@ -183,6 +200,22 @@
 		99C1962B18AC9484002BF343 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		99C196C418AD883D002BF343 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = "the purple pocketbook/menu.png"; sourceTree = "<group>"; };
 		99C196C518AD883D002BF343 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu@2x.png"; path = "the purple pocketbook/menu@2x.png"; sourceTree = "<group>"; };
+		99C2440F1C3487A600FCFCB9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		99C244101C3487A600FCFCB9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		99C244111C3487A600FCFCB9 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		99C244121C3487A600FCFCB9 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		99C244131C3487A600FCFCB9 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		99C244141C3487A600FCFCB9 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		99C2441B1C34883700FCFCB9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		99C2441D1C34884000FCFCB9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		99C2441F1C34889B00FCFCB9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		99C244211C3488AA00FCFCB9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		99C244241C3488C300FCFCB9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		99C244261C3488D700FCFCB9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		99C244291C348E5C00FCFCB9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../Pevo/The Purple PocketBook/LoginViewController.swift"; sourceTree = "<group>"; };
+		99C2442B1C348E7700FCFCB9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../../Pevo/The Purple PocketBook/HomeViewController.swift"; sourceTree = "<group>"; };
+		99C2442D1C348E8E00FCFCB9 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = "../../Pevo/The Purple PocketBook/SignUpViewController.swift"; sourceTree = "<group>"; };
+		99C2442F1C348EA600FCFCB9 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResetPasswordViewController.swift; path = "../../Pevo/The Purple PocketBook/ResetPasswordViewController.swift"; sourceTree = "<group>"; };
 		99C36D3319DF979100703E46 /* InfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoTableViewController.h; path = ../InfoTableViewController.h; sourceTree = "<group>"; };
 		99C36D3419DF979100703E46 /* InfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoTableViewController.m; path = ../InfoTableViewController.m; sourceTree = "<group>"; };
 		99C36D3619DF99C700703E46 /* PPHelpTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHelpTableViewController.h; sourceTree = "<group>"; };
@@ -227,16 +260,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C244271C3488D700FCFCB9 /* libsqlite3.tbd in Frameworks */,
+				99C244251C3488C300FCFCB9 /* libz.tbd in Frameworks */,
+				99C244231C3488B800FCFCB9 /* SystemConfiguration.framework in Frameworks */,
+				99C244221C3488AA00FCFCB9 /* StoreKit.framework in Frameworks */,
+				99C244201C34889B00FCFCB9 /* Security.framework in Frameworks */,
+				99C1962C18AC9484002BF343 /* QuartzCore.framework in Frameworks */,
+				99F208D7189A7E50003DDE7E /* CoreLocation.framework in Frameworks */,
+				9956216B188486CA00541044 /* CoreGraphics.framework in Frameworks */,
+				99C2441E1C34884000FCFCB9 /* CFNetwork.framework in Frameworks */,
+				99C2441C1C34883700FCFCB9 /* AudioToolbox.framework in Frameworks */,
 				99B7A8EB1BC192590027C140 /* AVFoundation.framework in Frameworks */,
 				9949296219DB3BDB003872B8 /* MessageUI.framework in Frameworks */,
+				99C244181C3487A700FCFCB9 /* ParseFacebookUtilsV4.framework in Frameworks */,
 				996DF32019EDAC830008991F /* MediaPlayer.framework in Frameworks */,
-				99C1962C18AC9484002BF343 /* QuartzCore.framework in Frameworks */,
+				99C244191C3487A700FCFCB9 /* ParseTwitterUtils.framework in Frameworks */,
+				99C2441A1C3487A700FCFCB9 /* ParseUI.framework in Frameworks */,
 				99C195C2189FB21C002BF343 /* CoreData.framework in Frameworks */,
-				99F208D7189A7E50003DDE7E /* CoreLocation.framework in Frameworks */,
 				99EF41A018895F07004A148F /* MapKit.framework in Frameworks */,
-				9956216B188486CA00541044 /* CoreGraphics.framework in Frameworks */,
+				99C244151C3487A700FCFCB9 /* Bolts.framework in Frameworks */,
 				9956216D188486CA00541044 /* UIKit.framework in Frameworks */,
+				99C244161C3487A700FCFCB9 /* Parse.framework in Frameworks */,
 				99562169188486CA00541044 /* Foundation.framework in Frameworks */,
+				99C244171C3487A700FCFCB9 /* ParseFacebookUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +385,13 @@
 		99562167188486CA00541044 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99C244261C3488D700FCFCB9 /* libsqlite3.tbd */,
+				99C244241C3488C300FCFCB9 /* libz.tbd */,
+				99C244211C3488AA00FCFCB9 /* StoreKit.framework */,
+				99C2441F1C34889B00FCFCB9 /* Security.framework */,
+				99C2441D1C34884000FCFCB9 /* CFNetwork.framework */,
+				99C2441B1C34883700FCFCB9 /* AudioToolbox.framework */,
+				99C2440E1C3487A600FCFCB9 /* parse-library-1 */,
 				996DF31F19EDAC830008991F /* MediaPlayer.framework */,
 				9949205A199F215500D77982 /* SystemConfiguration.framework */,
 				99492058199F214300D77982 /* MessageUI.framework */,
@@ -363,6 +416,7 @@
 				99562178188486CA00541044 /* PPAppDelegate.m */,
 				99492023199D2B5300D77982 /* Main.storyboard */,
 				99562180188486CB00541044 /* Images.xcassets */,
+				99C244281C348A2A00FCFCB9 /* Pevo Journal */,
 				99ADB5961B5A823600A29A53 /* PevoPList */,
 				99C1962418AC8C8F002BF343 /* PPMain */,
 				993182301BB00E91003FF377 /* StateTabList */,
@@ -504,6 +558,30 @@
 			);
 			name = PPMain;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		99C2440E1C3487A600FCFCB9 /* parse-library-1 */ = {
+			isa = PBXGroup;
+			children = (
+				99C2440F1C3487A600FCFCB9 /* Bolts.framework */,
+				99C244101C3487A600FCFCB9 /* Parse.framework */,
+				99C244111C3487A600FCFCB9 /* ParseFacebookUtils.framework */,
+				99C244121C3487A600FCFCB9 /* ParseFacebookUtilsV4.framework */,
+				99C244131C3487A600FCFCB9 /* ParseTwitterUtils.framework */,
+				99C244141C3487A600FCFCB9 /* ParseUI.framework */,
+			);
+			path = "parse-library-1";
+			sourceTree = "<group>";
+		};
+		99C244281C348A2A00FCFCB9 /* Pevo Journal */ = {
+			isa = PBXGroup;
+			children = (
+				99C244291C348E5C00FCFCB9 /* LoginViewController.swift */,
+				99C2442B1C348E7700FCFCB9 /* HomeViewController.swift */,
+				99C2442D1C348E8E00FCFCB9 /* SignUpViewController.swift */,
+				99C2442F1C348EA600FCFCB9 /* ResetPasswordViewController.swift */,
+			);
+			name = "Pevo Journal";
 			sourceTree = "<group>";
 		};
 		99C36D4019DFA57500703E46 /* Help */ = {
@@ -698,6 +776,7 @@
 				996ECB7C1A1C1A240044DDC5 /* PPWEBViewController.m in Sources */,
 				99A1503419E4BB7500C52F99 /* DVImmigrants.m in Sources */,
 				99AADE5018D93FC800521AEC /* FindHelpTableViewController.m in Sources */,
+				99C2442C1C348E7700FCFCB9 /* HomeViewController.swift in Sources */,
 				99AADE5818D950B300521AEC /* ShelterSearchTableViewCell.m in Sources */,
 				995C67C91C0A205900E69614 /* ShelterCities.swift in Sources */,
 				99AADE4F18D93FBA00521AEC /* SuccessStory.m in Sources */,
@@ -707,6 +786,7 @@
 				99AADE4E18D93FB000521AEC /* WebsitesViewController.m in Sources */,
 				99D5F6FA1B8BA6E6007FB316 /* Calculator.swift in Sources */,
 				9949295E19D98C8B003872B8 /* StayingSafeViewController.m in Sources */,
+				99C244301C348EA600FCFCB9 /* ResetPasswordViewController.swift in Sources */,
 				99AADE4D18D93FA500521AEC /* PPSuccessStoryViewController.m in Sources */,
 				99AADE4C18D93F9A00521AEC /* TechSecurity.m in Sources */,
 				99AADE4B18D93F9000521AEC /* PPSuccessTableViewController.m in Sources */,
@@ -714,6 +794,7 @@
 				99AADE4818D93F7700521AEC /* DVTechologyTableViewController.m in Sources */,
 				99B7F6D11C130C7900ABFB6C /* ShelterSearchController.swift in Sources */,
 				995C67C31C03EC4700E69614 /* ShelterSearchBar.swift in Sources */,
+				99C2442E1C348E8E00FCFCB9 /* SignUpViewController.swift in Sources */,
 				99C36D4419DFA74C00703E46 /* PPInfo.m in Sources */,
 				99AADE4718D93F6E00521AEC /* RSSurveyResultsViewController.m in Sources */,
 				99AADE4618D93F6600521AEC /* RSSurveyQuestionViewController.m in Sources */,
@@ -725,6 +806,7 @@
 				99CA72EB1B4C716700FD16F6 /* SWRevealViewController.m in Sources */,
 				99AADE4218D93F3700521AEC /* DVDetailLawViewController.m in Sources */,
 				99AADE4118D93F3100521AEC /* DVLawTableViewController.m in Sources */,
+				99C2442A1C348E5C00FCFCB9 /* LoginViewController.swift in Sources */,
 				9949295C19D98C8B003872B8 /* StayingSafe.m in Sources */,
 				99AADE3918D93EE600521AEC /* SideBarTableViewController.m in Sources */,
 				99AADE3818D93EDD00521AEC /* PPMainViewController.m in Sources */,
@@ -856,6 +938,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "The Purple PocketBook/The Purple PocketBook-Prefix.pch";
 				INFOPLIST_FILE = "The Purple PocketBook/The Purple PocketBook-Info.plist";
@@ -978,6 +1064,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "The Purple PocketBook/The Purple PocketBook-Prefix.pch";
 				INFOPLIST_FILE = "The Purple PocketBook/The Purple PocketBook-Info.plist";
@@ -1004,6 +1094,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "The Purple PocketBook/The Purple PocketBook-Prefix.pch";
 				INFOPLIST_FILE = "The Purple PocketBook/The Purple PocketBook-Info.plist";
