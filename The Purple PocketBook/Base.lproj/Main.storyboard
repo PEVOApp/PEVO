@@ -793,6 +793,78 @@ The app for iPhone has been completed and released last May 2014 and now, the de
             </objects>
             <point key="canvasLocation" x="-4034" y="-258"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="kdQ-P4-sXu">
+            <objects>
+                <viewController id="bcf-TQ-As5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DIK-7B-L31"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ebx-ww-fKI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="82e-4y-SeK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gP1-kA-4ZP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6561" y="1128"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3VU-AD-drd">
+            <objects>
+                <viewController id="CGj-zv-H9S" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5XR-dt-M4B"/>
+                        <viewControllerLayoutGuide type="bottom" id="d8R-Iy-aQa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qhf-oT-Kuq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Awa-8Y-I49" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6201" y="1130"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="daF-ee-gYZ">
+            <objects>
+                <viewController id="K1A-M8-z8u" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bNl-j7-MkE"/>
+                        <viewControllerLayoutGuide type="bottom" id="cdj-Et-LUR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8SC-qQ-hvM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Zb-wS-hUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5835" y="1128"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WTE-Ua-zs3">
+            <objects>
+                <viewController id="WKw-by-xFY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yCc-gv-Tw7"/>
+                        <viewControllerLayoutGuide type="bottom" id="nRP-1j-EuF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0cq-sg-AFb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rDo-Bq-LeS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6203" y="478"/>
+        </scene>
         <!--Main View Controller-->
         <scene sceneID="Lux-GS-xNm">
             <objects>
@@ -823,6 +895,12 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
                             </textView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rgI-Jk-Tag">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="compose" id="E82-qd-74C"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
