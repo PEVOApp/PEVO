@@ -864,6 +864,9 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 <rect key="frame" x="40" y="229" width="240" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="signUpAction:" destination="CGj-zv-H9S" eventType="touchUpInside" id="bJe-bZ-frk"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUR-Pn-pfx">
                                 <rect key="frame" x="123" y="286" width="74" height="30"/>
