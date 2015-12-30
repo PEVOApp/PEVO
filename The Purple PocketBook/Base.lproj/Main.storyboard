@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15C48a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dUK-fs-e8Z">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dUK-fs-e8Z">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -72,14 +72,12 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Domestic Violence Screening Quiz" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="xVR-sG-Mrt">
                                 <rect key="frame" x="17" y="77" width="280" height="63"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="286" translatesAutoresizingMaskIntoConstraints="NO" id="kX9-Gb-mlJ">
                                 <rect key="frame" x="14" y="137" width="286" height="243"/>
-                                <animations/>
                                 <string key="text">This is a screening measure to help you determine whether you might be involved in an abusive relationship that needs attention. This screening measure is not designed to make a diagnosis or take the place of a professional diagnosis or consultation. For each item, indicate the extent to which it is true, by checking the appropriate box next to the item.
 </string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
@@ -87,7 +85,6 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J6o-WJ-uvB">
                                 <rect key="frame" x="74" y="397" width="166" height="30"/>
-                                <animations/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -100,7 +97,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="TZs-xN-63Q">
@@ -131,7 +127,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haH-YM-5zk">
                                 <rect key="frame" x="75" y="284" width="175" height="30"/>
-                                <animations/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                 <state key="normal" title="No">
@@ -144,7 +139,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZF-q0-xra">
                                 <rect key="frame" x="75" y="330" width="175" height="30"/>
-                                <animations/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                 <state key="normal" title="Sometimes">
@@ -157,19 +151,16 @@
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Domestic Violence Screening Quiz" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="BXF-Ps-Gdu">
                                 <rect key="frame" x="20" y="80" width="280" height="54"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="I am a question" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2Am-Mg-bjA">
                                 <rect key="frame" x="20" y="155" width="285" height="106"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OAv-Dz-f5n">
                                 <rect key="frame" x="75" y="368" width="177" height="30"/>
-                                <animations/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                 <state key="normal" title="Regularly">
@@ -181,7 +172,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Quiz" id="h3W-fK-kjD">
@@ -214,19 +204,16 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mmg-XQ-hii">
                                 <rect key="frame" x="20" y="88" width="65" height="34"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxU-8j-4pg">
                                 <rect key="frame" x="93" y="88" width="81" height="34"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="HX1-MX-bC0">
                                 <rect key="frame" x="20" y="109" width="280" height="130"/>
-                                <animations/>
                                 <string key="text">Scores for this domestic violence screening tool range from 0-24. A score of greater than 10 is considered positive; meaning you should be concerned about being in an abusive relationship.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -234,13 +221,11 @@
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="w4V-u4-c44">
                                 <rect key="frame" x="20" y="235" width="280" height="217"/>
-                                <animations/>
                                 <string key="text">No matter what your score, if you have a concern about you or your children’s safety or any relationship you are in, you might find it helpful to join a support group, talk with someone at your local battered women’s shelter or women’s center. Call your county social services or police station. You can also consult with your doctor or therapist. The important thing is to seek help.</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Quiz Result" id="ahX-82-Ta6">
@@ -264,7 +249,6 @@
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="114" sectionHeaderHeight="22" sectionFooterHeight="22" id="6Lv-M5-TCY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="114" id="I7F-Ur-lTG">
@@ -273,9 +257,7 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="I7F-Ur-lTG" id="bxA-1y-7Qo">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="113"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="gi9-l1-Tnr" kind="push" identifier="DVLawDetailSegue" id="fbZ-d5-Ndy"/>
                                 </connections>
@@ -309,7 +291,6 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="109" sectionHeaderHeight="22" sectionFooterHeight="22" id="ut3-X2-LcC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="109" id="Lmg-Ml-X4M">
@@ -318,10 +299,8 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Lmg-Ml-X4M" id="PgU-IJ-87h">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="108"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <animations/>
                                     <color key="tintColor" red="0.89019614458084106" green="0.93333339691162109" blue="0.90588241815567017" alpha="1" colorSpace="deviceRGB"/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <segue destination="jSL-QU-j1z" kind="push" identifier="ImmigrantSegue" id="BlU-Jp-AWW"/>
@@ -356,7 +335,6 @@
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="94" sectionHeaderHeight="22" sectionFooterHeight="22" id="iot-nN-dQ6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="94" id="5Hs-8A-Qmf">
@@ -368,19 +346,15 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ayD-gx-wwJ">
                                             <rect key="frame" x="10" y="13" width="76" height="70"/>
-                                            <animations/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="180" translatesAutoresizingMaskIntoConstraints="NO" id="FHK-BY-CeX">
                                             <rect key="frame" x="96" y="20" width="180" height="55"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="14"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <color key="backgroundColor" red="0.55294120311737061" green="0.59607845544815063" blue="0.72156864404678345" alpha="0.39000000000000001" colorSpace="deviceRGB"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -421,7 +395,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaN-ij-H4N">
                                 <rect key="frame" x="90" y="119" width="145" height="109"/>
-                                <animations/>
                                 <state key="normal" image="purplepocketbookhandbag.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -432,7 +405,6 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ih-6g-wP9">
                                 <rect key="frame" x="16" y="271" width="288" height="260"/>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Despite of the raising awareness on gender equality, women, together with their children, still suffer the potential threat of domestic violence. This has always been an alarming issue faced by our society. Among the states of U.S, Georgia started to make a difference as a group of people decided to help other women who became and are currently victims of domestic violence. Georgia being on the 12th rank among the states with the highest rate of domestic violence, a pathway out of the darkness presented itself through “The Pevo”, the first domestic violence app in the state of Georgia.
 
@@ -443,7 +415,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="R4x-NS-Yrg"/>
@@ -469,11 +440,9 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VFM-gz-Usl">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Bx7-j9-OhI"/>
@@ -492,7 +461,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" rowHeight="55" sectionHeaderHeight="22" sectionFooterHeight="22" id="AIq-4d-h9J">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="separatorColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -506,14 +474,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgL-CS-lYH">
                                             <rect key="frame" x="8" y="24" width="304" height="30"/>
-                                            <animations/>
                                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <state key="normal" title="Select State"/>
                                         </button>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="pevo home" rowHeight="55" id="Kaw-vY-0D2">
                                 <rect key="frame" x="0.0" y="77" width="320" height="55"/>
@@ -524,14 +489,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pevo Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0J-fK-8j1">
                                             <rect key="frame" x="8" y="16" width="243" height="21"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="9pf-QL-dFy" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="moY-CC-fMh"/>
                                 </connections>
@@ -545,14 +507,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="States" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6YX-Wn-upB">
                                             <rect key="frame" x="8" y="15" width="234" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="mZD-MR-12K" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="KhD-8M-m10"/>
                                 </connections>
@@ -566,14 +525,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Federal Law" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ff-pk-zPU">
                                             <rect key="frame" x="8" y="15" width="234" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="workplace" rowHeight="55" id="CYu-kC-Haf">
                                 <rect key="frame" x="0.0" y="242" width="320" height="55"/>
@@ -584,14 +540,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Domestic Violence in the work place" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFm-bV-iEq">
                                             <rect key="frame" x="8" y="15" width="279" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="immigration" rowHeight="55" id="kZc-eL-3mo">
                                 <rect key="frame" x="0.0" y="297" width="320" height="55"/>
@@ -602,14 +555,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immigration" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8Q-Ty-Nyw">
                                             <rect key="frame" x="8" y="15" width="234" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="iWX-2O-eLX" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="mKT-yJ-T4z"/>
                                 </connections>
@@ -623,15 +573,12 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Staying Safe" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGK-9a-7di">
                                             <rect key="frame" x="8" y="15" width="234" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="9uF-Wi-N5d" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="RxJ-Zv-AVp"/>
                                 </connections>
@@ -645,14 +592,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quiz" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cul-zz-FeA">
                                             <rect key="frame" x="8" y="15" width="229" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="XCE-sf-KuX" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="ops-DV-wTD"/>
                                 </connections>
@@ -666,14 +610,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Technology" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dR7-IB-IwG">
                                             <rect key="frame" x="8" y="15" width="229" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="pBW-Yr-66l" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="RP2-Fe-o8e"/>
                                 </connections>
@@ -687,14 +628,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Community Sponsors" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odk-kU-B0L">
                                             <rect key="frame" x="8" y="15" width="234" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="llv-p0-Qb0" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="sK5-YJ-qtq"/>
                                 </connections>
@@ -718,7 +656,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" id="2Qv-gY-ZmD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="100" id="9X4-T5-qxf">
@@ -727,9 +664,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9X4-T5-qxf" id="jR5-js-XbS">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="y5l-DO-JXV" kind="push" identifier="InfoDetailSegue" id="eab-zo-7Tu"/>
                                 </connections>
@@ -764,13 +699,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nYP-Zd-0Kk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="K5P-hw-4uv">
                         <rect key="frame" x="0.0" y="416" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </toolbar>
                     <connections>
                         <segue destination="9pf-QL-dFy" kind="relationship" relationship="rootViewController" id="k7i-zd-nGB"/>
@@ -787,7 +720,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="112" sectionHeaderHeight="22" sectionFooterHeight="22" id="dIF-Ls-DXc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="112" id="Eu4-3Y-yyC" customClass="ShelterSearchTableViewCell">
@@ -799,36 +731,30 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CityName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMo-Aj-f6g">
                                             <rect key="frame" x="20" y="10" width="280" height="19"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ShelterName" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="ngE-sd-7yP">
                                             <rect key="frame" x="20" y="32" width="280" height="47"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="(888) 888-8888" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9Nc-OD-aq4">
                                             <rect key="frame" x="136" y="74" width="164" height="29"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
                                         </textView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Crisis Line" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0M-4z-O3W">
                                             <rect key="frame" x="20" y="82" width="108" height="21"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                     <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <outlet property="cityLabel" destination="YMo-Aj-f6g" id="ve2-hC-b3P"/>
                                     <outlet property="cityName" destination="YMo-Aj-f6g" id="EAp-yY-cAR"/>
@@ -881,7 +807,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="National Hotline" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="we0-n0-M3D">
                                 <rect key="frame" x="12" y="339" width="156" height="37"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="9W4-3z-LSc"/>
                                 </constraints>
@@ -891,7 +816,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="1-800-799-7233" translatesAutoresizingMaskIntoConstraints="NO" id="VQW-Cf-vR2">
                                 <rect key="frame" x="176" y="339" width="124" height="37"/>
-                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="124" id="0y1-gN-VAc"/>
                                 </constraints>
@@ -899,41 +823,15 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncy-mq-IPo">
-                                <rect key="frame" x="278" y="489" width="22" height="22"/>
-                                <animations/>
-                                <connections>
-                                    <segue destination="P0t-4I-FC3" kind="push" id="IW9-My-Lmt"/>
-                                </connections>
-                            </button>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NCl-Cd-bhr">
-                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
-                                <animations/>
-                                <items>
-                                    <barButtonItem systemItem="camera" id="XIF-wm-TuB">
-                                        <connections>
-                                            <segue destination="8p0-I5-tVi" kind="push" id="ICs-lS-m5D"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="1bq-TP-pNK"/>
-                                    <barButtonItem systemItem="compose" id="LLM-Js-pIt"/>
-                                </items>
-                            </toolbar>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="VQW-Cf-vR2" firstAttribute="trailing" secondItem="ncy-mq-IPo" secondAttribute="trailing" id="80k-6F-Hw2"/>
                             <constraint firstItem="VQW-Cf-vR2" firstAttribute="bottom" secondItem="we0-n0-M3D" secondAttribute="bottom" id="9ge-mu-JSU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="VQW-Cf-vR2" secondAttribute="trailing" constant="4" id="DQF-WT-6nc"/>
                             <constraint firstItem="we0-n0-M3D" firstAttribute="leading" secondItem="tuU-jd-rxE" secondAttribute="leadingMargin" constant="-4" id="Ivl-dp-qLH"/>
-                            <constraint firstItem="NCl-Cd-bhr" firstAttribute="top" secondItem="ncy-mq-IPo" secondAttribute="bottom" constant="13" id="QVS-3c-v8v"/>
                             <constraint firstItem="VQW-Cf-vR2" firstAttribute="leading" secondItem="we0-n0-M3D" secondAttribute="trailing" constant="8" symbolic="YES" id="RvH-rr-Qiw"/>
                             <constraint firstItem="we0-n0-M3D" firstAttribute="top" secondItem="vPL-Wk-OAm" secondAttribute="bottom" constant="275" id="Ufp-E5-F4z"/>
-                            <constraint firstItem="NCl-Cd-bhr" firstAttribute="bottom" secondItem="ujW-t0-Kjw" secondAttribute="top" id="ely-C5-IbF"/>
-                            <constraint firstItem="NCl-Cd-bhr" firstAttribute="leading" secondItem="tuU-jd-rxE" secondAttribute="leading" id="ffI-dv-BLF"/>
                             <constraint firstItem="VQW-Cf-vR2" firstAttribute="top" secondItem="we0-n0-M3D" secondAttribute="top" id="jsA-xe-1pX"/>
-                            <constraint firstAttribute="trailing" secondItem="NCl-Cd-bhr" secondAttribute="trailing" id="nZX-gl-VFm"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -967,7 +865,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <view key="view" contentMode="scaleToFill" id="ORB-Nc-bEY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
@@ -995,7 +892,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="22" sectionFooterHeight="22" id="ljv-YE-gnb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="90" id="eHA-T9-D6t">
@@ -1004,9 +900,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eHA-T9-D6t" id="IWp-6t-0ym">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="89"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="c47-a8-0Z8" kind="push" identifier="StayingSafeDetailSegue" id="41K-ts-eRB"/>
                                 </connections>
@@ -1052,7 +946,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nT-YL-gbb">
                                                 <rect key="frame" x="8" y="8" width="304" height="102"/>
-                                                <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="102" id="K98-d3-M7R"/>
                                                 </constraints>
@@ -1062,7 +955,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vp1-BO-fZx">
                                                 <rect key="frame" x="8" y="118" width="304" height="1000"/>
-                                                <animations/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1000" id="nYK-od-Ndk"/>
@@ -1072,7 +964,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
-                                        <animations/>
                                         <constraints>
                                             <constraint firstItem="Vp1-BO-fZx" firstAttribute="leading" secondItem="2nT-YL-gbb" secondAttribute="leading" id="DDi-uc-M2T"/>
                                             <constraint firstItem="2nT-YL-gbb" firstAttribute="trailing" secondItem="Vp1-BO-fZx" secondAttribute="trailing" id="DZO-3F-cte"/>
@@ -1085,7 +976,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                         </constraints>
                                     </scrollView>
                                 </subviews>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="F9O-e1-gRl" firstAttribute="top" secondItem="ncp-jJ-QsK" secondAttribute="top" id="PPV-0Q-Jni"/>
@@ -1095,7 +985,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 </constraints>
                             </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ncp-jJ-QsK" firstAttribute="top" secondItem="4uh-ke-g5E" secondAttribute="bottom" id="FMY-P9-E8e"/>
@@ -1122,7 +1011,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="103" sectionHeaderHeight="22" sectionFooterHeight="22" id="lmJ-lQ-b0x">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="103" id="D8O-FC-T2Z">
@@ -1131,9 +1019,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="D8O-FC-T2Z" id="XAg-KJ-ZTN">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="102"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <segue destination="a04-Sj-Krq" kind="push" identifier="SecurityDetailSegue" id="7z9-eu-E66"/>
@@ -1168,7 +1054,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="63" sectionHeaderHeight="22" sectionFooterHeight="22" id="ski-Kc-SJR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="63" id="Ok7-Mx-XSh">
@@ -1177,9 +1062,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ok7-Mx-XSh" id="9IE-hq-Kft">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="62"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <color key="backgroundColor" red="0.68627452850341797" green="0.66274511814117432" blue="0.62745100259780884" alpha="0.33000000000000002" colorSpace="deviceRGB"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
@@ -1220,11 +1103,9 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="naH-7e-hKC">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="cFq-yB-bwn"/>
@@ -1243,7 +1124,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" rowHeight="55" sectionHeaderHeight="22" sectionFooterHeight="22" id="JV9-Rb-YPE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="separatorColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -1257,14 +1137,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pevo Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9b-X9-Xlv">
                                             <rect key="frame" x="8" y="16" width="280" height="21"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="georgia" id="0x9-Yk-kLN">
                                 <rect key="frame" x="0.0" y="141" width="320" height="55"/>
@@ -1275,14 +1152,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Georgia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xX2-gy-0DH">
                                             <rect key="frame" x="8" y="15" width="234" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="a3D-kd-uE7" kind="custom" identifier="GeorgiaSegue" customClass="SWRevealViewControllerSeguePushController" id="mVC-tv-hgS"/>
                                 </connections>
@@ -1296,14 +1170,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wisconsin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOm-i1-6FO">
                                             <rect key="frame" x="8" y="15" width="231" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="a3D-kd-uE7" kind="custom" identifier="WisconsinSegue" customClass="SWRevealViewControllerSeguePushController" id="Xuh-s3-vL0"/>
                                 </connections>
@@ -1317,14 +1188,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Minnesota" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8o-Ot-1TF">
                                             <rect key="frame" x="8" y="15" width="234" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="a3D-kd-uE7" kind="custom" identifier="Minnesota" customClass="SWRevealViewControllerSeguePushController" id="OZ6-NQ-t7C"/>
                                 </connections>
@@ -1356,7 +1224,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" rowHeight="55" sectionHeaderHeight="22" sectionFooterHeight="22" id="LfP-Zq-QXz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="separatorColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -1370,14 +1237,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pevo Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHz-gd-Waa">
                                             <rect key="frame" x="8" y="16" width="280" height="21"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="state shelters" id="iZI-OU-Bsq">
                                 <rect key="frame" x="0.0" y="141" width="320" height="55"/>
@@ -1388,14 +1252,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="State Shelters" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rT-SW-1oc">
                                             <rect key="frame" x="8" y="15" width="234" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="state law" rowHeight="55" id="KCu-gM-HAs">
                                 <rect key="frame" x="0.0" y="196" width="320" height="55"/>
@@ -1406,14 +1267,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="State Law" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8R6-db-fKV">
                                             <rect key="frame" x="8" y="15" width="231" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="yf7-o8-H3B" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="qQO-Oj-nRv"/>
                                 </connections>
@@ -1427,14 +1285,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="State Unemployment" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8G5-HH-cL0">
                                             <rect key="frame" x="8" y="15" width="247" height="24"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="QWc-2l-lXi" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Nss-sN-Iji"/>
                                 </connections>
@@ -1448,14 +1303,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where to find help" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGd-IC-SeP">
                                             <rect key="frame" x="8" y="15" width="234" height="23"/>
-                                            <animations/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <animations/>
                                 </tableViewCellContentView>
-                                <animations/>
                                 <connections>
                                     <segue destination="Sqc-ne-9zm" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Si2-aI-As9"/>
                                 </connections>
@@ -1488,7 +1340,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XQM-DH-NYC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1507,7 +1358,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zrm-wL-7YM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1526,7 +1376,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xkM-sI-gv5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1545,7 +1394,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZvO-J3-jG6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1564,7 +1412,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eup-2y-ZAk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1575,26 +1422,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
             </objects>
             <point key="canvasLocation" x="-4719" y="-1906"/>
         </scene>
-        <!--The supporter and Voluneetor-->
-        <scene sceneID="2j8-Yz-Ah6">
-            <objects>
-                <viewController id="P0t-4I-FC3" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="WGk-H6-lLX"/>
-                        <viewControllerLayoutGuide type="bottom" id="4Nh-nf-6MJ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="rAP-Nx-nMK">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="The supporter and Voluneetor" id="6b1-c0-m6K"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZFC-xn-Lj3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-5232" y="637"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="2ye-1Z-Nrg">
             <objects>
@@ -1603,7 +1430,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yyH-lS-Muq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1622,7 +1448,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3hQ-9W-8b6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1642,7 +1467,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NmG-pC-Kpt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1652,26 +1476,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VlL-jK-nBp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4467" y="-258"/>
-        </scene>
-        <!--Camera View Controller-->
-        <scene sceneID="lcf-hm-kbx">
-            <objects>
-                <viewController id="8p0-I5-tVi" customClass="CameraViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="8tg-Hd-B9o"/>
-                        <viewControllerLayoutGuide type="bottom" id="oQs-o1-Kp9"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="uRR-Bz-4kf">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="XRP-R5-Ck3"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0P0-gj-IOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-6065" y="496"/>
         </scene>
         <!--Calculator-->
         <scene sceneID="nfd-wR-nT9">
@@ -1687,7 +1491,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZp-AW-keq">
                                 <rect key="frame" x="16" y="285" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.53207514950000001" green="0.54512150579999996" blue="0.58426057450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="58" id="2WD-RN-TDf"/>
@@ -1704,7 +1507,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7z-AN-CzV">
                                 <rect key="frame" x="172" y="285" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.53207514950000001" green="0.54512150579999996" blue="0.58426057450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="3Za-u2-ryA"/>
@@ -1721,7 +1523,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boV-fA-gia">
                                 <rect key="frame" x="94" y="285" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.53207514950000001" green="0.54512150579999996" blue="0.58426057450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="58" id="3pg-Ya-454"/>
@@ -1738,7 +1539,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rd9-L6-VDD">
                                 <rect key="frame" x="16" y="370" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.53207514950000001" green="0.54512150579999996" blue="0.58426057450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="9ug-SK-GGN"/>
@@ -1755,7 +1555,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMT-HO-geh">
                                 <rect key="frame" x="172" y="370" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.53207514950000001" green="0.54512150579999996" blue="0.58426057450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="58" id="f4s-dD-lQo"/>
@@ -1772,7 +1571,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXJ-gL-PuF">
                                 <rect key="frame" x="94" y="370" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.53207514950000001" green="0.54512150579999996" blue="0.58426057450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="5Zz-dP-cVl"/>
@@ -1789,7 +1587,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0n-MU-Rr8">
                                 <rect key="frame" x="16" y="200" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.53207514950000001" green="0.54512150579999996" blue="0.58426057450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="58" id="ELm-Ij-hXv"/>
@@ -1806,7 +1603,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xb2-hB-7CD">
                                 <rect key="frame" x="94" y="200" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.53207514950000001" green="0.54512150579999996" blue="0.58426057450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="58" id="260-jl-PxF"/>
@@ -1823,7 +1619,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxf-PJ-4JF">
                                 <rect key="frame" x="16" y="108" width="214" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.53207514950000001" green="0.54512150579999996" blue="0.58426057450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="214" id="F3v-Ci-npL"/>
@@ -1846,7 +1641,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwV-LL-5g0">
                                 <rect key="frame" x="172" y="200" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.53207514950000001" green="0.54512150579999996" blue="0.58426057450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="58" id="4Or-KX-lQg"/>
@@ -1863,7 +1657,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G2D-F4-mXn">
                                 <rect key="frame" x="16" y="455" width="214" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.53207514950000001" green="0.54512150579999996" blue="0.58426057450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="U5J-uu-udR"/>
@@ -1880,7 +1673,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoH-Oe-Wri">
                                 <rect key="frame" x="246" y="285" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.96492266410000005" green="0.46718089089999998" blue="0.057936090369999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="MTa-9Z-IdM"/>
@@ -1896,7 +1688,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uox-dx-2TE">
                                 <rect key="frame" x="246" y="370" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.96492266410000005" green="0.46718089089999998" blue="0.057936090369999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="DYp-hN-jz1"/>
@@ -1912,7 +1703,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53d-oX-xUw">
                                 <rect key="frame" x="246" y="108" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.96492266410000005" green="0.46718089089999998" blue="0.057936090369999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="58" id="AVc-OX-wGM"/>
@@ -1928,7 +1718,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KqA-au-gV4">
                                 <rect key="frame" x="246" y="200" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.96492266410000005" green="0.46718089089999998" blue="0.057936090369999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="58" id="7Mk-wA-D1b"/>
@@ -1944,7 +1733,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5BT-9W-Hkf">
                                 <rect key="frame" x="16" y="20" width="288" height="60"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.013512279639999999" green="0.71558149820000005" blue="0.95351957070000004" alpha="0.71999999999999997" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Dym-je-S4n"/>
@@ -1956,7 +1744,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5s-0n-eXr">
                                 <rect key="frame" x="16" y="200" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.53207514950000001" green="0.54512150579999996" blue="0.58426057450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="7">
@@ -1969,7 +1756,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3HZ-xH-fAx">
                                 <rect key="frame" x="246" y="455" width="58" height="58"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.96492266410000005" green="0.46718089089999998" blue="0.057936090369999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="58" id="mab-Fm-1QY"/>
@@ -1985,7 +1771,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="5BT-9W-Hkf" firstAttribute="leading" secondItem="IUC-RH-T6z" secondAttribute="leadingMargin" id="0a6-FH-8W5"/>
@@ -2068,7 +1853,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="kuO-uI-03q">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -2087,7 +1871,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SRO-6e-zdi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -2118,7 +1901,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqp-iJ-ZiE">
                                                 <rect key="frame" x="8" y="8" width="304" height="102"/>
-                                                <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="102" id="nlX-NA-rxZ"/>
                                                 </constraints>
@@ -2128,7 +1910,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKH-Ht-hTe">
                                                 <rect key="frame" x="8" y="118" width="304" height="1000"/>
-                                                <animations/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1000" id="ZyE-Lw-ZZU"/>
@@ -2138,7 +1919,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
-                                        <animations/>
                                         <constraints>
                                             <constraint firstItem="cqp-iJ-ZiE" firstAttribute="centerX" secondItem="Kod-ky-t9v" secondAttribute="centerX" id="1hL-oQ-JJS"/>
                                             <constraint firstItem="gKH-Ht-hTe" firstAttribute="top" secondItem="cqp-iJ-ZiE" secondAttribute="bottom" constant="8" symbolic="YES" id="729-zA-Mbe"/>
@@ -2151,7 +1931,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                         </constraints>
                                     </scrollView>
                                 </subviews>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="Kod-ky-t9v" firstAttribute="leading" secondItem="5Ys-57-B7F" secondAttribute="leading" id="8GI-PU-yTn"/>
@@ -2161,7 +1940,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 </constraints>
                             </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="5Ys-57-B7F" secondAttribute="trailing" id="Ue1-AJ-eJw"/>
@@ -2201,7 +1979,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9f-Tz-5gS">
                                                 <rect key="frame" x="8" y="8" width="304" height="102"/>
-                                                <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="102" id="X1z-O0-bkA"/>
                                                 </constraints>
@@ -2211,7 +1988,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p9I-ST-HpN">
                                                 <rect key="frame" x="8" y="118" width="304" height="1000"/>
-                                                <animations/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1000" id="P3D-I1-2BK"/>
@@ -2221,7 +1997,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
-                                        <animations/>
                                         <constraints>
                                             <constraint firstItem="p9I-ST-HpN" firstAttribute="top" secondItem="O9f-Tz-5gS" secondAttribute="bottom" constant="8" symbolic="YES" id="3nz-ak-eYz"/>
                                             <constraint firstItem="O9f-Tz-5gS" firstAttribute="leading" secondItem="3lm-9A-6Yz" secondAttribute="leadingMargin" id="Fs0-ve-Yog"/>
@@ -2234,7 +2009,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                         </constraints>
                                     </scrollView>
                                 </subviews>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="3lm-9A-6Yz" secondAttribute="bottom" id="7gn-cX-ibQ"/>
@@ -2244,7 +2018,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 </constraints>
                             </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bLp-YY-Jig" firstAttribute="leading" secondItem="SKV-hy-uAT" secondAttribute="leading" id="7YQ-FA-60N"/>
@@ -2284,7 +2057,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txi-aD-ndp">
                                                 <rect key="frame" x="8" y="8" width="304" height="102"/>
-                                                <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="102" id="Sb6-NP-vBo"/>
                                                 </constraints>
@@ -2294,7 +2066,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5aG-mN-BUz">
                                                 <rect key="frame" x="8" y="118" width="304" height="1000"/>
-                                                <animations/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1000" id="Nsn-Aq-tCw"/>
@@ -2304,7 +2075,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
-                                        <animations/>
                                         <constraints>
                                             <constraint firstItem="txi-aD-ndp" firstAttribute="trailing" secondItem="5aG-mN-BUz" secondAttribute="trailing" id="Gt8-Lc-gfT"/>
                                             <constraint firstItem="5aG-mN-BUz" firstAttribute="leading" secondItem="txi-aD-ndp" secondAttribute="leading" id="Mgs-0M-6T3"/>
@@ -2317,7 +2087,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                         </constraints>
                                     </scrollView>
                                 </subviews>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="e4b-3c-Srs" firstAttribute="leading" secondItem="fgi-FF-rqB" secondAttribute="leading" id="3fy-g3-NiY"/>
@@ -2327,7 +2096,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 </constraints>
                             </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="fgi-FF-rqB" firstAttribute="bottom" secondItem="p4a-gh-j7H" secondAttribute="top" id="2nM-BV-7fp"/>
@@ -2367,7 +2135,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDG-oN-ey0">
                                                 <rect key="frame" x="8" y="8" width="304" height="102"/>
-                                                <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="102" id="Dqt-ae-Tyc"/>
                                                 </constraints>
@@ -2377,7 +2144,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ru-Ys-IBf">
                                                 <rect key="frame" x="8" y="118" width="304" height="1000"/>
-                                                <animations/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="1000" id="i5h-0x-dJ0"/>
@@ -2387,7 +2153,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
-                                        <animations/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="KDG-oN-ey0" secondAttribute="bottom" constant="394" id="GtM-c5-zMD"/>
                                             <constraint firstItem="1Ru-Ys-IBf" firstAttribute="top" secondItem="KDG-oN-ey0" secondAttribute="bottom" constant="8" symbolic="YES" id="LV1-yX-w0h"/>
@@ -2400,7 +2165,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                         </constraints>
                                     </scrollView>
                                 </subviews>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="mae-Cz-3oX" secondAttribute="bottom" id="8Hp-Rc-vdg"/>
@@ -2410,7 +2174,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                                 </constraints>
                             </view>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="v1p-6E-zvU" secondAttribute="trailing" id="LAM-uK-sKE"/>
@@ -2438,7 +2201,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="sMc-Q5-W5U">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
