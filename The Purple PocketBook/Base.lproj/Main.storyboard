@@ -793,166 +793,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
             </objects>
             <point key="canvasLocation" x="-4034" y="-258"/>
         </scene>
-        <!--Login View Controller-->
-        <scene sceneID="kdQ-P4-sXu">
-            <objects>
-                <viewController id="bcf-TQ-As5" customClass="LoginViewController" customModule="Pevo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="DIK-7B-L31"/>
-                        <viewControllerLayoutGuide type="bottom" id="Ebx-ww-fKI"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="82e-4y-SeK">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nSl-Pu-r8r">
-                                <rect key="frame" x="36" y="138" width="235" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RjH-hp-NpE">
-                                <rect key="frame" x="63" y="274" width="180" height="30"/>
-                                <state key="normal" title="Login"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5MB-XX-kkn">
-                                <rect key="frame" x="69" y="322" width="168" height="30"/>
-                                <state key="normal" title="Forgot Password?"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NT5-Aj-XhJ">
-                                <rect key="frame" x="74" y="360" width="163" height="30"/>
-                                <state key="normal" title="Sign Up"/>
-                                <connections>
-                                    <segue destination="CGj-zv-H9S" kind="modal" id="1mC-rm-bAM"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sNu-xi-Zx6">
-                                <rect key="frame" x="36" y="196" width="235" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gP1-kA-4ZP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-6203" y="1115"/>
-        </scene>
-        <!--Sign Up View Controller-->
-        <scene sceneID="3VU-AD-drd">
-            <objects>
-                <viewController id="CGj-zv-H9S" customClass="SignUpViewController" customModule="Pevo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5XR-dt-M4B"/>
-                        <viewControllerLayoutGuide type="bottom" id="d8R-Iy-aQa"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Qhf-oT-Kuq">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUR-Pn-pfx">
-                                <rect key="frame" x="123" y="286" width="74" height="30"/>
-                                <state key="normal" title="Sign Up"/>
-                                <connections>
-                                    <action selector="signUpAction:" destination="CGj-zv-H9S" eventType="touchUpInside" id="h89-4h-hS7"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9pe-ao-e8t">
-                                <rect key="frame" x="40" y="115" width="240" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dvv-s7-S23">
-                                <rect key="frame" x="40" y="172" width="240" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jLY-iA-DmF">
-                                <rect key="frame" x="40" y="229" width="240" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0c4-Lo-sj9">
-                                <rect key="frame" x="275" y="28" width="25" height="28"/>
-                                <state key="normal" title="Button" image="close"/>
-                                <connections>
-                                    <segue destination="iGA-jl-BdU" kind="unwind" unwindAction="unwindToLogInScreen:" id="fp0-tY-m16"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="1m7-bU-8rL"/>
-                    <connections>
-                        <outlet property="emailField" destination="9pe-ao-e8t" id="MRT-qW-sDa"/>
-                        <outlet property="passwordField" destination="jLY-iA-DmF" id="DPR-8z-OL5"/>
-                        <outlet property="usernameField" destination="Dvv-s7-S23" id="xSI-Ju-a6j"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Awa-8Y-I49" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="iGA-jl-BdU" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="-5801" y="1115"/>
-        </scene>
-        <!--Reset Password View Controller-->
-        <scene sceneID="daF-ee-gYZ">
-            <objects>
-                <viewController id="K1A-M8-z8u" customClass="ResetPasswordViewController" customModule="Pevo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bNl-j7-MkE"/>
-                        <viewControllerLayoutGuide type="bottom" id="cdj-Et-LUR"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8SC-qQ-hvM">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmC-Rp-6M6">
-                                <rect key="frame" x="96" y="217" width="129" height="30"/>
-                                <state key="normal" title="Reset Password"/>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fk8-ve-iDS">
-                                <rect key="frame" x="47" y="157" width="227" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0Zb-wS-hUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-6585" y="1115"/>
-        </scene>
-        <!--Home View Controller-->
-        <scene sceneID="WTE-Ua-zs3">
-            <objects>
-                <viewController id="WKw-by-xFY" customClass="HomeViewController" customModule="Pevo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yCc-gv-Tw7"/>
-                        <viewControllerLayoutGuide type="bottom" id="nRP-1j-EuF"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0cq-sg-AFb">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWs-2Z-2Nb">
-                                <rect key="frame" x="112" y="269" width="97" height="30"/>
-                                <state key="normal" title="Log Out"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXJ-ur-sk1">
-                                <rect key="frame" x="65" y="210" width="190" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rDo-Bq-LeS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-6203" y="478"/>
-        </scene>
         <!--Main View Controller-->
         <scene sceneID="Lux-GS-xNm">
             <objects>
@@ -986,11 +826,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rgI-Jk-Tag">
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <items>
-                                    <barButtonItem systemItem="compose" id="E82-qd-74C">
-                                        <connections>
-                                            <segue destination="CGj-zv-H9S" kind="push" id="hYj-py-Vdh"/>
-                                        </connections>
-                                    </barButtonItem>
+                                    <barButtonItem systemItem="compose" id="E82-qd-74C"/>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -2383,13 +2219,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
         </scene>
     </scenes>
     <resources>
-        <image name="close" width="64" height="64"/>
         <image name="menu.png" width="28" height="20"/>
         <image name="purplepocketbookhandbag.png" width="600" height="492"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="k7i-zd-nGB"/>
-        <segue reference="hYj-py-Vdh"/>
         <segue reference="OZ6-NQ-t7C"/>
     </inferredMetricsTieBreakers>
 </document>
