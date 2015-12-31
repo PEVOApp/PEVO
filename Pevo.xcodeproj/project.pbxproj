@@ -77,10 +77,6 @@
 		99C244231C3488B800FCFCB9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9949205A199F215500D77982 /* SystemConfiguration.framework */; };
 		99C244251C3488C300FCFCB9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C244241C3488C300FCFCB9 /* libz.tbd */; };
 		99C244271C3488D700FCFCB9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C244261C3488D700FCFCB9 /* libsqlite3.tbd */; };
-		99C2442A1C348E5C00FCFCB9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C244291C348E5C00FCFCB9 /* LoginViewController.swift */; };
-		99C2442C1C348E7700FCFCB9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C2442B1C348E7700FCFCB9 /* HomeViewController.swift */; };
-		99C2442E1C348E8E00FCFCB9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C2442D1C348E8E00FCFCB9 /* SignUpViewController.swift */; };
-		99C244301C348EA600FCFCB9 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C2442F1C348EA600FCFCB9 /* ResetPasswordViewController.swift */; };
 		99C36D3519DF979100703E46 /* InfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C36D3419DF979100703E46 /* InfoTableViewController.m */; };
 		99C36D3819DF99C700703E46 /* PPHelpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C36D3719DF99C700703E46 /* PPHelpTableViewController.m */; };
 		99C36D3B19DF9DC500703E46 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C36D3A19DF9DC500703E46 /* InfoViewController.m */; };
@@ -212,10 +208,6 @@
 		99C244211C3488AA00FCFCB9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		99C244241C3488C300FCFCB9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		99C244261C3488D700FCFCB9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		99C244291C348E5C00FCFCB9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../Pevo/The Purple PocketBook/LoginViewController.swift"; sourceTree = "<group>"; };
-		99C2442B1C348E7700FCFCB9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../../Pevo/The Purple PocketBook/HomeViewController.swift"; sourceTree = "<group>"; };
-		99C2442D1C348E8E00FCFCB9 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = "../../Pevo/The Purple PocketBook/SignUpViewController.swift"; sourceTree = "<group>"; };
-		99C2442F1C348EA600FCFCB9 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResetPasswordViewController.swift; path = "../../Pevo/The Purple PocketBook/ResetPasswordViewController.swift"; sourceTree = "<group>"; };
 		99C36D3319DF979100703E46 /* InfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoTableViewController.h; path = ../InfoTableViewController.h; sourceTree = "<group>"; };
 		99C36D3419DF979100703E46 /* InfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoTableViewController.m; path = ../InfoTableViewController.m; sourceTree = "<group>"; };
 		99C36D3619DF99C700703E46 /* PPHelpTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHelpTableViewController.h; sourceTree = "<group>"; };
@@ -576,10 +568,6 @@
 		99C244281C348A2A00FCFCB9 /* Pevo Journal */ = {
 			isa = PBXGroup;
 			children = (
-				99C244291C348E5C00FCFCB9 /* LoginViewController.swift */,
-				99C2442B1C348E7700FCFCB9 /* HomeViewController.swift */,
-				99C2442D1C348E8E00FCFCB9 /* SignUpViewController.swift */,
-				99C2442F1C348EA600FCFCB9 /* ResetPasswordViewController.swift */,
 			);
 			name = "Pevo Journal";
 			sourceTree = "<group>";
@@ -776,7 +764,6 @@
 				996ECB7C1A1C1A240044DDC5 /* PPWEBViewController.m in Sources */,
 				99A1503419E4BB7500C52F99 /* DVImmigrants.m in Sources */,
 				99AADE5018D93FC800521AEC /* FindHelpTableViewController.m in Sources */,
-				99C2442C1C348E7700FCFCB9 /* HomeViewController.swift in Sources */,
 				99AADE5818D950B300521AEC /* ShelterSearchTableViewCell.m in Sources */,
 				995C67C91C0A205900E69614 /* ShelterCities.swift in Sources */,
 				99AADE4F18D93FBA00521AEC /* SuccessStory.m in Sources */,
@@ -786,7 +773,6 @@
 				99AADE4E18D93FB000521AEC /* WebsitesViewController.m in Sources */,
 				99D5F6FA1B8BA6E6007FB316 /* Calculator.swift in Sources */,
 				9949295E19D98C8B003872B8 /* StayingSafeViewController.m in Sources */,
-				99C244301C348EA600FCFCB9 /* ResetPasswordViewController.swift in Sources */,
 				99AADE4D18D93FA500521AEC /* PPSuccessStoryViewController.m in Sources */,
 				99AADE4C18D93F9A00521AEC /* TechSecurity.m in Sources */,
 				99AADE4B18D93F9000521AEC /* PPSuccessTableViewController.m in Sources */,
@@ -794,7 +780,6 @@
 				99AADE4818D93F7700521AEC /* DVTechologyTableViewController.m in Sources */,
 				99B7F6D11C130C7900ABFB6C /* ShelterSearchController.swift in Sources */,
 				995C67C31C03EC4700E69614 /* ShelterSearchBar.swift in Sources */,
-				99C2442E1C348E8E00FCFCB9 /* SignUpViewController.swift in Sources */,
 				99C36D4419DFA74C00703E46 /* PPInfo.m in Sources */,
 				99AADE4718D93F6E00521AEC /* RSSurveyResultsViewController.m in Sources */,
 				99AADE4618D93F6600521AEC /* RSSurveyQuestionViewController.m in Sources */,
@@ -806,7 +791,6 @@
 				99CA72EB1B4C716700FD16F6 /* SWRevealViewController.m in Sources */,
 				99AADE4218D93F3700521AEC /* DVDetailLawViewController.m in Sources */,
 				99AADE4118D93F3100521AEC /* DVLawTableViewController.m in Sources */,
-				99C2442A1C348E5C00FCFCB9 /* LoginViewController.swift in Sources */,
 				9949295C19D98C8B003872B8 /* StayingSafe.m in Sources */,
 				99AADE3918D93EE600521AEC /* SideBarTableViewController.m in Sources */,
 				99AADE3818D93EDD00521AEC /* PPMainViewController.m in Sources */,
