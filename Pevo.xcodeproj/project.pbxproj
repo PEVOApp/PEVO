@@ -163,9 +163,9 @@
 		995621A61885709400541044 /* DVDetailLawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVDetailLawViewController.m; sourceTree = "<group>"; };
 		995621A818857ED700541044 /* TheLaw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheLaw.h; sourceTree = "<group>"; };
 		995621A918857ED800541044 /* TheLaw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheLaw.m; sourceTree = "<group>"; };
-		995C67C21C03EC4700E69614 /* ShelterSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShelterSearchBar.swift; path = "../../Pevo/The Purple PocketBook/ShelterSearchBar.swift"; sourceTree = "<group>"; };
-		995C67C61C048E1A00E69614 /* ShelterSearch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ShelterSearch.plist; path = ../Pevo/ShelterSearch.plist; sourceTree = "<group>"; };
-		995C67C81C0A205900E69614 /* ShelterCities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShelterCities.swift; path = "../../Pevo/The Purple PocketBook/ShelterCities.swift"; sourceTree = "<group>"; };
+		995C67C21C03EC4700E69614 /* ShelterSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShelterSearchBar.swift; sourceTree = "<group>"; };
+		995C67C61C048E1A00E69614 /* ShelterSearch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShelterSearch.plist; sourceTree = "<group>"; };
+		995C67C81C0A205900E69614 /* ShelterCities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShelterCities.swift; sourceTree = "<group>"; };
 		996DF31F19EDAC830008991F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		996ECB7A1A1C1A230044DDC5 /* PPWEBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPWEBViewController.h; path = ../PPWEBViewController.h; sourceTree = "<group>"; };
 		996ECB7B1A1C1A240044DDC5 /* PPWEBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPWEBViewController.m; path = ../PPWEBViewController.m; sourceTree = "<group>"; };
