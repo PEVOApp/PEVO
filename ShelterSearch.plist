@@ -1,165 +1,406 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>CityName</key>
-	<array>
+<array>
+	<dict>
+		<key>ShelterCity</key>
 		<string>Albany</string>
-		<string>Acworth</string>
-		<string>Athens</string>
-		<string>Atlanta</string>
-		<string>Atlanta</string>
-		<string>Atlanta</string>
-		<string>Augusta </string>
-		<string>Blairsville</string>
-		<string>Blue Ridge</string>
-		<string>Brunswick</string>
-		<string>Canton</string>
-		<string>Carrollton</string>
-		<string>Cartersville</string>
-		<string>Cedartown</string>
-		<string>Clayton</string>
-		<string>Columbus</string>
-		<string>Conyers</string>
-		<string>Cornelia</string>
-		<string>Cumming</string>
-		<string>Dahlonega</string>
-		<string>Dalton</string>
-		<string>Decatur</string>
-		<string>Decatur</string>
-		<string>Doraville</string>
-		<string>Douglasville</string>
-		<string>Dublin</string>
-		<string>Fayetteville</string>
-		<string>Gaineville</string>
-		<string>Greensboro</string>
-		<string>Hartwell</string>
-		<string>Hinesville</string>
-		<string>Jesup</string>
-		<string>Lafayette</string>
-		<string>Lawrenceville</string>
-		<string>Macon</string>
-		<string>Marietta</string>
-		<string>McDonough</string>
-		<string>Morrow</string>
-		<string>Rome</string>
-		<string>Savannah</string>
-		<string>St. Marys</string>
-		<string>Statesboro</string>
-		<string>Thomasville</string>
-		<string>Tifton</string>
-		<string>Troup</string>
-		<string>Valdosta</string>
-		<string>Vidalia</string>
-		<string>Warner Robins</string>
-		<string>Waycross</string>
-		<string>Winder</string>
-	</array>
-	<key>ShelterName</key>
-	<array>
+		<key>ShelterName</key>
 		<string>Liberty House of Albany, Inc.</string>
-		<string>Ser Familia</string>
-		<string>Project Safe, Inc.</string>
-		<string>Partnership Against Domestic Violence, Inc.</string>
-		<string>Ahimsa House - Help People and Pets</string>
-		<string>Raksha Inc.</string>
-		<string>Safe Homes of Augusta, Inc.</string>
-		<string>Support in Abusive Family Emergencies, Inc.</string>
-		<string>North Georgia Mountain Crisis</string>
-		<string>Glynn Community Crisis</string>
-		<string>Cherokee Family Violence</string>
-		<string>Carroll County Emergency Shelter, Inc.</string>
-		<string>Christian League for Battered Women, Inc. (Tranquility House)</string>
-		<string>Polk County Women&apos;s Shelter, Inc.</string>
-		<string>Fight Abuse in the Home (FAITH), Inc.</string>
-		<string>Columbus Alliance for Battered Women, Inc.</string>
-		<string>Project Renewal Domestic Violence Intervention Program, Inc.</string>
-		<string>Circle of Hope, Inc.</string>
-		<string>Forsyth County Family Haven, Inc.</string>
-		<string>NOA&apos;s Ark, Inc.</string>
-		<string>Northwest Georgia Family Crisis Center, Inc.</string>
-		<string>International Women&apos;s House, Inc.</string>
-		<string>Women&apos;s Resource Center to End Domestic Violence, Inc.</string>
-		<string>Caminar Latino, Inc.</string>
-		<string>S.H.A.R.E. House, Inc.</string>
-		<string>Women in Need of God&apos;s Shelter, Inc.</string>
-		<string>Fayette County Council on Domestic Violence</string>
-		<string>Gateway House, Inc.</string>
-		<string>Circle of Love Center, Inc.</string>
-		<string>Northeast Georgia Council on Domestic Violence</string>
-		<string>Tri-County Protective Agency, Inc.</string>
-		<string>Wayne County Protective Agency, Inc.</string>
-		<string>Family Crisis Center of Walker, Dade, Catoosa, Chattooga Counties</string>
-		<string>Partnership Against Domestic Violence, Inc.</string>
-		<string>Crisis Line &amp; Safe House</string>
-		<string>YWCA of Northwest Georgia</string>
-		<string>Flint Circuit Council on Family Violence, Inc. (Haven House)</string>
-		<string>Association on Battered Women of Clayton County, Inc. (Securus House)</string>
-		<string>Hospitality House for Women, Inc.</string>
-		<string>Savannah Area Family Emergency</string>
-		<string>Camden Community Crisis Center, Inc.</string>
-		<string>Citizens Against Violence, Inc.</string>
-		<string>Halcyon Home, Inc.</string>
-		<string>Tifton Judicial Circuit Shelter, Inc. (Ruth&apos;s Cottage)</string>
-		<string>Harmony House, Inc.</string>
-		<string>Battered Women&apos;s Shelter, Inc. (The Haven)</string>
-		<string>The Refuge Domestic Violence Shelter, Inc.</string>
-		<string>Warner Robins Salvation Army</string>
-		<string>Waycross Area Shelter d/b/a Magnolia House</string>
-		<string>Peace Place, Inc.</string>
-	</array>
-	<key>ShelterNumber</key>
-	<array>
+		<key>ShelterNumber</key>
 		<string>(229) 439-7065</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Acworth</string>
+		<key>ShelterName</key>
+		<string>Ser Familia</string>
+		<key>ShelterNumber</key>
 		<string>(678) 363-3079</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Athens</string>
+		<key>ShelterName</key>
+		<string>Project Safe, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(706) 543-3331</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Atlanta</string>
+		<key>ShelterName</key>
+		<string>Partnership Against Domestic Violence, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(404) 873-1766</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Atlanta</string>
+		<key>ShelterName</key>
+		<string>Ahimsa House - Help People and Pets</string>
+		<key>ShelterNumber</key>
 		<string>(404) 452-6248</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Atlanta</string>
+		<key>ShelterName</key>
+		<string>Raksha Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(404) 842-0725</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Augusta </string>
+		<key>ShelterName</key>
+		<string>Safe Homes of Augusta, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(706) 736-2499</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Blairsville</string>
+		<key>ShelterName</key>
+		<string>Support in Abusive Family Emergencies, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(706) 379-3000</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Blue Ridge</string>
+		<key>ShelterName</key>
+		<string>North Georgia Mountain Crisis</string>
+		<key>ShelterNumber</key>
 		<string>(706) 632-8400</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Brunswick</string>
+		<key>ShelterName</key>
+		<string>Glynn Community Crisis</string>
+		<key>ShelterNumber</key>
 		<string>(912) 264-4357</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Canton</string>
+		<key>ShelterName</key>
+		<string>Cherokee Family Violence</string>
+		<key>ShelterNumber</key>
 		<string>(770) 479-1703</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Carrollton</string>
+		<key>ShelterName</key>
+		<string>Carroll County Emergency Shelter, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(770) 834-1141</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Cartersville</string>
+		<key>ShelterName</key>
+		<string>Christian League for Battered Women, Inc. (Tranquility House)</string>
+		<key>ShelterNumber</key>
 		<string>(770) 386-8779</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Cedartown</string>
+		<key>ShelterName</key>
+		<string>Polk County Women's Shelter, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(770) 749-9330</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Clayton</string>
+		<key>ShelterName</key>
+		<string>Fight Abuse in the Home (FAITH), Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(888) 782-1338</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Columbus</string>
+		<key>ShelterName</key>
+		<string>Columbus Alliance for Battered Women, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(706) 324-3850</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Conyers</string>
+		<key>ShelterName</key>
+		<string>Project Renewal Domestic Violence Intervention Program, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(770) 860-1666</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Cornelia</string>
+		<key>ShelterName</key>
+		<string>Circle of Hope, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(706) 776-4673</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Cumming</string>
+		<key>ShelterName</key>
+		<string>Forsyth County Family Haven, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(770) 887-1121</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Dahlonega</string>
+		<key>ShelterName</key>
+		<string>NOA's Ark, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(706) 864-1986</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Dalton</string>
+		<key>ShelterName</key>
+		<string>Northwest Georgia Family Crisis Center, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(706) 278-5586</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Decatur</string>
+		<key>ShelterName</key>
+		<string>International Women's House, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(770) 413-5557</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Decatur</string>
+		<key>ShelterName</key>
+		<string>Women's Resource Center to End Domestic Violence, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(404) 688-9436</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Doraville</string>
+		<key>ShelterName</key>
+		<string>Caminar Latino, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(770) 873-3022</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Douglasville</string>
+		<key>ShelterName</key>
+		<string>S.H.A.R.E. House, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(770) 489-7513</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Dublin</string>
+		<key>ShelterName</key>
+		<string>Women in Need of God's Shelter, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(478) 272-8000</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Fayetteville</string>
+		<key>ShelterName</key>
+		<string>Fayette County Council on Domestic Violence</string>
+		<key>ShelterNumber</key>
 		<string>(770) 460-1604</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Gaineville</string>
+		<key>ShelterName</key>
+		<string>Gateway House, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(770) 536-5860</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Greensboro</string>
+		<key>ShelterName</key>
+		<string>Circle of Love Center, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(706) 453-7135</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Hartwell</string>
+		<key>ShelterName</key>
+		<string>Northeast Georgia Council on Domestic Violence</string>
+		<key>ShelterNumber</key>
 		<string>(706) 376-7111</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Hinesville</string>
+		<key>ShelterName</key>
+		<string>Tri-County Protective Agency, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(912) 368-9200</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Jesup</string>
+		<key>ShelterName</key>
+		<string>Wayne County Protective Agency, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(912) 588-0382</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Lafayette</string>
+		<key>ShelterName</key>
+		<string>Family Crisis Center of Walker, Dade, Catoosa, Chattooga Counties</string>
+		<key>ShelterNumber</key>
 		<string>(706) 375-7630</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Lawrenceville</string>
+		<key>ShelterName</key>
+		<string>Partnership Against Domestic Violence, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(770) 963-9799</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Macon</string>
+		<key>ShelterName</key>
+		<string>Crisis Line &amp; Safe House</string>
+		<key>ShelterNumber</key>
 		<string>(478) 738-9800</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Marietta</string>
+		<key>ShelterName</key>
+		<string>YWCA of Northwest Georgia</string>
+		<key>ShelterNumber</key>
 		<string>(770) 427-3390</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>McDonough</string>
+		<key>ShelterName</key>
+		<string>Flint Circuit Council on Family Violence, Inc. (Haven House)</string>
+		<key>ShelterNumber</key>
 		<string>(770) 954-9229</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Morrow</string>
+		<key>ShelterName</key>
+		<string>Association on Battered Women of Clayton County, Inc. (Securus House)</string>
+		<key>ShelterNumber</key>
 		<string>(770) 961-7233</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Rome</string>
+		<key>ShelterName</key>
+		<string>Hospitality House for Women, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(706) 235-4673</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Savannah</string>
+		<key>ShelterName</key>
+		<string>Savannah Area Family Emergency</string>
+		<key>ShelterNumber</key>
 		<string>(912) 629-8888</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>St. Marys</string>
+		<key>ShelterName</key>
+		<string>Camden Community Crisis Center, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(912) 882-7858</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Statesboro</string>
+		<key>ShelterName</key>
+		<string>Citizens Against Violence, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(912) 764-4605</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Thomasville</string>
+		<key>ShelterName</key>
+		<string>Halcyon Home, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(229) 226-6666</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Tifton</string>
+		<key>ShelterName</key>
+		<string>Tifton Judicial Circuit Shelter, Inc. (Ruth's Cottage)</string>
+		<key>ShelterNumber</key>
 		<string>(229) 387-9664</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Troup</string>
+		<key>ShelterName</key>
+		<string>Harmony House, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(706) 885-1525</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Valdosta</string>
+		<key>ShelterName</key>
+		<string>Battered Women's Shelter, Inc. (The Haven)</string>
+		<key>ShelterNumber</key>
 		<string>(229) 244-1765</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Vidalia</string>
+		<key>ShelterName</key>
+		<string>The Refuge Domestic Violence Shelter, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(912) 538-9935</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Warner Robins</string>
+		<key>ShelterName</key>
+		<string>Warner Robins Salvation Army</string>
+		<key>ShelterNumber</key>
 		<string>(478) 923-6294</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Waycross</string>
+		<key>ShelterName</key>
+		<string>Waycross Area Shelter d/b/a Magnolia House</string>
+		<key>ShelterNumber</key>
 		<string>(912) 285-5850</string>
+	</dict>
+	<dict>
+		<key>ShelterCity</key>
+		<string>Winder</string>
+		<key>ShelterName</key>
+		<string>Peace Place, Inc.</string>
+		<key>ShelterNumber</key>
 		<string>(770) 586-0927</string>
-	</array>
-</dict>
+	</dict>
+</array>
 </plist>

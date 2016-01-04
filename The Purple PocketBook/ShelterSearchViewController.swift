@@ -12,18 +12,12 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
     
     @IBOutlet var shelterSearchView: UITableView!
     
-    var cities:[ShelterCities] = []
-    var searchResults:[ShelterCities] = []
-    
+    var shelters = Array<Shelter>()
+    var filteredShelters = Array<Shelter>()
+	var shouldShowSearchResults = false
+
     var searchController: UISearchController!
-    
-    
-    var dataArray = [String]()
-    
-    var filteredArray = [String]()
-    
-    var shouldShowSearchResults = false
-    
+
     var shelterSearchController: ShelterSearchController!
 
 
@@ -45,30 +39,39 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
     }
     
     // MARK: Custom functions
-    
+	@IBAction private func done(sender: AnyObject) {
+		dismissViewControllerAnimated(true, completion: nil)
+	}
+
+
     func loadListShelterSearch() {
         // Specify the path to the countries list file.
-        let pathToFile = NSBundle.mainBundle().pathForResource("ShelterSearch", ofType: "plist")
-        
-        if let path = pathToFile {
-            // Load the file contents as a string.
-            let countriesString = try! String(contentsOfFile: path, encoding: NSUTF8StringEncoding)
-            
-            // Append the countries from the string to the dataArray array by breaking them using the line change character.
-            dataArray = countriesString.componentsSeparatedByString("\n")
-            
-            // Reload the tableview.
-            shelterSearchView.reloadData()
-        }
+        let path = NSBundle.mainBundle().pathForResource("ShelterSearch", ofType: "plist")!
+		let allShelterValues = NSArray(contentsOfFile: path) as! Array<Dictionary<String, String>>
+
+		shelters.removeAll()
+		filteredShelters.removeAll()
+		for shelterValues in allShelterValues {
+			guard let shelter = try? Shelter(plistValues: shelterValues) else {
+				print("Could not create a shelter from shelter values found in ShelterSearch.plist: \(shelterValues)")
+				continue
+			}
+
+			shelters.append(shelter)
+		}
+
+		// Reload the tableview.
+		shouldShowSearchResults = false
+		shelterSearchView.reloadData()
     }
     
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if shouldShowSearchResults {
-            return filteredArray.count
+            return filteredShelters.count
         }
         else {
-            return dataArray.count
+            return shelters.count
         }
     }
     
@@ -78,16 +81,13 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! ShelterSearchTableViewCell
         
         // Configure the cell...
-        let city = (searchController.active) ? searchResults[indexPath.row] : cities[indexPath.row]
-        
-        cell.cityLabel!.text = city.cityName
-        cell.shelterLabel!.text = city.shelterName
+		let shelter = (searchController.active) ? filteredShelters[indexPath.row] : shelters[indexPath.row]
+		cell.updateForShelter(shelter)
 
-        
-        return cell    }
-    
+        return cell
+	}
+
     func configureSearchController() {
-        
         searchController = UISearchController(searchResultsController: nil)
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = true
@@ -95,8 +95,6 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
         searchController.searchBar.delegate = self
         searchController.searchBar.sizeToFit()
         shelterSearchView.tableHeaderView = searchController.searchBar
-        
-        
     }
     
     
@@ -107,7 +105,6 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
         shelterSearchView.tableHeaderView = shelterSearchController.shelterSearchBar
         
         shelterSearchController.shelterSearchDelegate = self
-
     }
 
 
@@ -140,26 +137,23 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
     func updateSearchResultsForSearchController(searchController: UISearchController) {
         let searchText = searchController.searchBar.text
         
-        filterContentForSearchText(searchText!)
+        filterContentForSearchText(searchText)
         
         shelterSearchView.reloadData()
     }
     
-    func filterContentForSearchText(searchText: String) {
-        
-        searchResults = cities.filter({ ( city: ShelterCities) -> Bool in
-            
-            let nameMatch = city.cityName.rangeOfString(searchText, options: NSStringCompareOptions.CaseInsensitiveSearch)
-            let locationMatch = city.shelterName.rangeOfString(searchText, options: NSStringCompareOptions.CaseInsensitiveSearch)
-            
-            return nameMatch != nil || locationMatch != nil
-            
-        })
-        
+    func filterContentForSearchText(searchText: String?) {
+		if let someSearchText = searchText {
+			filteredShelters = shelters.filter({ ( shelter: Shelter) -> Bool in
+				return shelter.cityName.containsString(someSearchText) || shelter.shelterName.containsString(someSearchText)
+			})
+		}
+		else {
+			filteredShelters = shelters
+		}
     }
     
     func didStartSearching() {
-        
         shouldShowSearchResults = true
         shelterSearchView.reloadData()
     }
@@ -182,23 +176,9 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
     
     
     func didChangeSearchText(searchText: String) {
-        // Filter the data array and get only those countries that match the search text.
-        filteredArray = dataArray.filter({ (statesearch) -> Bool in
-            let stateText: NSString = statesearch
-            
-            return (stateText.rangeOfString(searchText, options: NSStringCompareOptions.CaseInsensitiveSearch).location) != NSNotFound
-        })
-        
-        // Reload the tableview.
+		filterContentForSearchText(searchText)
+
+		// Reload the tableview.
         shelterSearchView.reloadData()
     }
 }
-
-
-
-
-
-
-
-
-
