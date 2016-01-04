@@ -15,8 +15,6 @@
 #import "SideBarTableViewController.h"
 #import "SWRevealViewController.h"
 
-#import "ShelterSearchTableViewCell.h"
-
 #import "DVLawTableViewController.h"
 #import "DVDetailLawViewController.h"
 #import "TheLaw.h"
