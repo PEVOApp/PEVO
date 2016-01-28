@@ -15,6 +15,13 @@
 		9949295D19D98C8B003872B8 /* StayingSafeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9949295919D98C8B003872B8 /* StayingSafeTableViewController.m */; };
 		9949295E19D98C8B003872B8 /* StayingSafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9949295B19D98C8B003872B8 /* StayingSafeViewController.m */; };
 		9949296219DB3BDB003872B8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99492058199F214300D77982 /* MessageUI.framework */; };
+		994AC8A91C5839290017E38D /* StateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8A81C5839280017E38D /* StateTableViewController.swift */; };
+		994AC8AB1C584E5A0017E38D /* StateInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8AA1C584E5A0017E38D /* StateInfoTableViewController.swift */; };
+		994AC8AD1C584F8B0017E38D /* PevoInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8AC1C584F8B0017E38D /* PevoInfoTableViewController.swift */; };
+		994AC8AF1C5856D60017E38D /* PevoDVInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8AE1C5856D60017E38D /* PevoDVInfo.swift */; };
+		994AC8B11C585E810017E38D /* PevoStateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8B01C585E810017E38D /* PevoStateInfo.swift */; };
+		994AC8B31C585F3D0017E38D /* PevoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8B21C585F3D0017E38D /* PevoInfo.swift */; };
+		994BB4D21C4BD346009288C7 /* MnTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994BB4D11C4BD346009288C7 /* MnTableViewController.swift */; };
 		994FC8EE1A16CEC200DE1393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99492023199D2B5300D77982 /* Main.storyboard */; };
 		994FC8FD1A16E46000DE1393 /* Sponsors.m in Sources */ = {isa = PBXBuildFile; fileRef = 994FC8FC1A16E45F00DE1393 /* Sponsors.m */; };
 		99562169188486CA00541044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99562168188486CA00541044 /* Foundation.framework */; };
@@ -81,7 +88,6 @@
 		99C36D3819DF99C700703E46 /* PPHelpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C36D3719DF99C700703E46 /* PPHelpTableViewController.m */; };
 		99C36D3B19DF9DC500703E46 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C36D3A19DF9DC500703E46 /* InfoViewController.m */; };
 		99C36D4419DFA74C00703E46 /* PPInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C36D4319DFA74C00703E46 /* PPInfo.m */; };
-		99CA72E51B4B37DF00FD16F6 /* StatesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CA72E41B4B37DF00FD16F6 /* StatesTableViewController.m */; };
 		99CA72EB1B4C716700FD16F6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CA72EA1B4C716700FD16F6 /* SWRevealViewController.m */; };
 		99CA72EF1B4C988800FD16F6 /* StateDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CA72EE1B4C988600FD16F6 /* StateDataTableViewController.m */; };
 		99D5F6FA1B8BA6E6007FB316 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5F6F91B8BA6E6007FB316 /* Calculator.swift */; };
@@ -132,6 +138,13 @@
 		9949295919D98C8B003872B8 /* StayingSafeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StayingSafeTableViewController.m; sourceTree = "<group>"; };
 		9949295A19D98C8B003872B8 /* StayingSafeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StayingSafeViewController.h; sourceTree = "<group>"; };
 		9949295B19D98C8B003872B8 /* StayingSafeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StayingSafeViewController.m; sourceTree = "<group>"; };
+		994AC8A81C5839280017E38D /* StateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateTableViewController.swift; sourceTree = "<group>"; };
+		994AC8AA1C584E5A0017E38D /* StateInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateInfoTableViewController.swift; sourceTree = "<group>"; };
+		994AC8AC1C584F8B0017E38D /* PevoInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PevoInfoTableViewController.swift; sourceTree = "<group>"; };
+		994AC8AE1C5856D60017E38D /* PevoDVInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PevoDVInfo.swift; sourceTree = "<group>"; };
+		994AC8B01C585E810017E38D /* PevoStateInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PevoStateInfo.swift; sourceTree = "<group>"; };
+		994AC8B21C585F3D0017E38D /* PevoInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PevoInfo.swift; sourceTree = "<group>"; };
+		994BB4D11C4BD346009288C7 /* MnTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MnTableViewController.swift; sourceTree = "<group>"; };
 		994FC8F01A16D11600DE1393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		994FC8F31A16D12E00DE1393 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
 		994FC8F41A16D13700DE1393 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
@@ -215,8 +228,6 @@
 		99C36D3A19DF9DC500703E46 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = ../InfoViewController.m; sourceTree = "<group>"; };
 		99C36D4219DFA74C00703E46 /* PPInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPInfo.h; path = ../PPInfo.h; sourceTree = "<group>"; };
 		99C36D4319DFA74C00703E46 /* PPInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPInfo.m; path = ../PPInfo.m; sourceTree = "<group>"; };
-		99CA72E31B4B37DF00FD16F6 /* StatesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatesTableViewController.h; path = ../StatesTableViewController.h; sourceTree = "<group>"; };
-		99CA72E41B4B37DF00FD16F6 /* StatesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatesTableViewController.m; path = ../StatesTableViewController.m; sourceTree = "<group>"; };
 		99CA72E91B4C716700FD16F6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		99CA72EA1B4C716700FD16F6 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		99CA72ED1B4C988600FD16F6 /* StateDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateDataTableViewController.h; sourceTree = "<group>"; };
@@ -319,8 +330,12 @@
 		993182301BB00E91003FF377 /* StateTabList */ = {
 			isa = PBXGroup;
 			children = (
-				99CA72E31B4B37DF00FD16F6 /* StatesTableViewController.h */,
-				99CA72E41B4B37DF00FD16F6 /* StatesTableViewController.m */,
+				994AC8A81C5839280017E38D /* StateTableViewController.swift */,
+				994AC8AA1C584E5A0017E38D /* StateInfoTableViewController.swift */,
+				994AC8AC1C584F8B0017E38D /* PevoInfoTableViewController.swift */,
+				994AC8B01C585E810017E38D /* PevoStateInfo.swift */,
+				994AC8B21C585F3D0017E38D /* PevoInfo.swift */,
+				994AC8AE1C5856D60017E38D /* PevoDVInfo.swift */,
 			);
 			name = StateTabList;
 			sourceTree = "<group>";
@@ -351,6 +366,28 @@
 				9949295719D98C8B003872B8 /* StayingSafe.m */,
 			);
 			name = "Staying Safe";
+			sourceTree = "<group>";
+		};
+		994BB4CE1C4BD202009288C7 /* Georgia */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Georgia;
+			sourceTree = "<group>";
+		};
+		994BB4CF1C4BD211009288C7 /* Wisconsin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Wisconsin;
+			sourceTree = "<group>";
+		};
+		994BB4D01C4BD242009288C7 /* Minnesota */ = {
+			isa = PBXGroup;
+			children = (
+				994BB4D11C4BD346009288C7 /* MnTableViewController.swift */,
+			);
+			name = Minnesota;
 			sourceTree = "<group>";
 		};
 		9956215C188486CA00541044 = {
@@ -401,6 +438,9 @@
 		9956216E188486CA00541044 /* Pevo */ = {
 			isa = PBXGroup;
 			children = (
+				994BB4D01C4BD242009288C7 /* Minnesota */,
+				994BB4CF1C4BD211009288C7 /* Wisconsin */,
+				994BB4CE1C4BD202009288C7 /* Georgia */,
 				99D5F6F91B8BA6E6007FB316 /* Calculator.swift */,
 				99562177188486CA00541044 /* PPAppDelegate.h */,
 				99562178188486CA00541044 /* PPAppDelegate.m */,
@@ -760,13 +800,18 @@
 				99C36D3B19DF9DC500703E46 /* InfoViewController.m in Sources */,
 				99CA72EF1B4C988800FD16F6 /* StateDataTableViewController.m in Sources */,
 				996ECB7C1A1C1A240044DDC5 /* PPWEBViewController.m in Sources */,
+				994AC8A91C5839290017E38D /* StateTableViewController.swift in Sources */,
 				99A1503419E4BB7500C52F99 /* DVImmigrants.m in Sources */,
 				99AADE5018D93FC800521AEC /* FindHelpTableViewController.m in Sources */,
 				565B915F1C3B03060098D2DB /* ShelterSearchTableViewCell.swift in Sources */,
 				995C67C91C0A205900E69614 /* Shelter.swift in Sources */,
 				99AADE4F18D93FBA00521AEC /* SuccessStory.m in Sources */,
 				99A1502E19E4BA6A00C52F99 /* DVImmigrantsTableViewController.m in Sources */,
+				994AC8B11C585E810017E38D /* PevoStateInfo.swift in Sources */,
 				99E073F719C2442D00F8DA22 /* PPSponsorsTableViewController.m in Sources */,
+				994AC8AF1C5856D60017E38D /* PevoDVInfo.swift in Sources */,
+				994AC8B31C585F3D0017E38D /* PevoInfo.swift in Sources */,
+				994AC8AD1C584F8B0017E38D /* PevoInfoTableViewController.swift in Sources */,
 				993B5CC51C10B1C400AEC0AF /* ShelterSearchViewController.swift in Sources */,
 				99AADE4E18D93FB000521AEC /* WebsitesViewController.m in Sources */,
 				99D5F6FA1B8BA6E6007FB316 /* Calculator.swift in Sources */,
@@ -783,8 +828,8 @@
 				99AADE4618D93F6600521AEC /* RSSurveyQuestionViewController.m in Sources */,
 				992A816C19AD2984002BE8AB /* PPQuizViewController.m in Sources */,
 				99AADE4518D93F5C00521AEC /* main.m in Sources */,
+				994AC8AB1C584E5A0017E38D /* StateInfoTableViewController.swift in Sources */,
 				994FC8FD1A16E46000DE1393 /* Sponsors.m in Sources */,
-				99CA72E51B4B37DF00FD16F6 /* StatesTableViewController.m in Sources */,
 				99AADE4318D93F3F00521AEC /* TheLaw.m in Sources */,
 				99CA72EB1B4C716700FD16F6 /* SWRevealViewController.m in Sources */,
 				99AADE4218D93F3700521AEC /* DVDetailLawViewController.m in Sources */,
@@ -794,6 +839,7 @@
 				99AADE3818D93EDD00521AEC /* PPMainViewController.m in Sources */,
 				99C36D3519DF979100703E46 /* InfoTableViewController.m in Sources */,
 				99AADE3718D93ED700521AEC /* PPMainTableViewController.m in Sources */,
+				994BB4D21C4BD346009288C7 /* MnTableViewController.swift in Sources */,
 				99A1503E19EB36E100C52F99 /* SponsorsViewController.m in Sources */,
 				99C36D3819DF99C700703E46 /* PPHelpTableViewController.m in Sources */,
 				99AADE3618D93ECA00521AEC /* PPAppDelegate.m in Sources */,

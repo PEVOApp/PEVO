@@ -40,7 +40,7 @@
     
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
-    menuItems = @[@"pevo home", @"states", @"federal law", @"workplace", @"immigration", @"staying safe", @"quiz", @"technology", @"community sponsors"];
+    menuItems = @[@"test", @"pevo home", @"federal law", @"workplace", @"immigration", @"staying safe", @"quiz", @"technology", @"community sponsors"];
     
     
 }
