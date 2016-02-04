@@ -22,6 +22,13 @@
 		994AC8B11C585E810017E38D /* PevoStateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8B01C585E810017E38D /* PevoStateInfo.swift */; };
 		994AC8B31C585F3D0017E38D /* PevoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8B21C585F3D0017E38D /* PevoInfo.swift */; };
 		994AC8B51C5E95A80017E38D /* StateDVInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8B41C5E95A70017E38D /* StateDVInfoViewController.swift */; };
+		994AC8B81C6030AF0017E38D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994AC8B61C6030AF0017E38D /* Realm.framework */; };
+		994AC8B91C6030B00017E38D /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994AC8B71C6030AF0017E38D /* RealmSwift.framework */; };
+		994AC8BB1C624D150017E38D /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8BA1C624D150017E38D /* JournalEntry.swift */; };
+		994AC8BD1C624D3A0017E38D /* JournelEntries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8BC1C624D3A0017E38D /* JournelEntries.swift */; };
+		994AC8BF1C624DA50017E38D /* JournalEntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8BE1C624DA50017E38D /* JournalEntryTableViewCell.swift */; };
+		994AC8C11C6254100017E38D /* EntryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8C01C6254100017E38D /* EntryListTableViewController.swift */; };
+		994AC8C31C626EA10017E38D /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994AC8C21C626EA10017E38D /* EntryDetailViewController.swift */; };
 		994FC8EE1A16CEC200DE1393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99492023199D2B5300D77982 /* Main.storyboard */; };
 		994FC8FD1A16E46000DE1393 /* Sponsors.m in Sources */ = {isa = PBXBuildFile; fileRef = 994FC8FC1A16E45F00DE1393 /* Sponsors.m */; };
 		99562169188486CA00541044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99562168188486CA00541044 /* Foundation.framework */; };
@@ -145,6 +152,13 @@
 		994AC8B01C585E810017E38D /* PevoStateInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PevoStateInfo.swift; sourceTree = "<group>"; };
 		994AC8B21C585F3D0017E38D /* PevoInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PevoInfo.swift; sourceTree = "<group>"; };
 		994AC8B41C5E95A70017E38D /* StateDVInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateDVInfoViewController.swift; sourceTree = "<group>"; };
+		994AC8B61C6030AF0017E38D /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		994AC8B71C6030AF0017E38D /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		994AC8BA1C624D150017E38D /* JournalEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		994AC8BC1C624D3A0017E38D /* JournelEntries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournelEntries.swift; sourceTree = "<group>"; };
+		994AC8BE1C624DA50017E38D /* JournalEntryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntryTableViewCell.swift; sourceTree = "<group>"; };
+		994AC8C01C6254100017E38D /* EntryListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryListTableViewController.swift; sourceTree = "<group>"; };
+		994AC8C21C626EA10017E38D /* EntryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
 		994FC8F01A16D11600DE1393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		994FC8F31A16D12E00DE1393 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
 		994FC8F41A16D13700DE1393 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
@@ -274,6 +288,7 @@
 				99C2441C1C34883700FCFCB9 /* AudioToolbox.framework in Frameworks */,
 				99B7A8EB1BC192590027C140 /* AVFoundation.framework in Frameworks */,
 				9949296219DB3BDB003872B8 /* MessageUI.framework in Frameworks */,
+				994AC8B81C6030AF0017E38D /* Realm.framework in Frameworks */,
 				99C244181C3487A700FCFCB9 /* ParseFacebookUtilsV4.framework in Frameworks */,
 				996DF32019EDAC830008991F /* MediaPlayer.framework in Frameworks */,
 				99C244191C3487A700FCFCB9 /* ParseTwitterUtils.framework in Frameworks */,
@@ -282,6 +297,7 @@
 				99EF41A018895F07004A148F /* MapKit.framework in Frameworks */,
 				99C244151C3487A700FCFCB9 /* Bolts.framework in Frameworks */,
 				9956216D188486CA00541044 /* UIKit.framework in Frameworks */,
+				994AC8B91C6030B00017E38D /* RealmSwift.framework in Frameworks */,
 				99C244161C3487A700FCFCB9 /* Parse.framework in Frameworks */,
 				99562169188486CA00541044 /* Foundation.framework in Frameworks */,
 				99C244171C3487A700FCFCB9 /* ParseFacebookUtils.framework in Frameworks */,
@@ -393,6 +409,8 @@
 			children = (
 				99C244261C3488D700FCFCB9 /* libsqlite3.tbd */,
 				99C244241C3488C300FCFCB9 /* libz.tbd */,
+				994AC8B61C6030AF0017E38D /* Realm.framework */,
+				994AC8B71C6030AF0017E38D /* RealmSwift.framework */,
 				99C244211C3488AA00FCFCB9 /* StoreKit.framework */,
 				99C2441F1C34889B00FCFCB9 /* Security.framework */,
 				99C2441D1C34884000FCFCB9 /* CFNetwork.framework */,
@@ -582,6 +600,11 @@
 		99C244281C348A2A00FCFCB9 /* Pevo Journal */ = {
 			isa = PBXGroup;
 			children = (
+				994AC8BA1C624D150017E38D /* JournalEntry.swift */,
+				994AC8BC1C624D3A0017E38D /* JournelEntries.swift */,
+				994AC8BE1C624DA50017E38D /* JournalEntryTableViewCell.swift */,
+				994AC8C01C6254100017E38D /* EntryListTableViewController.swift */,
+				994AC8C21C626EA10017E38D /* EntryDetailViewController.swift */,
 			);
 			name = "Pevo Journal";
 			sourceTree = "<group>";
@@ -778,6 +801,7 @@
 				996ECB7C1A1C1A240044DDC5 /* PPWEBViewController.m in Sources */,
 				994AC8A91C5839290017E38D /* StateTableViewController.swift in Sources */,
 				99A1503419E4BB7500C52F99 /* DVImmigrants.m in Sources */,
+				994AC8BF1C624DA50017E38D /* JournalEntryTableViewCell.swift in Sources */,
 				99AADE5018D93FC800521AEC /* FindHelpTableViewController.m in Sources */,
 				565B915F1C3B03060098D2DB /* ShelterSearchTableViewCell.swift in Sources */,
 				995C67C91C0A205900E69614 /* Shelter.swift in Sources */,
@@ -785,6 +809,7 @@
 				99A1502E19E4BA6A00C52F99 /* DVImmigrantsTableViewController.m in Sources */,
 				994AC8B11C585E810017E38D /* PevoStateInfo.swift in Sources */,
 				99E073F719C2442D00F8DA22 /* PPSponsorsTableViewController.m in Sources */,
+				994AC8BD1C624D3A0017E38D /* JournelEntries.swift in Sources */,
 				994AC8AF1C5856D60017E38D /* PevoDVInfo.swift in Sources */,
 				994AC8B31C585F3D0017E38D /* PevoInfo.swift in Sources */,
 				994AC8AD1C584F8B0017E38D /* PevoInfoTableViewController.swift in Sources */,
@@ -807,10 +832,13 @@
 				99AADE4518D93F5C00521AEC /* main.m in Sources */,
 				994AC8AB1C584E5A0017E38D /* StateInfoTableViewController.swift in Sources */,
 				994FC8FD1A16E46000DE1393 /* Sponsors.m in Sources */,
+				994AC8C11C6254100017E38D /* EntryListTableViewController.swift in Sources */,
+				994AC8C31C626EA10017E38D /* EntryDetailViewController.swift in Sources */,
 				99AADE4318D93F3F00521AEC /* TheLaw.m in Sources */,
 				99CA72EB1B4C716700FD16F6 /* SWRevealViewController.m in Sources */,
 				99AADE4218D93F3700521AEC /* DVDetailLawViewController.m in Sources */,
 				99AADE4118D93F3100521AEC /* DVLawTableViewController.m in Sources */,
+				994AC8BB1C624D150017E38D /* JournalEntry.swift in Sources */,
 				9949295C19D98C8B003872B8 /* StayingSafe.m in Sources */,
 				99AADE3918D93EE600521AEC /* SideBarTableViewController.m in Sources */,
 				99AADE3818D93EDD00521AEC /* PPMainViewController.m in Sources */,
@@ -945,11 +973,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/parse-library-1",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "The Purple PocketBook/The Purple PocketBook-Prefix.pch";
 				INFOPLIST_FILE = "The Purple PocketBook/The Purple PocketBook-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "";
@@ -1071,11 +1100,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/parse-library-1",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "The Purple PocketBook/The Purple PocketBook-Prefix.pch";
 				INFOPLIST_FILE = "The Purple PocketBook/The Purple PocketBook-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "";
@@ -1101,11 +1131,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/parse-library-1",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "The Purple PocketBook/The Purple PocketBook-Prefix.pch";
 				INFOPLIST_FILE = "The Purple PocketBook/The Purple PocketBook-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "";

@@ -369,7 +369,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s2t-tA-9VM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1766" y="626"/>
+            <point key="canvasLocation" x="-1234" y="626"/>
         </scene>
         <!--Sponsors View Controller-->
         <scene sceneID="Df3-8T-FnB">
@@ -414,7 +414,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IGC-g2-9zX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1323" y="626"/>
+            <point key="canvasLocation" x="-791" y="626"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Smj-xm-yGF">
@@ -442,7 +442,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hGy-AJ-pyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-883" y="626"/>
+            <point key="canvasLocation" x="-351" y="626"/>
         </scene>
         <!--Sidebar-->
         <scene sceneID="pHa-nr-kA6">
@@ -939,7 +939,11 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rgI-Jk-Tag">
                                 <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <items>
-                                    <barButtonItem systemItem="compose" id="E82-qd-74C"/>
+                                    <barButtonItem systemItem="compose" id="E82-qd-74C">
+                                        <connections>
+                                            <segue destination="CYE-K4-DJ2" kind="modal" id="6gd-GE-esp"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -975,6 +979,166 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cgz-IN-a3O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4900" y="-258"/>
+        </scene>
+        <!--Journal-->
+        <scene sceneID="jia-mv-JD4">
+            <objects>
+                <tableViewController id="3fd-no-qWO" customClass="EntryListTableViewController" customModule="Pevo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="136" sectionHeaderHeight="28" sectionFooterHeight="28" id="kdW-43-Apq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PevoJournalCell" rowHeight="136" id="ryV-zI-rzl" customClass="JournalEntryTableViewCell" customModule="Pevo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="320" height="136"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ryV-zI-rzl" id="8ZL-PS-Vaz">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="b8a-kY-ujv">
+                                            <rect key="frame" x="8" y="0.0" width="304" height="133"/>
+                                            <subviews>
+                                                <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="32l-FJ-Yxc">
+                                                    <rect key="frame" x="0.0" y="0.0" width="304" height="133"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TitleText" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cR-Kp-WGc">
+                                                            <rect key="frame" x="8" y="8" width="288" height="26"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BodyText" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flX-lv-mNF">
+                                                            <rect key="frame" x="8" y="42" width="288" height="43"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TimeStampText" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyr-Wg-I2a">
+                                                            <rect key="frame" x="8" y="99" width="288" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="leading" secondItem="b8a-kY-ujv" secondAttribute="leadingMargin" id="3Tv-bS-rhp"/>
+                                                <constraint firstAttribute="trailing" secondItem="32l-FJ-Yxc" secondAttribute="trailing" id="8p1-dL-Oqb"/>
+                                                <constraint firstAttribute="bottom" secondItem="32l-FJ-Yxc" secondAttribute="bottom" id="8qG-xP-Q3E"/>
+                                                <constraint firstAttribute="trailing" secondItem="32l-FJ-Yxc" secondAttribute="trailing" id="BaD-t9-tXR"/>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="top" secondItem="b8a-kY-ujv" secondAttribute="top" id="MxE-3X-dcC"/>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="trailing" secondItem="b8a-kY-ujv" secondAttribute="trailingMargin" id="NSf-R0-syp"/>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="leading" secondItem="b8a-kY-ujv" secondAttribute="leading" id="P6w-HR-PhS"/>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="top" secondItem="b8a-kY-ujv" secondAttribute="top" id="QHG-Qt-w4D"/>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="top" secondItem="b8a-kY-ujv" secondAttribute="topMargin" id="Qgf-KV-6Sm"/>
+                                                <constraint firstAttribute="bottom" secondItem="32l-FJ-Yxc" secondAttribute="bottom" id="RfJ-4f-1qb"/>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="top" secondItem="b8a-kY-ujv" secondAttribute="top" id="RpW-3C-DBm"/>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="leading" secondItem="b8a-kY-ujv" secondAttribute="leading" id="RwH-7g-Yn4"/>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="centerX" secondItem="b8a-kY-ujv" secondAttribute="centerX" id="Tz2-rl-DKf"/>
+                                                <constraint firstAttribute="bottom" secondItem="32l-FJ-Yxc" secondAttribute="bottom" id="YbS-lb-lZx"/>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="top" secondItem="b8a-kY-ujv" secondAttribute="top" id="fph-O8-SGo"/>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="bottom" secondItem="b8a-kY-ujv" secondAttribute="bottomMargin" id="iKI-mn-TE4"/>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="leading" secondItem="b8a-kY-ujv" secondAttribute="leading" id="kjI-CC-WE7"/>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="leading" secondItem="b8a-kY-ujv" secondAttribute="leading" id="tL3-75-HwH"/>
+                                                <constraint firstItem="32l-FJ-Yxc" firstAttribute="centerY" secondItem="b8a-kY-ujv" secondAttribute="centerY" id="vKa-aG-gZ3"/>
+                                                <constraint firstAttribute="trailing" secondItem="32l-FJ-Yxc" secondAttribute="trailing" id="zgW-Vf-rXs"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="b8a-kY-ujv" secondAttribute="bottom" constant="-6" id="LI5-AH-jIa"/>
+                                        <constraint firstItem="b8a-kY-ujv" firstAttribute="trailing" secondItem="8ZL-PS-Vaz" secondAttribute="trailingMargin" id="bi2-o3-DRJ"/>
+                                        <constraint firstItem="b8a-kY-ujv" firstAttribute="leading" secondItem="8ZL-PS-Vaz" secondAttribute="leadingMargin" id="eBw-ck-wiL"/>
+                                        <constraint firstItem="b8a-kY-ujv" firstAttribute="top" secondItem="8ZL-PS-Vaz" secondAttribute="top" id="zbr-H5-2ph"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="BodyTextLabel" destination="flX-lv-mNF" id="WEf-1I-gWS"/>
+                                    <outlet property="TimeStampLabel" destination="hyr-Wg-I2a" id="7f6-iC-aGK"/>
+                                    <outlet property="TitleTextLabel" destination="0cR-Kp-WGc" id="uxn-j5-aiY"/>
+                                    <segue destination="aj7-pd-Eny" kind="push" identifier="EntryDetail" id="xJd-OL-bvo"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="3fd-no-qWO" id="Z6Q-e4-NDi"/>
+                            <outlet property="delegate" destination="3fd-no-qWO" id="nIp-WZ-rn9"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Journal" id="E1p-5g-VNh">
+                        <barButtonItem key="leftBarButtonItem" title="edit" id="0uX-yr-a2F">
+                            <connections>
+                                <action selector="editButton:" destination="3fd-no-qWO" id="JF4-0K-oee"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="fjW-8Y-3yA">
+                            <connections>
+                                <segue destination="aj7-pd-Eny" kind="push" identifier="NewEntry" id="01h-H5-DEo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="EntryListTableView" destination="kdW-43-Apq" id="4jX-Tz-Rrn"/>
+                        <outlet property="editButton" destination="0uX-yr-a2F" id="Gj8-FE-3G3"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1HK-Mw-qfl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4524" y="489"/>
+        </scene>
+        <!--Entry Detail View Controller-->
+        <scene sceneID="GhM-Um-gJF">
+            <objects>
+                <viewController id="aj7-pd-Eny" customClass="EntryDetailViewController" customModule="Pevo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gse-rB-H4h"/>
+                        <viewControllerLayoutGuide type="bottom" id="i3F-ry-bP5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0a9-9G-vTX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="EntryTitle" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xS3-FA-Uzf">
+                                <rect key="frame" x="20" y="96" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" placeholder="Entry Body Text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UVc-KL-ptm" userLabel="JournalTextField">
+                                <rect key="frame" x="20" y="146" width="280" height="200"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iyX-po-nsf">
+                                <rect key="frame" x="20" y="354" width="107" height="103"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNT-18-xKU">
+                                <rect key="frame" x="137" y="500" width="46" height="30"/>
+                                <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="ClearButton:" destination="aj7-pd-Eny" eventType="touchUpInside" id="Yql-mi-XsW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="R8H-EG-AKL">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="seN-fF-pBx">
+                            <connections>
+                                <action selector="SaveButton:" destination="aj7-pd-Eny" id="tPh-4V-tWq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="DetailTextField" destination="xS3-FA-Uzf" id="AZs-ff-vCd"/>
+                        <outlet property="EntryDetailTextField" destination="UVc-KL-ptm" id="6z8-gc-lTJ"/>
+                        <outlet property="SaveButton" destination="seN-fF-pBx" id="r9B-0I-85Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LtE-OI-DiG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4110" y="489"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="Syj-V6-uj0">
@@ -1046,7 +1210,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rwb-PM-b3f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1460" y="-61"/>
+            <point key="canvasLocation" x="-928" y="-61"/>
         </scene>
         <!--Staying Safe View Controller-->
         <scene sceneID="WRF-cf-Q4U">
@@ -1124,7 +1288,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZW7-CX-sxo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1072" y="-61"/>
+            <point key="canvasLocation" x="-540" y="-61"/>
         </scene>
         <!--Technology-->
         <scene sceneID="82k-Ws-hg5">
@@ -1167,7 +1331,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5zj-qS-BJT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="231" y="682"/>
+            <point key="canvasLocation" x="763" y="682"/>
         </scene>
         <!--Finding Help-->
         <scene sceneID="ZIO-EU-qeg">
@@ -1291,7 +1455,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dhv-A1-8b6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1938" y="-73"/>
+            <point key="canvasLocation" x="-1406" y="-73"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PqE-FS-ttM">
@@ -1309,7 +1473,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yCK-cX-Sh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-146" y="682"/>
+            <point key="canvasLocation" x="386" y="682"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="puX-pq-INl">
@@ -1345,7 +1509,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cle-Nr-7Pp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2196" y="576"/>
+            <point key="canvasLocation" x="-1664" y="576"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="C1B-xf-ZMp">
@@ -1828,7 +1992,7 @@ The app for iPhone has been completed and released last May 2014 and now, the de
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oT7-od-cDG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="614" y="682"/>
+            <point key="canvasLocation" x="1146" y="682"/>
         </scene>
         <!--Detail Law View Controller-->
         <scene sceneID="yzS-tq-os8">
@@ -2179,6 +2343,25 @@ The app for iPhone has been completed and released last May 2014 and now, the de
             </objects>
             <point key="canvasLocation" x="-5535" y="1152"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gvA-IK-hZP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CYE-K4-DJ2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="BcN-hq-KMS"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IjD-JJ-EgJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3fd-no-qWO" kind="relationship" relationship="rootViewController" id="coW-l6-CIO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2tN-zs-YdS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4900" y="489"/>
+        </scene>
     </scenes>
     <resources>
         <image name="menu.png" width="28" height="20"/>
@@ -2186,5 +2369,6 @@ The app for iPhone has been completed and released last May 2014 and now, the de
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="moY-CC-fMh"/>
+        <segue reference="xJd-OL-bvo"/>
     </inferredMetricsTieBreakers>
 </document>
