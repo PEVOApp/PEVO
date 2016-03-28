@@ -8,11 +8,10 @@
 
 #import "PPMainViewController.h"
 #import "SWRevealViewController.h"
-#import <MessageUI/MessageUI.h>
 
 
 
-@interface PPMainViewController ()<MFMessageComposeViewControllerDelegate>
+@interface PPMainViewController ()
 
 @end
 
@@ -25,80 +24,6 @@
         // Custom initialization
     }
     return self;
-}
-
-- (BOOL)canBecomeFirstResponder
-{
-    return YES;
-}
-
-
-- (void)motionBegan:(UIEventSubtype)motion
-          withEvent:(UIEvent *)event {
-    
-    
-    if(event.type == UIEventSubtypeMotionShake)
-    {
-        NSLog(@"shake started");
-        [self showSMS];
-    }
-    
-}
-
-- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
-{
-    
-    if(event.type == UIEventSubtypeMotionShake)
-    {
-        NSLog(@"shake finish");
-    }
-
-}
-
--(void)messageComposeViewController:(MFMessageComposeViewController *)controller didFinishWithResult:(MessageComposeResult) result
-{
-    switch (result) {
-        case MessageComposeResultCancelled:
-            break;
-            
-        case MessageComposeResultFailed:
-        {
-            UIAlertView *warningAlert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Failed to send SMS!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-            [warningAlert show];
-            break;
-        }
-            
-        case MessageComposeResultSent:
-            break;
-            
-        default:
-            break;
-   }
-
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
-
-
-//PULLED THIS CODE FROM :http://www.appcoda.com/ios-programming-send-sms-text-message/
-
--(void)showSMS {
-    
-    if(![MFMessageComposeViewController canSendText]) {
-        UIAlertView *warningAlert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Your device doesn't support SMS!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [warningAlert show];
-        return;
-    }
-    
-    NSArray *recipents = @[@"555-555-5555"];
-  
-
-    MFMessageComposeViewController *messageController = [[MFMessageComposeViewController alloc] init];
-    messageController.messageComposeDelegate = self;
-    [messageController setRecipients:recipents];
-    [messageController setBody:@"Contact Me ASAP"];
-    
-     //Present message view controller on screen
-    [self presentViewController:messageController animated:YES completion:nil];
 }
 
 - (void)viewDidLoad

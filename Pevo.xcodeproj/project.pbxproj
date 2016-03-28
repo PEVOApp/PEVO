@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		565B915F1C3B03060098D2DB /* ShelterSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565B915E1C3B03060098D2DB /* ShelterSearchTableViewCell.swift */; };
+		990A74551CA549CB007C5207 /* JournalItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990A74541CA549CB007C5207 /* JournalItem.swift */; };
+		992701CE1C66CD480006765D /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992701CD1C66CD480006765D /* PhotoViewController.swift */; };
+		992701D01C66E70E0006765D /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992701CF1C66E70E0006765D /* Photos.framework */; };
+		992701D21C690F620006765D /* PhotoThumbnailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992701D11C690F620006765D /* PhotoThumbnailCollectionViewCell.swift */; };
 		992A816C19AD2984002BE8AB /* PPQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 992A816B19AD2984002BE8AB /* PPQuizViewController.m */; };
 		992EF04319A19B4F005E6E08 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 992EF04519A19B4F005E6E08 /* Localizable.strings */; };
 		993B5CC51C10B1C400AEC0AF /* ShelterSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993B5CC41C10B1C400AEC0AF /* ShelterSearchViewController.swift */; };
@@ -100,6 +104,8 @@
 		99D5F6FA1B8BA6E6007FB316 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5F6F91B8BA6E6007FB316 /* Calculator.swift */; };
 		99E073F719C2442D00F8DA22 /* PPSponsorsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E073F619C2442D00F8DA22 /* PPSponsorsTableViewController.m */; };
 		99EF41A018895F07004A148F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99EF419F18895F07004A148F /* MapKit.framework */; };
+		99F09FCB1CA5A3A40056B994 /* Realm.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 994AC8B61C6030AF0017E38D /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		99F09FCC1CA5A3A40056B994 /* RealmSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 994AC8B71C6030AF0017E38D /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		99F208D7189A7E50003DDE7E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F208D6189A7E4F003DDE7E /* CoreLocation.framework */; };
 		99F4FF511B86900D0016F4B1 /* GeorgiaPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99F4FF501B86900D0016F4B1 /* GeorgiaPList.plist */; };
 /* End PBXBuildFile section */
@@ -114,8 +120,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		99F09F371CA5A22A0056B994 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				99F09FCB1CA5A3A40056B994 /* Realm.framework in CopyFiles */,
+				99F09FCC1CA5A3A40056B994 /* RealmSwift.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		565B915E1C3B03060098D2DB /* ShelterSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShelterSearchTableViewCell.swift; sourceTree = "<group>"; };
+		990A74541CA549CB007C5207 /* JournalItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalItem.swift; sourceTree = "<group>"; };
+		992701CD1C66CD480006765D /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		992701CF1C66E70E0006765D /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		992701D11C690F620006765D /* PhotoThumbnailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoThumbnailCollectionViewCell.swift; sourceTree = "<group>"; };
 		992A816A19AD2984002BE8AB /* PPQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PPQuizViewController.h; path = "the purple pocketbook/PPQuizViewController.h"; sourceTree = SOURCE_ROOT; };
 		992A816B19AD2984002BE8AB /* PPQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PPQuizViewController.m; path = "the purple pocketbook/PPQuizViewController.m"; sourceTree = SOURCE_ROOT; };
 		992EF04419A19B4F005E6E08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -254,6 +278,149 @@
 		99EF4191188829EE004A148F /* PPSuccessStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSuccessStoryViewController.h; sourceTree = "<group>"; };
 		99EF4192188829EE004A148F /* PPSuccessStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSuccessStoryViewController.m; sourceTree = "<group>"; };
 		99EF419F18895F07004A148F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		99F09F3A1CA5A37D0056B994 /* alloc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = alloc.hpp; sourceTree = "<group>"; };
+		99F09F3B1CA5A37D0056B994 /* alloc_slab.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = alloc_slab.hpp; sourceTree = "<group>"; };
+		99F09F3C1CA5A37D0056B994 /* array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = array.hpp; sourceTree = "<group>"; };
+		99F09F3D1CA5A37D0056B994 /* array_basic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = array_basic.hpp; sourceTree = "<group>"; };
+		99F09F3E1CA5A37D0056B994 /* array_basic_tpl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = array_basic_tpl.hpp; sourceTree = "<group>"; };
+		99F09F3F1CA5A37D0056B994 /* array_binary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = array_binary.hpp; sourceTree = "<group>"; };
+		99F09F401CA5A37D0056B994 /* array_blob.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = array_blob.hpp; sourceTree = "<group>"; };
+		99F09F411CA5A37D0056B994 /* array_blobs_big.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = array_blobs_big.hpp; sourceTree = "<group>"; };
+		99F09F421CA5A37D0056B994 /* array_integer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = array_integer.hpp; sourceTree = "<group>"; };
+		99F09F431CA5A37D0056B994 /* array_string.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = array_string.hpp; sourceTree = "<group>"; };
+		99F09F441CA5A37D0056B994 /* array_string_long.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = array_string_long.hpp; sourceTree = "<group>"; };
+		99F09F451CA5A37D0056B994 /* binary_data.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = binary_data.hpp; sourceTree = "<group>"; };
+		99F09F461CA5A37D0056B994 /* bptree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = bptree.hpp; sourceTree = "<group>"; };
+		99F09F471CA5A37D0056B994 /* column.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column.hpp; sourceTree = "<group>"; };
+		99F09F481CA5A37D0056B994 /* column_backlink.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_backlink.hpp; sourceTree = "<group>"; };
+		99F09F491CA5A37D0056B994 /* column_basic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_basic.hpp; sourceTree = "<group>"; };
+		99F09F4A1CA5A37D0056B994 /* column_basic_tpl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_basic_tpl.hpp; sourceTree = "<group>"; };
+		99F09F4B1CA5A37D0056B994 /* column_binary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_binary.hpp; sourceTree = "<group>"; };
+		99F09F4C1CA5A37D0056B994 /* column_fwd.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_fwd.hpp; sourceTree = "<group>"; };
+		99F09F4D1CA5A37D0056B994 /* column_link.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_link.hpp; sourceTree = "<group>"; };
+		99F09F4E1CA5A37D0056B994 /* column_linkbase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_linkbase.hpp; sourceTree = "<group>"; };
+		99F09F4F1CA5A37D0056B994 /* column_linklist.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_linklist.hpp; sourceTree = "<group>"; };
+		99F09F501CA5A37D0056B994 /* column_mixed.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_mixed.hpp; sourceTree = "<group>"; };
+		99F09F511CA5A37D0056B994 /* column_mixed_tpl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_mixed_tpl.hpp; sourceTree = "<group>"; };
+		99F09F521CA5A37D0056B994 /* column_string.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_string.hpp; sourceTree = "<group>"; };
+		99F09F531CA5A37D0056B994 /* column_string_enum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_string_enum.hpp; sourceTree = "<group>"; };
+		99F09F541CA5A37D0056B994 /* column_table.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_table.hpp; sourceTree = "<group>"; };
+		99F09F551CA5A37D0056B994 /* column_tpl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_tpl.hpp; sourceTree = "<group>"; };
+		99F09F561CA5A37D0056B994 /* column_type.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = column_type.hpp; sourceTree = "<group>"; };
+		99F09F571CA5A37D0056B994 /* commit_log.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = commit_log.hpp; sourceTree = "<group>"; };
+		99F09F581CA5A37D0056B994 /* data_type.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = data_type.hpp; sourceTree = "<group>"; };
+		99F09F591CA5A37D0056B994 /* datetime.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = datetime.hpp; sourceTree = "<group>"; };
+		99F09F5A1CA5A37D0056B994 /* descriptor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = descriptor.hpp; sourceTree = "<group>"; };
+		99F09F5B1CA5A37D0056B994 /* descriptor_fwd.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = descriptor_fwd.hpp; sourceTree = "<group>"; };
+		99F09F5C1CA5A37D0056B994 /* disable_sync_to_disk.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = disable_sync_to_disk.hpp; sourceTree = "<group>"; };
+		99F09F5D1CA5A37D0056B994 /* exceptions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = exceptions.hpp; sourceTree = "<group>"; };
+		99F09F5E1CA5A37D0056B994 /* group.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = group.hpp; sourceTree = "<group>"; };
+		99F09F5F1CA5A37D0056B994 /* group_shared.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = group_shared.hpp; sourceTree = "<group>"; };
+		99F09F601CA5A37D0056B994 /* group_writer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = group_writer.hpp; sourceTree = "<group>"; };
+		99F09F611CA5A37D0056B994 /* handover_defs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = handover_defs.hpp; sourceTree = "<group>"; };
+		99F09F621CA5A37D0056B994 /* history.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = history.hpp; sourceTree = "<group>"; };
+		99F09F641CA5A37D0056B994 /* array_writer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = array_writer.hpp; sourceTree = "<group>"; };
+		99F09F651CA5A37D0056B994 /* destroy_guard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = destroy_guard.hpp; sourceTree = "<group>"; };
+		99F09F661CA5A37D0056B994 /* input_stream.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = input_stream.hpp; sourceTree = "<group>"; };
+		99F09F671CA5A37D0056B994 /* output_stream.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = output_stream.hpp; sourceTree = "<group>"; };
+		99F09F681CA5A37D0056B994 /* simulated_failure.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = simulated_failure.hpp; sourceTree = "<group>"; };
+		99F09F691CA5A37D0056B994 /* transact_log.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = transact_log.hpp; sourceTree = "<group>"; };
+		99F09F6A1CA5A37D0056B994 /* importer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = importer.hpp; sourceTree = "<group>"; };
+		99F09F6B1CA5A37D0056B994 /* index_string.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = index_string.hpp; sourceTree = "<group>"; };
+		99F09F6C1CA5A37D0056B994 /* lang_bind_helper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lang_bind_helper.hpp; sourceTree = "<group>"; };
+		99F09F6D1CA5A37D0056B994 /* link_view.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = link_view.hpp; sourceTree = "<group>"; };
+		99F09F6E1CA5A37D0056B994 /* link_view_fwd.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = link_view_fwd.hpp; sourceTree = "<group>"; };
+		99F09F6F1CA5A37D0056B994 /* mixed.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mixed.hpp; sourceTree = "<group>"; };
+		99F09F701CA5A37D0056B994 /* object_schema.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = object_schema.hpp; sourceTree = "<group>"; };
+		99F09F711CA5A37D0056B994 /* object_store.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = object_store.hpp; sourceTree = "<group>"; };
+		99F09F721CA5A37D0056B994 /* object_store_exceptions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = object_store_exceptions.hpp; sourceTree = "<group>"; };
+		99F09F731CA5A37D0056B994 /* property.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = property.hpp; sourceTree = "<group>"; };
+		99F09F741CA5A37D0056B994 /* query.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = query.hpp; sourceTree = "<group>"; };
+		99F09F751CA5A37D0056B994 /* query_conditions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = query_conditions.hpp; sourceTree = "<group>"; };
+		99F09F761CA5A37D0056B994 /* query_engine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = query_engine.hpp; sourceTree = "<group>"; };
+		99F09F771CA5A37D0056B994 /* query_expression.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = query_expression.hpp; sourceTree = "<group>"; };
+		99F09F781CA5A37D0056B994 /* Realm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Realm.h; sourceTree = "<group>"; };
+		99F09F791CA5A37D0056B994 /* realm_nmmintrin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = realm_nmmintrin.h; sourceTree = "<group>"; };
+		99F09F7A1CA5A37D0056B994 /* replication.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = replication.hpp; sourceTree = "<group>"; };
+		99F09F7B1CA5A37D0056B994 /* RLMAccessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMAccessor.h; sourceTree = "<group>"; };
+		99F09F7C1CA5A37D0056B994 /* RLMAnalytics.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RLMAnalytics.hpp; sourceTree = "<group>"; };
+		99F09F7D1CA5A37D0056B994 /* RLMArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMArray.h; sourceTree = "<group>"; };
+		99F09F7E1CA5A37D0056B994 /* RLMArray_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMArray_Private.h; sourceTree = "<group>"; };
+		99F09F7F1CA5A37D0056B994 /* RLMArray_Private.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RLMArray_Private.hpp; sourceTree = "<group>"; };
+		99F09F801CA5A37D0056B994 /* RLMCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMCollection.h; sourceTree = "<group>"; };
+		99F09F811CA5A37D0056B994 /* RLMConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMConstants.h; sourceTree = "<group>"; };
+		99F09F821CA5A37D0056B994 /* RLMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMDefines.h; sourceTree = "<group>"; };
+		99F09F831CA5A37D0056B994 /* RLMListBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMListBase.h; sourceTree = "<group>"; };
+		99F09F841CA5A37D0056B994 /* RLMMigration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMMigration.h; sourceTree = "<group>"; };
+		99F09F851CA5A37D0056B994 /* RLMMigration_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMMigration_Private.h; sourceTree = "<group>"; };
+		99F09F861CA5A37D0056B994 /* RLMObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMObject.h; sourceTree = "<group>"; };
+		99F09F871CA5A37D0056B994 /* RLMObject_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMObject_Private.h; sourceTree = "<group>"; };
+		99F09F881CA5A37D0056B994 /* RLMObject_Private.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RLMObject_Private.hpp; sourceTree = "<group>"; };
+		99F09F891CA5A37D0056B994 /* RLMObjectBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMObjectBase.h; sourceTree = "<group>"; };
+		99F09F8A1CA5A37D0056B994 /* RLMObjectBase_Dynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMObjectBase_Dynamic.h; sourceTree = "<group>"; };
+		99F09F8B1CA5A37D0056B994 /* RLMObjectSchema.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMObjectSchema.h; sourceTree = "<group>"; };
+		99F09F8C1CA5A37D0056B994 /* RLMObjectSchema_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMObjectSchema_Private.h; sourceTree = "<group>"; };
+		99F09F8D1CA5A37D0056B994 /* RLMObjectSchema_Private.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RLMObjectSchema_Private.hpp; sourceTree = "<group>"; };
+		99F09F8E1CA5A37D0056B994 /* RLMObjectStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMObjectStore.h; sourceTree = "<group>"; };
+		99F09F8F1CA5A37D0056B994 /* RLMObservation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RLMObservation.hpp; sourceTree = "<group>"; };
+		99F09F901CA5A37D0056B994 /* RLMPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMPlatform.h; sourceTree = "<group>"; };
+		99F09F911CA5A37D0056B994 /* RLMPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMPrefix.h; sourceTree = "<group>"; };
+		99F09F921CA5A37D0056B994 /* RLMProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMProperty.h; sourceTree = "<group>"; };
+		99F09F931CA5A37D0056B994 /* RLMProperty_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMProperty_Private.h; sourceTree = "<group>"; };
+		99F09F941CA5A37D0056B994 /* RLMQueryUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RLMQueryUtil.hpp; sourceTree = "<group>"; };
+		99F09F951CA5A37D0056B994 /* RLMRealm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMRealm.h; sourceTree = "<group>"; };
+		99F09F961CA5A37D0056B994 /* RLMRealm_Dynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMRealm_Dynamic.h; sourceTree = "<group>"; };
+		99F09F971CA5A37D0056B994 /* RLMRealm_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMRealm_Private.h; sourceTree = "<group>"; };
+		99F09F981CA5A37D0056B994 /* RLMRealm_Private.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RLMRealm_Private.hpp; sourceTree = "<group>"; };
+		99F09F991CA5A37D0056B994 /* RLMRealmConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMRealmConfiguration.h; sourceTree = "<group>"; };
+		99F09F9A1CA5A37D0056B994 /* RLMRealmConfiguration_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMRealmConfiguration_Private.h; sourceTree = "<group>"; };
+		99F09F9B1CA5A37D0056B994 /* RLMRealmUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMRealmUtil.h; sourceTree = "<group>"; };
+		99F09F9C1CA5A37D0056B994 /* RLMResults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMResults.h; sourceTree = "<group>"; };
+		99F09F9D1CA5A37D0056B994 /* RLMResults_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMResults_Private.h; sourceTree = "<group>"; };
+		99F09F9E1CA5A37D0056B994 /* RLMSchema.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMSchema.h; sourceTree = "<group>"; };
+		99F09F9F1CA5A37D0056B994 /* RLMSchema_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMSchema_Private.h; sourceTree = "<group>"; };
+		99F09FA01CA5A37D0056B994 /* RLMSwiftBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMSwiftBridgingHeader.h; sourceTree = "<group>"; };
+		99F09FA11CA5A37D0056B994 /* RLMSwiftSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RLMSwiftSupport.h; sourceTree = "<group>"; };
+		99F09FA21CA5A37D0056B994 /* RLMUpdateChecker.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RLMUpdateChecker.hpp; sourceTree = "<group>"; };
+		99F09FA31CA5A37D0056B994 /* RLMUtil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RLMUtil.hpp; sourceTree = "<group>"; };
+		99F09FA41CA5A37D0056B994 /* row.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = row.hpp; sourceTree = "<group>"; };
+		99F09FA51CA5A37D0056B994 /* spec.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = spec.hpp; sourceTree = "<group>"; };
+		99F09FA61CA5A37D0056B994 /* string_data.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = string_data.hpp; sourceTree = "<group>"; };
+		99F09FA71CA5A37D0056B994 /* table.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = table.hpp; sourceTree = "<group>"; };
+		99F09FA81CA5A37D0056B994 /* table_accessors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = table_accessors.hpp; sourceTree = "<group>"; };
+		99F09FA91CA5A37D0056B994 /* table_basic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = table_basic.hpp; sourceTree = "<group>"; };
+		99F09FAA1CA5A37D0056B994 /* table_basic_fwd.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = table_basic_fwd.hpp; sourceTree = "<group>"; };
+		99F09FAB1CA5A37D0056B994 /* table_macros.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = table_macros.hpp; sourceTree = "<group>"; };
+		99F09FAC1CA5A37D0056B994 /* table_ref.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = table_ref.hpp; sourceTree = "<group>"; };
+		99F09FAD1CA5A37D0056B994 /* table_view.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = table_view.hpp; sourceTree = "<group>"; };
+		99F09FAE1CA5A37D0056B994 /* table_view_basic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = table_view_basic.hpp; sourceTree = "<group>"; };
+		99F09FAF1CA5A37D0056B994 /* unicode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = unicode.hpp; sourceTree = "<group>"; };
+		99F09FB11CA5A37D0056B994 /* assert.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = assert.hpp; sourceTree = "<group>"; };
+		99F09FB21CA5A37D0056B994 /* basic_system_errors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = basic_system_errors.hpp; sourceTree = "<group>"; };
+		99F09FB31CA5A37D0056B994 /* bind_ptr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = bind_ptr.hpp; sourceTree = "<group>"; };
+		99F09FB41CA5A37D0056B994 /* buffer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = buffer.hpp; sourceTree = "<group>"; };
+		99F09FB51CA5A37D0056B994 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		99F09FB61CA5A37D0056B994 /* features.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = features.h; sourceTree = "<group>"; };
+		99F09FB71CA5A37D0056B994 /* file.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = file.hpp; sourceTree = "<group>"; };
+		99F09FB81CA5A37D0056B994 /* logger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = logger.hpp; sourceTree = "<group>"; };
+		99F09FB91CA5A37D0056B994 /* memory_stream.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = memory_stream.hpp; sourceTree = "<group>"; };
+		99F09FBA1CA5A37D0056B994 /* meta.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = meta.hpp; sourceTree = "<group>"; };
+		99F09FBB1CA5A37D0056B994 /* misc_errors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = misc_errors.hpp; sourceTree = "<group>"; };
+		99F09FBC1CA5A37D0056B994 /* network.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = network.hpp; sourceTree = "<group>"; };
+		99F09FBD1CA5A37D0056B994 /* platform_specific_condvar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = platform_specific_condvar.hpp; sourceTree = "<group>"; };
+		99F09FBE1CA5A37D0056B994 /* safe_int_ops.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = safe_int_ops.hpp; sourceTree = "<group>"; };
+		99F09FBF1CA5A37D0056B994 /* shared_ptr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = shared_ptr.hpp; sourceTree = "<group>"; };
+		99F09FC01CA5A37D0056B994 /* string_buffer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = string_buffer.hpp; sourceTree = "<group>"; };
+		99F09FC11CA5A37D0056B994 /* terminate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = terminate.hpp; sourceTree = "<group>"; };
+		99F09FC21CA5A37D0056B994 /* thread.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = thread.hpp; sourceTree = "<group>"; };
+		99F09FC31CA5A37D0056B994 /* tuple.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tuple.hpp; sourceTree = "<group>"; };
+		99F09FC41CA5A37D0056B994 /* type_list.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = type_list.hpp; sourceTree = "<group>"; };
+		99F09FC51CA5A37D0056B994 /* type_traits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = type_traits.hpp; sourceTree = "<group>"; };
+		99F09FC61CA5A37D0056B994 /* utf8.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = utf8.hpp; sourceTree = "<group>"; };
+		99F09FC71CA5A37D0056B994 /* utilities.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = utilities.hpp; sourceTree = "<group>"; };
+		99F09FC81CA5A37D0056B994 /* version.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = version.hpp; sourceTree = "<group>"; };
+		99F09FC91CA5A37D0056B994 /* views.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = views.hpp; sourceTree = "<group>"; };
+		99F09FCA1CA5A37D0056B994 /* realm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = realm.hpp; sourceTree = "<group>"; };
 		99F208D6189A7E4F003DDE7E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		99F2D0E5188F5CFD00BCB3F3 /* DVTechologyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTechologyTableViewController.h; sourceTree = "<group>"; };
 		99F2D0E6188F5CFD00BCB3F3 /* DVTechologyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVTechologyTableViewController.m; sourceTree = "<group>"; };
@@ -276,6 +443,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				992701D01C66E70E0006765D /* Photos.framework in Frameworks */,
 				99C244271C3488D700FCFCB9 /* libsqlite3.tbd in Frameworks */,
 				99C244251C3488C300FCFCB9 /* libz.tbd in Frameworks */,
 				99C244231C3488B800FCFCB9 /* SystemConfiguration.framework in Frameworks */,
@@ -317,6 +485,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		990A74531CA548AC007C5207 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				990A74541CA549CB007C5207 /* JournalItem.swift */,
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
 		990E1F4318D37E780076687B /* Shelter Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,6 +564,7 @@
 		9956215C188486CA00541044 = {
 			isa = PBXGroup;
 			children = (
+				99F09F381CA5A37D0056B994 /* Realm */,
 				9956216E188486CA00541044 /* Pevo */,
 				9956218D188486CB00541044 /* The Purple PocketBookTests */,
 				99562167188486CA00541044 /* Frameworks */,
@@ -407,6 +584,7 @@
 		99562167188486CA00541044 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				992701CF1C66E70E0006765D /* Photos.framework */,
 				99C244261C3488D700FCFCB9 /* libsqlite3.tbd */,
 				99C244241C3488C300FCFCB9 /* libz.tbd */,
 				994AC8B61C6030AF0017E38D /* Realm.framework */,
@@ -440,6 +618,7 @@
 				99562178188486CA00541044 /* PPAppDelegate.m */,
 				99492023199D2B5300D77982 /* Main.storyboard */,
 				99562180188486CB00541044 /* Images.xcassets */,
+				990A74531CA548AC007C5207 /* Realm */,
 				99C244281C348A2A00FCFCB9 /* Pevo Journal */,
 				99ADB5961B5A823600A29A53 /* PevoPList */,
 				99C1962418AC8C8F002BF343 /* PPMain */,
@@ -605,6 +784,8 @@
 				994AC8BE1C624DA50017E38D /* JournalEntryTableViewCell.swift */,
 				994AC8C01C6254100017E38D /* EntryListTableViewController.swift */,
 				994AC8C21C626EA10017E38D /* EntryDetailViewController.swift */,
+				992701CD1C66CD480006765D /* PhotoViewController.swift */,
+				992701D11C690F620006765D /* PhotoThumbnailCollectionViewCell.swift */,
 			);
 			name = "Pevo Journal";
 			sourceTree = "<group>";
@@ -655,6 +836,180 @@
 			name = Quiz;
 			sourceTree = "<group>";
 		};
+		99F09F381CA5A37D0056B994 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				99F09F391CA5A37D0056B994 /* realm */,
+				99F09FCA1CA5A37D0056B994 /* realm.hpp */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		99F09F391CA5A37D0056B994 /* realm */ = {
+			isa = PBXGroup;
+			children = (
+				99F09F3A1CA5A37D0056B994 /* alloc.hpp */,
+				99F09F3B1CA5A37D0056B994 /* alloc_slab.hpp */,
+				99F09F3C1CA5A37D0056B994 /* array.hpp */,
+				99F09F3D1CA5A37D0056B994 /* array_basic.hpp */,
+				99F09F3E1CA5A37D0056B994 /* array_basic_tpl.hpp */,
+				99F09F3F1CA5A37D0056B994 /* array_binary.hpp */,
+				99F09F401CA5A37D0056B994 /* array_blob.hpp */,
+				99F09F411CA5A37D0056B994 /* array_blobs_big.hpp */,
+				99F09F421CA5A37D0056B994 /* array_integer.hpp */,
+				99F09F431CA5A37D0056B994 /* array_string.hpp */,
+				99F09F441CA5A37D0056B994 /* array_string_long.hpp */,
+				99F09F451CA5A37D0056B994 /* binary_data.hpp */,
+				99F09F461CA5A37D0056B994 /* bptree.hpp */,
+				99F09F471CA5A37D0056B994 /* column.hpp */,
+				99F09F481CA5A37D0056B994 /* column_backlink.hpp */,
+				99F09F491CA5A37D0056B994 /* column_basic.hpp */,
+				99F09F4A1CA5A37D0056B994 /* column_basic_tpl.hpp */,
+				99F09F4B1CA5A37D0056B994 /* column_binary.hpp */,
+				99F09F4C1CA5A37D0056B994 /* column_fwd.hpp */,
+				99F09F4D1CA5A37D0056B994 /* column_link.hpp */,
+				99F09F4E1CA5A37D0056B994 /* column_linkbase.hpp */,
+				99F09F4F1CA5A37D0056B994 /* column_linklist.hpp */,
+				99F09F501CA5A37D0056B994 /* column_mixed.hpp */,
+				99F09F511CA5A37D0056B994 /* column_mixed_tpl.hpp */,
+				99F09F521CA5A37D0056B994 /* column_string.hpp */,
+				99F09F531CA5A37D0056B994 /* column_string_enum.hpp */,
+				99F09F541CA5A37D0056B994 /* column_table.hpp */,
+				99F09F551CA5A37D0056B994 /* column_tpl.hpp */,
+				99F09F561CA5A37D0056B994 /* column_type.hpp */,
+				99F09F571CA5A37D0056B994 /* commit_log.hpp */,
+				99F09F581CA5A37D0056B994 /* data_type.hpp */,
+				99F09F591CA5A37D0056B994 /* datetime.hpp */,
+				99F09F5A1CA5A37D0056B994 /* descriptor.hpp */,
+				99F09F5B1CA5A37D0056B994 /* descriptor_fwd.hpp */,
+				99F09F5C1CA5A37D0056B994 /* disable_sync_to_disk.hpp */,
+				99F09F5D1CA5A37D0056B994 /* exceptions.hpp */,
+				99F09F5E1CA5A37D0056B994 /* group.hpp */,
+				99F09F5F1CA5A37D0056B994 /* group_shared.hpp */,
+				99F09F601CA5A37D0056B994 /* group_writer.hpp */,
+				99F09F611CA5A37D0056B994 /* handover_defs.hpp */,
+				99F09F621CA5A37D0056B994 /* history.hpp */,
+				99F09F631CA5A37D0056B994 /* impl */,
+				99F09F6A1CA5A37D0056B994 /* importer.hpp */,
+				99F09F6B1CA5A37D0056B994 /* index_string.hpp */,
+				99F09F6C1CA5A37D0056B994 /* lang_bind_helper.hpp */,
+				99F09F6D1CA5A37D0056B994 /* link_view.hpp */,
+				99F09F6E1CA5A37D0056B994 /* link_view_fwd.hpp */,
+				99F09F6F1CA5A37D0056B994 /* mixed.hpp */,
+				99F09F701CA5A37D0056B994 /* object_schema.hpp */,
+				99F09F711CA5A37D0056B994 /* object_store.hpp */,
+				99F09F721CA5A37D0056B994 /* object_store_exceptions.hpp */,
+				99F09F731CA5A37D0056B994 /* property.hpp */,
+				99F09F741CA5A37D0056B994 /* query.hpp */,
+				99F09F751CA5A37D0056B994 /* query_conditions.hpp */,
+				99F09F761CA5A37D0056B994 /* query_engine.hpp */,
+				99F09F771CA5A37D0056B994 /* query_expression.hpp */,
+				99F09F781CA5A37D0056B994 /* Realm.h */,
+				99F09F791CA5A37D0056B994 /* realm_nmmintrin.h */,
+				99F09F7A1CA5A37D0056B994 /* replication.hpp */,
+				99F09F7B1CA5A37D0056B994 /* RLMAccessor.h */,
+				99F09F7C1CA5A37D0056B994 /* RLMAnalytics.hpp */,
+				99F09F7D1CA5A37D0056B994 /* RLMArray.h */,
+				99F09F7E1CA5A37D0056B994 /* RLMArray_Private.h */,
+				99F09F7F1CA5A37D0056B994 /* RLMArray_Private.hpp */,
+				99F09F801CA5A37D0056B994 /* RLMCollection.h */,
+				99F09F811CA5A37D0056B994 /* RLMConstants.h */,
+				99F09F821CA5A37D0056B994 /* RLMDefines.h */,
+				99F09F831CA5A37D0056B994 /* RLMListBase.h */,
+				99F09F841CA5A37D0056B994 /* RLMMigration.h */,
+				99F09F851CA5A37D0056B994 /* RLMMigration_Private.h */,
+				99F09F861CA5A37D0056B994 /* RLMObject.h */,
+				99F09F871CA5A37D0056B994 /* RLMObject_Private.h */,
+				99F09F881CA5A37D0056B994 /* RLMObject_Private.hpp */,
+				99F09F891CA5A37D0056B994 /* RLMObjectBase.h */,
+				99F09F8A1CA5A37D0056B994 /* RLMObjectBase_Dynamic.h */,
+				99F09F8B1CA5A37D0056B994 /* RLMObjectSchema.h */,
+				99F09F8C1CA5A37D0056B994 /* RLMObjectSchema_Private.h */,
+				99F09F8D1CA5A37D0056B994 /* RLMObjectSchema_Private.hpp */,
+				99F09F8E1CA5A37D0056B994 /* RLMObjectStore.h */,
+				99F09F8F1CA5A37D0056B994 /* RLMObservation.hpp */,
+				99F09F901CA5A37D0056B994 /* RLMPlatform.h */,
+				99F09F911CA5A37D0056B994 /* RLMPrefix.h */,
+				99F09F921CA5A37D0056B994 /* RLMProperty.h */,
+				99F09F931CA5A37D0056B994 /* RLMProperty_Private.h */,
+				99F09F941CA5A37D0056B994 /* RLMQueryUtil.hpp */,
+				99F09F951CA5A37D0056B994 /* RLMRealm.h */,
+				99F09F961CA5A37D0056B994 /* RLMRealm_Dynamic.h */,
+				99F09F971CA5A37D0056B994 /* RLMRealm_Private.h */,
+				99F09F981CA5A37D0056B994 /* RLMRealm_Private.hpp */,
+				99F09F991CA5A37D0056B994 /* RLMRealmConfiguration.h */,
+				99F09F9A1CA5A37D0056B994 /* RLMRealmConfiguration_Private.h */,
+				99F09F9B1CA5A37D0056B994 /* RLMRealmUtil.h */,
+				99F09F9C1CA5A37D0056B994 /* RLMResults.h */,
+				99F09F9D1CA5A37D0056B994 /* RLMResults_Private.h */,
+				99F09F9E1CA5A37D0056B994 /* RLMSchema.h */,
+				99F09F9F1CA5A37D0056B994 /* RLMSchema_Private.h */,
+				99F09FA01CA5A37D0056B994 /* RLMSwiftBridgingHeader.h */,
+				99F09FA11CA5A37D0056B994 /* RLMSwiftSupport.h */,
+				99F09FA21CA5A37D0056B994 /* RLMUpdateChecker.hpp */,
+				99F09FA31CA5A37D0056B994 /* RLMUtil.hpp */,
+				99F09FA41CA5A37D0056B994 /* row.hpp */,
+				99F09FA51CA5A37D0056B994 /* spec.hpp */,
+				99F09FA61CA5A37D0056B994 /* string_data.hpp */,
+				99F09FA71CA5A37D0056B994 /* table.hpp */,
+				99F09FA81CA5A37D0056B994 /* table_accessors.hpp */,
+				99F09FA91CA5A37D0056B994 /* table_basic.hpp */,
+				99F09FAA1CA5A37D0056B994 /* table_basic_fwd.hpp */,
+				99F09FAB1CA5A37D0056B994 /* table_macros.hpp */,
+				99F09FAC1CA5A37D0056B994 /* table_ref.hpp */,
+				99F09FAD1CA5A37D0056B994 /* table_view.hpp */,
+				99F09FAE1CA5A37D0056B994 /* table_view_basic.hpp */,
+				99F09FAF1CA5A37D0056B994 /* unicode.hpp */,
+				99F09FB01CA5A37D0056B994 /* util */,
+				99F09FC71CA5A37D0056B994 /* utilities.hpp */,
+				99F09FC81CA5A37D0056B994 /* version.hpp */,
+				99F09FC91CA5A37D0056B994 /* views.hpp */,
+			);
+			path = realm;
+			sourceTree = "<group>";
+		};
+		99F09F631CA5A37D0056B994 /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				99F09F641CA5A37D0056B994 /* array_writer.hpp */,
+				99F09F651CA5A37D0056B994 /* destroy_guard.hpp */,
+				99F09F661CA5A37D0056B994 /* input_stream.hpp */,
+				99F09F671CA5A37D0056B994 /* output_stream.hpp */,
+				99F09F681CA5A37D0056B994 /* simulated_failure.hpp */,
+				99F09F691CA5A37D0056B994 /* transact_log.hpp */,
+			);
+			path = impl;
+			sourceTree = "<group>";
+		};
+		99F09FB01CA5A37D0056B994 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				99F09FB11CA5A37D0056B994 /* assert.hpp */,
+				99F09FB21CA5A37D0056B994 /* basic_system_errors.hpp */,
+				99F09FB31CA5A37D0056B994 /* bind_ptr.hpp */,
+				99F09FB41CA5A37D0056B994 /* buffer.hpp */,
+				99F09FB51CA5A37D0056B994 /* config.h */,
+				99F09FB61CA5A37D0056B994 /* features.h */,
+				99F09FB71CA5A37D0056B994 /* file.hpp */,
+				99F09FB81CA5A37D0056B994 /* logger.hpp */,
+				99F09FB91CA5A37D0056B994 /* memory_stream.hpp */,
+				99F09FBA1CA5A37D0056B994 /* meta.hpp */,
+				99F09FBB1CA5A37D0056B994 /* misc_errors.hpp */,
+				99F09FBC1CA5A37D0056B994 /* network.hpp */,
+				99F09FBD1CA5A37D0056B994 /* platform_specific_condvar.hpp */,
+				99F09FBE1CA5A37D0056B994 /* safe_int_ops.hpp */,
+				99F09FBF1CA5A37D0056B994 /* shared_ptr.hpp */,
+				99F09FC01CA5A37D0056B994 /* string_buffer.hpp */,
+				99F09FC11CA5A37D0056B994 /* terminate.hpp */,
+				99F09FC21CA5A37D0056B994 /* thread.hpp */,
+				99F09FC31CA5A37D0056B994 /* tuple.hpp */,
+				99F09FC41CA5A37D0056B994 /* type_list.hpp */,
+				99F09FC51CA5A37D0056B994 /* type_traits.hpp */,
+				99F09FC61CA5A37D0056B994 /* utf8.hpp */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
 		99F2D0E0188F5C5000BCB3F3 /* Tech and Domestic Violence */ = {
 			isa = PBXGroup;
 			children = (
@@ -689,6 +1044,8 @@
 				99562161188486CA00541044 /* Sources */,
 				99562162188486CA00541044 /* Frameworks */,
 				99562163188486CA00541044 /* Resources */,
+				99F09F371CA5A22A0056B994 /* CopyFiles */,
+				99F09F341CA59A220056B994 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -789,6 +1146,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99F09F341CA59A220056B994 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99562161188486CA00541044 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -814,9 +1187,12 @@
 				994AC8B31C585F3D0017E38D /* PevoInfo.swift in Sources */,
 				994AC8AD1C584F8B0017E38D /* PevoInfoTableViewController.swift in Sources */,
 				993B5CC51C10B1C400AEC0AF /* ShelterSearchViewController.swift in Sources */,
+				992701D21C690F620006765D /* PhotoThumbnailCollectionViewCell.swift in Sources */,
 				99AADE4E18D93FB000521AEC /* WebsitesViewController.m in Sources */,
+				990A74551CA549CB007C5207 /* JournalItem.swift in Sources */,
 				99D5F6FA1B8BA6E6007FB316 /* Calculator.swift in Sources */,
 				9949295E19D98C8B003872B8 /* StayingSafeViewController.m in Sources */,
+				992701CE1C66CD480006765D /* PhotoViewController.swift in Sources */,
 				99AADE4D18D93FA500521AEC /* PPSuccessStoryViewController.m in Sources */,
 				99AADE4C18D93F9A00521AEC /* TechSecurity.m in Sources */,
 				99AADE4B18D93F9000521AEC /* PPSuccessTableViewController.m in Sources */,

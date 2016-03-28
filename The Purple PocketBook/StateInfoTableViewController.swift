@@ -39,10 +39,10 @@ class StateInfoTableViewController: UITableViewController {
     }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-
-        let indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow!
-        let DestViewController = segue.destinationViewController as! PevoInfoTableViewController
-        DestViewController.DVInfoArray = PevoDVInfoArray[indexPath.row]
+//
+//        let indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow!
+//        let DestViewController = segue.destinationViewController as! PevoInfoTableViewController
+//        DestViewController.DVInfoArray = PevoDVInfoArray[indexPath.row]
 
     }
 
