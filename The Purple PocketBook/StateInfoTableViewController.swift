@@ -9,41 +9,50 @@
 import UIKit
 
 class StateInfoTableViewController: UITableViewController {
-    
-    var StateInfoArray = [String]()
-    var PevoDVInfoArray = [String]()
 
+    
+    var GaStateInfoArray = [String]()
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        GaStateInfoArray = ["Georgia Shelter Search", "Georgia State Law", "Georgia Unemployment", "Georgia Where to find help"]
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return StateInfoArray.count
-    }
-
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("StateInfoCell", forIndexPath: indexPath) as UITableViewCell
-
-        // Configure the cell...
+    
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        cell.textLabel?.text = StateInfoArray[indexPath.row]
+        return GaStateInfoArray.count
+ 
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: GaStateInfoArray[indexPath.row], for: indexPath)
 
+        
+        cell.textLabel?.text = GaStateInfoArray[indexPath.row]
+        
         return cell
     }
-
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//
-//        let indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow!
-//        let DestViewController = segue.destinationViewController as! PevoInfoTableViewController
-//        DestViewController.DVInfoArray = PevoDVInfoArray[indexPath.row]
-
-    }
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

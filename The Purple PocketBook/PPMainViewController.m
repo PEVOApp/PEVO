@@ -11,6 +11,8 @@
 
 
 
+
+
 @interface PPMainViewController ()
 
 @end
@@ -35,6 +37,10 @@
     // Set the side bar button action. When it's tapped, it'll show up the sidebar.
     
     self.nationalHotline.dataDetectorTypes = UIDataDetectorTypePhoneNumber;
+    
+    
+    [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
+    
     
     _sidebarButton.target = self.revealViewController;
     _sidebarButton.action = @selector(revealToggle:);

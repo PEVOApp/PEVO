@@ -36,12 +36,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
-    
-    
-    _sidebarButton.target = self.revealViewController;
-    _sidebarButton.action = @selector(revealToggle:);
+//
+//    [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
+//    
+//
+//    _sidebarButton.target = self.revealViewController;
+//    _sidebarButton.action = @selector(revealToggle:);
     
     TheLaw *dvLaw0 = [TheLaw new];
     dvLaw0.lawTitle = NSLocalizedString(@"Restraining Orders -- Family Violence Protection Orders -- Overview of Civil vs. Criminal Law", @"DVLawTitle0");

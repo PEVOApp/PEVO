@@ -45,7 +45,6 @@
                    NSLocalizedString(@"Georgia Victim Services Programs", @"Georgia Victim Services Programs"),
                    NSLocalizedString(@"WomensLaw - Finding a Lawyer", @"WomensLaw - Finding a Lawyer"),
                    NSLocalizedString(@"The National Domestic Violence Hotline", @"The National Domestic Violence Hotline"),
-                   NSLocalizedString(@"LeavingAbuse", @"LeavingAbuse"),
                    NSLocalizedString(@"National Coalition Against Domestic Violence", @"National Coalition Against Domestic Violence"),
                    NSLocalizedString(@"HelpGuide.org", @"HelpGuide.org"),
                    NSLocalizedString(@"DomesticViolence.org", @"DomesticViolence.org"),
@@ -56,7 +55,6 @@
             @"http://cjcc.georgia.gov/victim-services-programs",
             @"http://www.womenslaw.org",
             @"http://www.thehotline.org",
-            @"http://leavingabuse.com",
             @"http://www.ncadv.org",
             @"http://www.helpguide.org/mental/domestic_violence_abuse_types_signs_causes_effects.htm",
             @"http://www.domesticviolence.org",
@@ -133,16 +131,18 @@
             case 0:
                 webViewController.site = @"http://cjcc.georgia.gov/victim-services-programs";
                 break;
+        
             case 1:
-                webViewController.site = @"http://leavingabuse.com";
-                break;
-                
-            case 2:
                 webViewController.site = @"http://www.womenslaw.org/gethelp_type.php?type_name=Finding%20a%20Lawyer";
                 break;
                 
-            case 3:
+            case 2:
                 webViewController.site = @"http://www.thehotline.org";
+                break;
+                
+                
+            case 3:
+                webViewController.site = @"http://www.ncadv.org";
                 break;
                 
             case 4:
@@ -154,14 +154,10 @@
                 break;
                 
             case 6:
-                webViewController.site = @"http://www.ncadv.org";
-                break;
-                
-            case 7:
                 webViewController.site = @"http://www.ovw.usdoj.gov/domviolence.htm";
                 break;
                 
-            case 8:
+            case 7:
                 webViewController.site = @"http://hope4dv.org/#/welcome";
                 break;
                 

@@ -7,8 +7,7 @@
 //
 
 #import "SponsorsViewController.h"
-#import "PPSponsorsTableViewController.h"
-#import "PPWEBViewController.h"
+#import "SponsorsTableViewController.h"
 @interface SponsorsViewController ()
 
 @end
@@ -47,14 +46,14 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     
-    if ([[segue identifier] isEqualToString:@"webViewSegue"]) {
-        
-        PPWEBViewController *webViewController = segue.destinationViewController;
-        
-       
-                webViewController.site = @"http://www.thePurplepocketbook.org";
-                
-    }
+//    if ([[segue identifier] isEqualToString:@"webViewSegue"]) {
+//        
+//        PPWEBViewController *webViewController = segue.destinationViewController;
+//        
+//       
+//                webViewController.site = @"http://www.pevo.us";
+//                
+//    }
     
 }
 

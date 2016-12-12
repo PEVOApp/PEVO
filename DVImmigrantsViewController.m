@@ -22,7 +22,7 @@
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
     self.ImmigrantLabel.text = _PPImmigrant.immigrantTitle;
-    self.ImmigrantDetailTextView.text = _PPImmigrant.immigrantDetail;
+    self.ImmigrantDetail.text = _PPImmigrant.immigrantDetail;
 }
 
 - (void)didReceiveMemoryWarning {

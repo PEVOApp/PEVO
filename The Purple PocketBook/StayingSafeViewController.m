@@ -26,7 +26,11 @@
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
     self.StayingSafeLabel.text = _safe.stayingSafeTitle;
-    self.StayingSafeTextView.text = _safe.stayingSafeDetail;
+    self.StayingSafeDetail.text = _safe.stayingSafeDetail;
+   
+    [self.StayingSafeScrollView setScrollEnabled:YES];
+    [self.StayingSafeScrollView setContentSize:CGSizeMake(320, 1000)];
+    
     
 }
 
@@ -36,17 +40,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    
-    [self.StayingSafeScrollView setScrollEnabled:YES];
-    [self.StayingSafeScrollView setContentSize:CGSizeMake(0, 1000)];
-    
-}
-
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
-    [self.StayingSafeScrollView setContentSize:CGSizeMake(0, 1000)];
-    
-}
 
 @end

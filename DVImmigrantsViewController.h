@@ -15,6 +15,7 @@
 @property (strong, nonatomic) IBOutlet UIScrollView *ImmigrantScrollView;
 @property (strong, nonatomic) IBOutlet UILabel *ImmigrantLabel;
 @property (strong, nonatomic) IBOutlet UITextView *ImmigrantDetailTextView;
+@property (strong, nonatomic) IBOutlet UILabel *ImmigrantDetail;
 
 @property (nonatomic,strong) DVImmigrants *PPImmigrant;
 

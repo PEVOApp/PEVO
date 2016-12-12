@@ -15,6 +15,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *DVTechSecurityLabel;
 @property (strong, nonatomic) IBOutlet UITextView *DVTechSecurityTextView;
 @property (strong, nonatomic) IBOutlet UIScrollView *TechScrollView;
+@property (strong, nonatomic) IBOutlet UILabel *DVTechSecurityDetail;
 
 @property (nonatomic,strong) TechSecurity *dvTechSecurity;
 

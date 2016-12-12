@@ -8,7 +8,7 @@
 
 #import "PPAppDelegate.h"
 #import "RSSurveyQuestionViewController.h"
-#import <Parse/Parse.h>
+@import Firebase;
 
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
@@ -18,20 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    [Parse enableLocalDatastore];
-    
-    // Initialize Parse.
-    [Parse setApplicationId:@"6o9LHLvhUeqfTXZgGlCBmHB8xXo7iCylFAc405i4"
-                  clientKey:@"XnDc9XzIv5la5rnkFhMOW69ClhfIBcaHC1n3mKCC"];
-    
-    // [Optional] Track statistics around application opens.
-    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
-    
-    
-// this is for the color of the top bar
-//    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0xB381B9)];
-//    [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
-  
+    [FIRApp configure];
     return YES;
 }
 

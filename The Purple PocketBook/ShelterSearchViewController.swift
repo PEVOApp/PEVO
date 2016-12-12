@@ -13,7 +13,10 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
     @IBOutlet var shelterSearchView: UITableView!
     
     var shelters = Array<Shelter>()
+    
     var filteredShelters = Array<Shelter>()
+
+
 	var shouldShowSearchResults = false
 
     var searchController: UISearchController!
@@ -31,6 +34,7 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
         loadListShelterSearch()
         
         configureCustomSearchController()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,21 +43,21 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
     }
     
     // MARK: Custom functions
-	@IBAction private func done(sender: AnyObject) {
-		dismissViewControllerAnimated(true, completion: nil)
+	@IBAction fileprivate func done(_ sender: AnyObject) {
+		dismiss(animated: true, completion: nil)
 	}
 
 
     func loadListShelterSearch() {
         // Specify the path to the countries list file.
-        let path = NSBundle.mainBundle().pathForResource("ShelterSearch", ofType: "plist")!
+        let path = Bundle.main.path(forResource: "ShelterSearch", ofType: "plist")!
 		let allShelterValues = NSArray(contentsOfFile: path) as! Array<Dictionary<String, String>>
 
 		shelters.removeAll()
 		filteredShelters.removeAll()
 		for shelterValues in allShelterValues {
 			guard let shelter = try? Shelter(plistValues: shelterValues) else {
-				print("Could not create a shelter from shelter values found in ShelterSearch.plist: \(shelterValues)")
+				print("Could not create a shelter from shelter values found in GAShelterSearch.plist: \(shelterValues)")
 				continue
 			}
 
@@ -66,22 +70,24 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
     }
     
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if shouldShowSearchResults {
             return filteredShelters.count
         }
         else {
             return shelters.count
         }
+
     }
     
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "Cell"
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! ShelterSearchTableViewCell
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! ShelterSearchTableViewCell
         
         // Configure the cell...
-		let shelter = (searchController.active) ? filteredShelters[indexPath.row] : shelters[indexPath.row]
+		let shelter = (shouldShowSearchResults) ? filteredShelters[indexPath.row] : shelters[indexPath.row]
 		cell.updateForShelter(shelter)
 
         return cell
@@ -91,17 +97,18 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
         searchController = UISearchController(searchResultsController: nil)
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = true
-        searchController.searchBar.placeholder = "Search here......"
+        searchController.searchBar.placeholder = "Shelter local search......"
         searchController.searchBar.delegate = self
         searchController.searchBar.sizeToFit()
         shelterSearchView.tableHeaderView = searchController.searchBar
+        
     }
     
     
     func configureCustomSearchController() {
-        shelterSearchController = ShelterSearchController(searchResultsController: self, searchBarFrame: CGRectMake(0.0, 0.0, shelterSearchView.frame.size.width, 50.0), searchBarFont: UIFont(name: "Futura", size: 16.0)!, searchBarTextColor: UIColor.orangeColor(), searchBarTintColor: UIColor.blackColor())
+        shelterSearchController = ShelterSearchController(searchResultsController: self, searchBarFrame: CGRect(x: 0.0, y: 0.0, width: shelterSearchView.frame.size.width, height: 50.0), searchBarFont: UIFont(name: "Futura", size: 16.0)!, searchBarTextColor: UIColor.orange, searchBarTintColor: UIColor.black)
         
-        shelterSearchController.shelterSearchBar.placeholder = "Search in this awesome bar..."
+        shelterSearchController.shelterSearchBar.placeholder = "Search for local Shelters....."
         shelterSearchView.tableHeaderView = shelterSearchController.shelterSearchBar
         
         shelterSearchController.shelterSearchDelegate = self
@@ -111,19 +118,19 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
     
     // MARK: UISearchBarDelegate functions
     
-    func searchBarTextDidBeginEditing(searchBar: UISearchBar) {
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
         shouldShowSearchResults = true
         shelterSearchView.reloadData()
     }
     
     
-    func searchBarCancelButtonClicked(searchBar: UISearchBar) {
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         shouldShowSearchResults = false
         shelterSearchView.reloadData()
     }
     
     
-    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         if !shouldShowSearchResults {
             shouldShowSearchResults = true
             shelterSearchView.reloadData()
@@ -134,18 +141,17 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
     
     // MARK: UISearchResultsUpdating delegate function
     
-    func updateSearchResultsForSearchController(searchController: UISearchController) {
+    func updateSearchResults(for searchController: UISearchController) {
         let searchText = searchController.searchBar.text
         
         filterContentForSearchText(searchText)
-        
         shelterSearchView.reloadData()
     }
     
-    func filterContentForSearchText(searchText: String?) {
+    func filterContentForSearchText(_ searchText: String?) {
 		if let someSearchText = searchText {
 			filteredShelters = shelters.filter({ ( shelter: Shelter) -> Bool in
-				return shelter.cityName.containsString(someSearchText) || shelter.shelterName.containsString(someSearchText)
+            return shelter.cityName.contains(someSearchText) || shelter.shelterName.contains(someSearchText) || shelter.stateName.contains(someSearchText)
 			})
 		}
 		else {
@@ -159,7 +165,6 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
     }
     
     func didTapOnSearchButton() {
-        
         if !shouldShowSearchResults {
             shouldShowSearchResults = true
             shelterSearchView.reloadData()
@@ -168,14 +173,13 @@ class ShelterSearchViewController: UIViewController, UITableViewDelegate, UITabl
     }
     
     func didTapOnCancelButton() {
-        
         shouldShowSearchResults = false
         shelterSearchView.reloadData()
 
     }
     
     
-    func didChangeSearchText(searchText: String) {
+    func didChangeSearchText(_ searchText: String) {
 		filterContentForSearchText(searchText)
 
 		// Reload the tableview.

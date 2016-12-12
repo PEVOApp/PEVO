@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+        <dict>
+            <key>ShelterName</key>
+            <string>Lutheran Social Service (LSS)</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>OutFront Minnesota</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>180 Degrees</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Asian Women House of Peace</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>CUHCC Clinic</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Division of Indian Works</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Domestic Abuse Project</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Domestic Abuse Service Center</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Indigenous Women&apos;s Life Net Program</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Minnesota Indian Women&apos;s Resource Center (MIWRC)</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Cornerstone</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>SEWA-Asian Indian Family Wellness</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Sexual Violence Center</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>The Aurora Center</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>The Family Partnership: PRIDE</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>The Link</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Harriet Tubman</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>612-825-0000</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>CLUES (Comunidades Latinas Unidas en Servicio)</string>
+            <key>ShelterCity</key>
+            <string>St. Paul</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>The Bridge</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Minneapolis Veterans Affairs Health Care System</string>
+            <key>ShelterCity</key>
+            <string>Minneapolis</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>612-467-2042</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>180 Degrees</string>
+            <key>ShelterCity</key>
+            <string>St. Paul</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>612-813-5000</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Minnesota Elder Justice Center</string>
+            <key>ShelterCity</key>
+            <string>St. Paul</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Sojourner</string>
+            <key>ShelterCity</key>
+            <string>Hopkins</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>952-933-0607</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Cornerstone</string>
+            <key>ShelterCity</key>
+            <string>Brooklyn Center</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Breaking Free</string>
+            <key>ShelterCity</key>
+            <string>St. Paul</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Bridges to Safety</string>
+            <key>ShelterCity</key>
+            <string>St. Paul</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>651-266-9901</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Casa de Esperanza</string>
+            <key>ShelterCity</key>
+            <string>St. Paul</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>CSD of Minnesota/MN Deaf Domestic Violence </string>
+            <key>ShelterCity</key>
+            <string>St. Paul</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Eagle&apos;s Nest (Women of Nations)</string>
+            <key>ShelterCity</key>
+            <string>St. Paul</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Anti-Human Trafficking Services of the International Institute of Minnesota</string>
+            <key>ShelterCity</key>
+            <string>St. Paul</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Jacob Wetterling Resource Center</string>
+            <key>ShelterCity</key>
+            <string>St. Paul</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>St. Paul and Ramsey County Domestic Violence Intervention Project</string>
+            <key>ShelterCity</key>
+            <string>St. Paul</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Women&apos;s Advocates</string>
+            <key>ShelterCity</key>
+            <string>St. Paul</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>651-227-8284</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Home Free (Missions Inc.)</string>
+            <key>ShelterCity</key>
+            <string>Plymouth</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>763-559-4945</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Cornerstone </string>
+            <key>ShelterCity</key>
+            <string>Bloomington</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Oasis for Youth</string>
+            <key>ShelterCity</key>
+            <string>Bloomington</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Jewish Family and Children&apos;s Service of Minneapolis</string>
+            <key>ShelterCity</key>
+            <string>Minnetonka</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Alexandra House, Inc.</string>
+            <key>ShelterCity</key>
+            <string>Blaine</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>360 Communities/Lewis House</string>
+            <key>ShelterCity</key>
+            <string>Eagan</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Harriet Tubman </string>
+            <key>ShelterCity</key>
+            <string>Maplewood</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>651-768-0216</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>360 Communities/Lewis House</string>
+            <key>ShelterCity</key>
+            <string>Hastings</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Refuge Network</string>
+            <key>ShelterCity</key>
+            <string>Chisago City</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Rivers of Hope</string>
+            <key>ShelterCity</key>
+            <string>Monticello</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Prairie Island Indian Community</string>
+            <key>ShelterCity</key>
+            <string>Welch</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Refuge Network</string>
+            <key>ShelterCity</key>
+            <string>Cambridge</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>HOPE Coalition</string>
+            <key>ShelterCity</key>
+            <string>Red Wing</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>HOPE Center</string>
+            <key>ShelterCity</key>
+            <string>Faribault</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Pearl Crisis Center</string>
+            <key>ShelterCity</key>
+            <string>Milaca</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>800-933-6914</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Anna Marie&apos;s</string>
+            <key>ShelterCity</key>
+            <string>St. Cloud</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>St. Cloud Veterans Affairs Health Care System</string>
+            <key>ShelterCity</key>
+            <string>St. Cloud</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Central Minnesota Sexual Assault Center</string>
+            <key>ShelterCity</key>
+            <string>St. Cloud</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Crisis Resource Center of Steele County</string>
+            <key>ShelterCity</key>
+            <string>Owatonna</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Refuge Network</string>
+            <key>ShelterCity</key>
+            <string>Mora</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>CADA</string>
+            <key>ShelterCity</key>
+            <string>Mankato</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>WINDOW Victim Services</string>
+            <key>ShelterCity</key>
+            <string>Hinckley</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Victim Services - Dodge, Fillmore and Olmsted Counties</string>
+            <key>ShelterCity</key>
+            <string>Rochester</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Women&apos;s Shelter, Inc.</string>
+            <key>ShelterCity</key>
+            <string>Rochester</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Olmstead County Victim Services</string>
+            <key>ShelterCity</key>
+            <string>Rochester</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Mille Lacs Band of Ojibwe</string>
+            <key>ShelterCity</key>
+            <string>Onamia</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Safe Avenues</string>
+            <key>ShelterCity</key>
+            <string>Willmar</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Hands of Hope Resource Center</string>
+            <key>ShelterCity</key>
+            <string>Little Falls</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>888-454-4878</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Lutheran Social Service</string>
+            <key>ShelterCity</key>
+            <string>Willmar</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Freeborn County Crime Victims&apos; Crisis Center</string>
+            <key>ShelterCity</key>
+            <string>Albert Lea</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>507-373-2223</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Women&apos;s Rural Advocacy Program (WRAP)</string>
+            <key>ShelterCity</key>
+            <string>Redwood Falls</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Women&apos;s Resource Center</string>
+            <key>ShelterCity</key>
+            <string>Winona</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Hands of Hope Resource Center</string>
+            <key>ShelterCity</key>
+            <string>Long Prairie</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>888-732-2319</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Mid-Minnesota Women&apos;s Center </string>
+            <key>ShelterCity</key>
+            <string>Brainerd</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Sexual Assault Services, Inc.</string>
+            <key>ShelterCity</key>
+            <string>Brainerd</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>218-828-0494</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Support Within Reach</string>
+            <key>ShelterCity</key>
+            <string>Aitkin</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>218-927-6226</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Women&apos;s Rural Advocacy Program (WRAP)</string>
+            <key>ShelterCity</key>
+            <string>Granite Falls</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Heartland Girls&apos; Ranch</string>
+            <key>ShelterCity</key>
+            <string>Benson</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>320-843-4815</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Heartland Girls&apos; Ranch</string>
+            <key>ShelterCity</key>
+            <string>Benson</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Southwest Crisis Center</string>
+            <key>ShelterCity</key>
+            <string>Windom</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Southwest Crisis Center</string>
+            <key>ShelterCity</key>
+            <string>Jackson</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Bluff Country Family Resources</string>
+            <key>ShelterCity</key>
+            <string>Hokah</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Women&apos;s Rural Advocacy Program (WRAP)</string>
+            <key>ShelterCity</key>
+            <string>Marshall</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>New Horizons Crisis Center</string>
+            <key>ShelterCity</key>
+            <string>Marshall</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Dabinoo&apos;Igan</string>
+            <key>ShelterCity</key>
+            <string>Duluth</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>PAVSA (Program for Aid to Victims of Sexual Assault)</string>
+            <key>ShelterCity</key>
+            <string>Duluth</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Safe Haven Shelter and Resource Center</string>
+            <key>ShelterCity</key>
+            <string>Duluth</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>218-728-6481</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Southwest Crisis Center</string>
+            <key>ShelterCity</key>
+            <string>Worthington</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>800-376-4311</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Advocates for Family Peace</string>
+            <key>ShelterCity</key>
+            <string>Grand Rapids</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Support within Reach</string>
+            <key>ShelterCity</key>
+            <string>Grand Rapids</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>218-326-5008</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Headwaters Intervention Center</string>
+            <key>ShelterCity</key>
+            <string>Park Rapids</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Support within Reach</string>
+            <key>ShelterCity</key>
+            <string>Park Rapids</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>218-237-0300</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Support within Reach</string>
+            <key>ShelterCity</key>
+            <string>Walker</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>218-547-4892</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>North Shore Horizons</string>
+            <key>ShelterCity</key>
+            <string>Two Harbors</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Someplace Safe</string>
+            <key>ShelterCity</key>
+            <string>Fergus Falls</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Southwest Crisis Center</string>
+            <key>ShelterCity</key>
+            <string>Pipestone</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>800-376-4311</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Southwest Crisis Center</string>
+            <key>ShelterCity</key>
+            <string>Luverne</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>800-376-4311</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Lakes Crisis and Resource Center</string>
+            <key>ShelterCity</key>
+            <string>Detroit Lakes</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Leech Lake Family Violence Prevention Program</string>
+            <key>ShelterCity</key>
+            <string>Cass Lake</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Northwoods Coalition for Family Safety</string>
+            <key>ShelterCity</key>
+            <string>Bemidji</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Support within Reach</string>
+            <key>ShelterCity</key>
+            <string>Bemidji</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>218-444-9524</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>DOVE (Down on Violence Everyday)</string>
+            <key>ShelterCity</key>
+            <string>White Earth</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Headwaters/Family Crisis Center</string>
+            <key>ShelterCity</key>
+            <string>Bagley</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>Support Within Reach</string>
+            <key>ShelterCity</key>
+            <string>Bagley</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>218-694-2210</string>
+        </dict>
+        <dict>
+            <key>ShelterName</key>
+            <string>YWCA Emergency Shelter </string>
+            <key>ShelterCity</key>
+            <string>Fargo</string>
+            <key>ShelterState</key>
+            <string>MN</string>
+            <key>ShelterNumber</key>
+            <string>866-223-1111</string>
+        </dict>
+</array>
+</plist>

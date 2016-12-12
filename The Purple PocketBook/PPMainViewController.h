@@ -10,10 +10,10 @@
 
 @interface PPMainViewController : UIViewController <UIAccelerometerDelegate> 
 
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 
-@property (weak, nonatomic) IBOutlet UITextView *nationalHotline;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 
+@property (strong, nonatomic) IBOutlet UITextView *nationalHotline;
 
 
 

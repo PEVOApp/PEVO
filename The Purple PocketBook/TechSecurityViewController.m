@@ -7,6 +7,7 @@
 //
 
 #import "TechSecurityViewController.h"
+#import "DVTechologyTableViewController.h"
 
 
 
@@ -25,7 +26,7 @@
     
     
     self.DVTechSecurityLabel.text = _dvTechSecurity.techTitle;
-    self.DVTechSecurityTextView.text = _dvTechSecurity.techDetail;
+    self.DVTechSecurityDetail.text = _dvTechSecurity.techDetail;
     
 }
 
@@ -35,18 +36,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-- (void)viewDidAppear:(BOOL)animated {
-    
-    [self.TechScrollView setScrollEnabled:YES];
-    [self.TechScrollView setContentSize:CGSizeMake(0, 1000)];
-    
-}
-
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
-    [self.TechScrollView setContentSize:CGSizeMake(0, 1000)];
-    
-}
 
 @end

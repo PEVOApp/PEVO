@@ -5,6 +5,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Albany</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Liberty House of Albany, Inc.</string>
 		<key>ShelterNumber</key>
@@ -13,6 +15,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Acworth</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Ser Familia</string>
 		<key>ShelterNumber</key>
@@ -21,6 +25,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Athens</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Project Safe, Inc.</string>
 		<key>ShelterNumber</key>
@@ -29,6 +35,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Atlanta</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Partnership Against Domestic Violence, Inc.</string>
 		<key>ShelterNumber</key>
@@ -37,6 +45,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Atlanta</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Ahimsa House - Help People and Pets</string>
 		<key>ShelterNumber</key>
@@ -45,6 +55,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Atlanta</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Raksha Inc.</string>
 		<key>ShelterNumber</key>
@@ -53,6 +65,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Augusta </string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Safe Homes of Augusta, Inc.</string>
 		<key>ShelterNumber</key>
@@ -61,6 +75,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Blairsville</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Support in Abusive Family Emergencies, Inc.</string>
 		<key>ShelterNumber</key>
@@ -69,6 +85,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Blue Ridge</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>North Georgia Mountain Crisis</string>
 		<key>ShelterNumber</key>
@@ -77,6 +95,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Brunswick</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Glynn Community Crisis</string>
 		<key>ShelterNumber</key>
@@ -85,6 +105,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Canton</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Cherokee Family Violence</string>
 		<key>ShelterNumber</key>
@@ -93,6 +115,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Carrollton</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Carroll County Emergency Shelter, Inc.</string>
 		<key>ShelterNumber</key>
@@ -101,6 +125,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Cartersville</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Christian League for Battered Women, Inc. (Tranquility House)</string>
 		<key>ShelterNumber</key>
@@ -109,6 +135,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Cedartown</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Polk County Women's Shelter, Inc.</string>
 		<key>ShelterNumber</key>
@@ -117,6 +145,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Clayton</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Fight Abuse in the Home (FAITH), Inc.</string>
 		<key>ShelterNumber</key>
@@ -125,6 +155,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Columbus</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Columbus Alliance for Battered Women, Inc.</string>
 		<key>ShelterNumber</key>
@@ -133,6 +165,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Conyers</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Project Renewal Domestic Violence Intervention Program, Inc.</string>
 		<key>ShelterNumber</key>
@@ -141,6 +175,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Cornelia</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Circle of Hope, Inc.</string>
 		<key>ShelterNumber</key>
@@ -149,6 +185,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Cumming</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Forsyth County Family Haven, Inc.</string>
 		<key>ShelterNumber</key>
@@ -157,6 +195,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Dahlonega</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>NOA's Ark, Inc.</string>
 		<key>ShelterNumber</key>
@@ -165,6 +205,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Dalton</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Northwest Georgia Family Crisis Center, Inc.</string>
 		<key>ShelterNumber</key>
@@ -173,6 +215,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Decatur</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>International Women's House, Inc.</string>
 		<key>ShelterNumber</key>
@@ -181,6 +225,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Decatur</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Women's Resource Center to End Domestic Violence, Inc.</string>
 		<key>ShelterNumber</key>
@@ -189,6 +235,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Doraville</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Caminar Latino, Inc.</string>
 		<key>ShelterNumber</key>
@@ -197,6 +245,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Douglasville</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>S.H.A.R.E. House, Inc.</string>
 		<key>ShelterNumber</key>
@@ -205,6 +255,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Dublin</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Women in Need of God's Shelter, Inc.</string>
 		<key>ShelterNumber</key>
@@ -213,6 +265,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Fayetteville</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Fayette County Council on Domestic Violence</string>
 		<key>ShelterNumber</key>
@@ -221,6 +275,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Gaineville</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Gateway House, Inc.</string>
 		<key>ShelterNumber</key>
@@ -229,6 +285,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Greensboro</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Circle of Love Center, Inc.</string>
 		<key>ShelterNumber</key>
@@ -237,6 +295,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Hartwell</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Northeast Georgia Council on Domestic Violence</string>
 		<key>ShelterNumber</key>
@@ -245,6 +305,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Hinesville</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Tri-County Protective Agency, Inc.</string>
 		<key>ShelterNumber</key>
@@ -253,6 +315,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Jesup</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Wayne County Protective Agency, Inc.</string>
 		<key>ShelterNumber</key>
@@ -261,6 +325,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Lafayette</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Family Crisis Center of Walker, Dade, Catoosa, Chattooga Counties</string>
 		<key>ShelterNumber</key>
@@ -269,6 +335,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Lawrenceville</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Partnership Against Domestic Violence, Inc.</string>
 		<key>ShelterNumber</key>
@@ -277,6 +345,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Macon</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Crisis Line &amp; Safe House</string>
 		<key>ShelterNumber</key>
@@ -285,6 +355,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Marietta</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>YWCA of Northwest Georgia</string>
 		<key>ShelterNumber</key>
@@ -293,6 +365,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>McDonough</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Flint Circuit Council on Family Violence, Inc. (Haven House)</string>
 		<key>ShelterNumber</key>
@@ -301,6 +375,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Morrow</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Association on Battered Women of Clayton County, Inc. (Securus House)</string>
 		<key>ShelterNumber</key>
@@ -309,6 +385,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Rome</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Hospitality House for Women, Inc.</string>
 		<key>ShelterNumber</key>
@@ -317,6 +395,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Savannah</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Savannah Area Family Emergency</string>
 		<key>ShelterNumber</key>
@@ -325,6 +405,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>St. Marys</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Camden Community Crisis Center, Inc.</string>
 		<key>ShelterNumber</key>
@@ -333,6 +415,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Statesboro</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Citizens Against Violence, Inc.</string>
 		<key>ShelterNumber</key>
@@ -341,6 +425,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Thomasville</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Halcyon Home, Inc.</string>
 		<key>ShelterNumber</key>
@@ -349,6 +435,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Tifton</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Tifton Judicial Circuit Shelter, Inc. (Ruth's Cottage)</string>
 		<key>ShelterNumber</key>
@@ -357,6 +445,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Troup</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Harmony House, Inc.</string>
 		<key>ShelterNumber</key>
@@ -365,6 +455,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Valdosta</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Battered Women's Shelter, Inc. (The Haven)</string>
 		<key>ShelterNumber</key>
@@ -373,6 +465,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Vidalia</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>The Refuge Domestic Violence Shelter, Inc.</string>
 		<key>ShelterNumber</key>
@@ -381,6 +475,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Warner Robins</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Warner Robins Salvation Army</string>
 		<key>ShelterNumber</key>
@@ -389,6 +485,8 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Waycross</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Waycross Area Shelter d/b/a Magnolia House</string>
 		<key>ShelterNumber</key>
@@ -397,10 +495,3182 @@
 	<dict>
 		<key>ShelterCity</key>
 		<string>Winder</string>
+        <key>ShelterState</key>
+        <string>GA</string>
 		<key>ShelterName</key>
 		<string>Peace Place, Inc.</string>
 		<key>ShelterNumber</key>
 		<string>(770) 586-0927</string>
 	</dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Lutheran Social Service (LSS)</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>OutFront Minnesota</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>180 Degrees</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Asian Women House of Peace</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>CUHCC Clinic</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Division of Indian Works</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Domestic Abuse Project</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Domestic Abuse Service Center</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Indigenous Women&apos;s Life Net Program</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Minnesota Indian Women&apos;s Resource Center (MIWRC)</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Cornerstone</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>SEWA-Asian Indian Family Wellness</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Sexual Violence Center</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>The Aurora Center</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>The Family Partnership: PRIDE</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>The Link</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Harriet Tubman</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>612-825-0000</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>CLUES (Comunidades Latinas Unidas en Servicio)</string>
+        <key>ShelterCity</key>
+        <string>St. Paul</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>The Bridge</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Minneapolis Veterans Affairs Health Care System</string>
+        <key>ShelterCity</key>
+        <string>Minneapolis</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>612-467-2042</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>180 Degrees</string>
+        <key>ShelterCity</key>
+        <string>St. Paul</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>612-813-5000</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Minnesota Elder Justice Center</string>
+        <key>ShelterCity</key>
+        <string>St. Paul</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Sojourner</string>
+        <key>ShelterCity</key>
+        <string>Hopkins</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>952-933-0607</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Cornerstone</string>
+        <key>ShelterCity</key>
+        <string>Brooklyn Center</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Breaking Free</string>
+        <key>ShelterCity</key>
+        <string>St. Paul</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Bridges to Safety</string>
+        <key>ShelterCity</key>
+        <string>St. Paul</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>651-266-9901</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Casa de Esperanza</string>
+        <key>ShelterCity</key>
+        <string>St. Paul</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>CSD of Minnesota/MN Deaf Domestic Violence </string>
+        <key>ShelterCity</key>
+        <string>St. Paul</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Eagle&apos;s Nest (Women of Nations)</string>
+        <key>ShelterCity</key>
+        <string>St. Paul</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Anti-Human Trafficking Services of the International Institute of Minnesota</string>
+        <key>ShelterCity</key>
+        <string>St. Paul</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Jacob Wetterling Resource Center</string>
+        <key>ShelterCity</key>
+        <string>St. Paul</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>St. Paul and Ramsey County Domestic Violence Intervention Project</string>
+        <key>ShelterCity</key>
+        <string>St. Paul</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Women&apos;s Advocates</string>
+        <key>ShelterCity</key>
+        <string>St. Paul</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>651-227-8284</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Home Free (Missions Inc.)</string>
+        <key>ShelterCity</key>
+        <string>Plymouth</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>763-559-4945</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Cornerstone </string>
+        <key>ShelterCity</key>
+        <string>Bloomington</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Oasis for Youth</string>
+        <key>ShelterCity</key>
+        <string>Bloomington</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Jewish Family and Children&apos;s Service of Minneapolis</string>
+        <key>ShelterCity</key>
+        <string>Minnetonka</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Alexandra House, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Blaine</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>360 Communities/Lewis House</string>
+        <key>ShelterCity</key>
+        <string>Eagan</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Harriet Tubman </string>
+        <key>ShelterCity</key>
+        <string>Maplewood</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>651-768-0216</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>360 Communities/Lewis House</string>
+        <key>ShelterCity</key>
+        <string>Hastings</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Refuge Network</string>
+        <key>ShelterCity</key>
+        <string>Chisago City</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Rivers of Hope</string>
+        <key>ShelterCity</key>
+        <string>Monticello</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Prairie Island Indian Community</string>
+        <key>ShelterCity</key>
+        <string>Welch</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Refuge Network</string>
+        <key>ShelterCity</key>
+        <string>Cambridge</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>HOPE Coalition</string>
+        <key>ShelterCity</key>
+        <string>Red Wing</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>HOPE Center</string>
+        <key>ShelterCity</key>
+        <string>Faribault</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Pearl Crisis Center</string>
+        <key>ShelterCity</key>
+        <string>Milaca</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>800-933-6914</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Anna Marie&apos;s</string>
+        <key>ShelterCity</key>
+        <string>St. Cloud</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>St. Cloud Veterans Affairs Health Care System</string>
+        <key>ShelterCity</key>
+        <string>St. Cloud</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Central Minnesota Sexual Assault Center</string>
+        <key>ShelterCity</key>
+        <string>St. Cloud</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Crisis Resource Center of Steele County</string>
+        <key>ShelterCity</key>
+        <string>Owatonna</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Refuge Network</string>
+        <key>ShelterCity</key>
+        <string>Mora</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>CADA</string>
+        <key>ShelterCity</key>
+        <string>Mankato</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>WINDOW Victim Services</string>
+        <key>ShelterCity</key>
+        <string>Hinckley</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Victim Services - Dodge, Fillmore and Olmsted Counties</string>
+        <key>ShelterCity</key>
+        <string>Rochester</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Women&apos;s Shelter, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Rochester</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Olmstead County Victim Services</string>
+        <key>ShelterCity</key>
+        <string>Rochester</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Mille Lacs Band of Ojibwe</string>
+        <key>ShelterCity</key>
+        <string>Onamia</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Safe Avenues</string>
+        <key>ShelterCity</key>
+        <string>Willmar</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Hands of Hope Resource Center</string>
+        <key>ShelterCity</key>
+        <string>Little Falls</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>888-454-4878</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Lutheran Social Service</string>
+        <key>ShelterCity</key>
+        <string>Willmar</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Freeborn County Crime Victims&apos; Crisis Center</string>
+        <key>ShelterCity</key>
+        <string>Albert Lea</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>507-373-2223</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Women&apos;s Rural Advocacy Program (WRAP)</string>
+        <key>ShelterCity</key>
+        <string>Redwood Falls</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Women&apos;s Resource Center</string>
+        <key>ShelterCity</key>
+        <string>Winona</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Hands of Hope Resource Center</string>
+        <key>ShelterCity</key>
+        <string>Long Prairie</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>888-732-2319</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Mid-Minnesota Women&apos;s Center </string>
+        <key>ShelterCity</key>
+        <string>Brainerd</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Sexual Assault Services, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Brainerd</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>218-828-0494</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Support Within Reach</string>
+        <key>ShelterCity</key>
+        <string>Aitkin</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>218-927-6226</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Women&apos;s Rural Advocacy Program (WRAP)</string>
+        <key>ShelterCity</key>
+        <string>Granite Falls</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Heartland Girls&apos; Ranch</string>
+        <key>ShelterCity</key>
+        <string>Benson</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>320-843-4815</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Heartland Girls&apos; Ranch</string>
+        <key>ShelterCity</key>
+        <string>Benson</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Southwest Crisis Center</string>
+        <key>ShelterCity</key>
+        <string>Windom</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Southwest Crisis Center</string>
+        <key>ShelterCity</key>
+        <string>Jackson</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Bluff Country Family Resources</string>
+        <key>ShelterCity</key>
+        <string>Hokah</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Women&apos;s Rural Advocacy Program (WRAP)</string>
+        <key>ShelterCity</key>
+        <string>Marshall</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>New Horizons Crisis Center</string>
+        <key>ShelterCity</key>
+        <string>Marshall</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Dabinoo&apos;Igan</string>
+        <key>ShelterCity</key>
+        <string>Duluth</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>PAVSA (Program for Aid to Victims of Sexual Assault)</string>
+        <key>ShelterCity</key>
+        <string>Duluth</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Safe Haven Shelter and Resource Center</string>
+        <key>ShelterCity</key>
+        <string>Duluth</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>218-728-6481</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Southwest Crisis Center</string>
+        <key>ShelterCity</key>
+        <string>Worthington</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>800-376-4311</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Advocates for Family Peace</string>
+        <key>ShelterCity</key>
+        <string>Grand Rapids</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Support within Reach</string>
+        <key>ShelterCity</key>
+        <string>Grand Rapids</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>218-326-5008</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Headwaters Intervention Center</string>
+        <key>ShelterCity</key>
+        <string>Park Rapids</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Support within Reach</string>
+        <key>ShelterCity</key>
+        <string>Park Rapids</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>218-237-0300</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Support within Reach</string>
+        <key>ShelterCity</key>
+        <string>Walker</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>218-547-4892</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>North Shore Horizons</string>
+        <key>ShelterCity</key>
+        <string>Two Harbors</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Someplace Safe</string>
+        <key>ShelterCity</key>
+        <string>Fergus Falls</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Southwest Crisis Center</string>
+        <key>ShelterCity</key>
+        <string>Pipestone</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>800-376-4311</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Southwest Crisis Center</string>
+        <key>ShelterCity</key>
+        <string>Luverne</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>800-376-4311</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Lakes Crisis and Resource Center</string>
+        <key>ShelterCity</key>
+        <string>Detroit Lakes</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Leech Lake Family Violence Prevention Program</string>
+        <key>ShelterCity</key>
+        <string>Cass Lake</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Northwoods Coalition for Family Safety</string>
+        <key>ShelterCity</key>
+        <string>Bemidji</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Support within Reach</string>
+        <key>ShelterCity</key>
+        <string>Bemidji</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>218-444-9524</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>DOVE (Down on Violence Everyday)</string>
+        <key>ShelterCity</key>
+        <string>White Earth</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Headwaters/Family Crisis Center</string>
+        <key>ShelterCity</key>
+        <string>Bagley</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Support Within Reach</string>
+        <key>ShelterCity</key>
+        <string>Bagley</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>218-694-2210</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>YWCA Emergency Shelter </string>
+        <key>ShelterCity</key>
+        <string>Fargo</string>
+        <key>ShelterState</key>
+        <string>MN</string>
+        <key>ShelterNumber</key>
+        <string>866-223-1111</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Adams County - Manchester</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Reach Out</string>
+        <key>ShelterNumber</key>
+        <string>800-448-2273</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Allen County - Lima</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Crossroads Crisis Center</string>
+        <key>ShelterNumber</key>
+        <string>877-228-4357</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Allen County - Lima</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Lima Samaritan House</string>
+        <key>ShelterNumber</key>
+        <string>419-222-4663</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Ashland County - Mansfield</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>The Domestic Violence Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-931-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Ashland County - Ashland</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Rape Crisis Domestic Violence Safe Haven</string>
+        <key>ShelterNumber</key>
+        <string>419-289-8085</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Ashtabula County - Ashtabula</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Homesafe, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>800-952-2873</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Athens County - Athens</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>My Sisters Place</string>
+        <key>ShelterNumber</key>
+        <string>800-443-3402</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Auglaize County - Wapakoneta</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Auglaize County Crisis Center</string>
+        <key>ShelterNumber</key>
+        <string>419-738-5511</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Belmont County - St. Clairsville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Womens Tri-County Help Center</string>
+        <key>ShelterNumber</key>
+        <string>800-695-1639</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Brown County - Batavia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA House of Peace</string>
+        <key>ShelterNumber</key>
+        <string>513-753-7281</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Butler County - Hamilton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA Dove House</string>
+        <key>ShelterNumber</key>
+        <string>800-618-6523</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Butler County - Middletown</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Angel Place Shelter</string>
+        <key>ShelterNumber</key>
+        <string>877-952-6435</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Carroll County - Carrollton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Caritus House</string>
+        <key>ShelterNumber</key>
+        <string>330-627-5765</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Carroll County - Alliance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Alliance Area DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>330-823-7223</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Carroll County - Canton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Domestic Violence Project, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>330-453-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Carroll County - New Philadelphia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Harbor House, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>888-214-3927</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Champaign County - Springfield</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Project Woman</string>
+        <key>ShelterNumber</key>
+        <string>800-634-9893</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Clark County - Springfield</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Project Woman</string>
+        <key>ShelterNumber</key>
+        <string>800-634-9893</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Clermont County - Batavia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA House of Peace</string>
+        <key>ShelterNumber</key>
+        <string>513-753-7281</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Clinton County - Hillsboro</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Highland County DV Task Force</string>
+        <key>ShelterNumber</key>
+        <string>866-296-5415</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Clinton County - Batavia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA House of Peace</string>
+        <key>ShelterNumber</key>
+        <string>513-753-7281</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Clinton County - Xenia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Family Violence Prevention Center of Greene County</string>
+        <key>ShelterNumber</key>
+        <string>937-372-4552</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Columbiana County - Lisbon</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Christinas House</string>
+        <key>ShelterNumber</key>
+        <string>330-420-0036</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Columbiana County - Alliance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Alliance Area DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>330-823-7223</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Coshocton County - Coshocton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>First Step F.V.I.S.</string>
+        <key>ShelterNumber</key>
+        <string>740-622-9533</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Crawford County - Marion</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Turning Point</string>
+        <key>ShelterNumber</key>
+        <string>800-232-6505</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Cuyahoga County - Cleveland</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>The Domestic Violence Center</string>
+        <key>ShelterNumber</key>
+        <string>216-391-4357</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Cuyahoga County - Cleveland</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>West Side Catholic Shelter</string>
+        <key>ShelterNumber</key>
+        <string>216-631-4141</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Cuyahoga County - Cleveland</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Jewish Family Services Association Project Chai</string>
+        <key>ShelterNumber</key>
+        <string>216-691-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Darke County - Greenville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Shelter from Violence, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>937-548-2020</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Defiance County - Defiance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>House of Ruth</string>
+        <key>ShelterNumber</key>
+        <string>800-782-8555</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Defiance County - Naploeon</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Center for Child &amp; Family Advocacy</string>
+        <key>ShelterNumber</key>
+        <string>800-782-1314</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Delaware County - Columbus</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>CHOICES</string>
+        <key>ShelterNumber</key>
+        <string>614-224-4663</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Delaware County - Marion</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Turning Point</string>
+        <key>ShelterNumber</key>
+        <string>800-232-6505</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Erie County - Sandusky</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Safe Harbour DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-953-2207</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Fairfield County - Lancaster</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>The Lighthouse</string>
+        <key>ShelterNumber</key>
+        <string>740-687-4423</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Fayette County - Washington Court House</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>My Sisters House</string>
+        <key>ShelterNumber</key>
+        <string>740-636-9300</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Franklin County - Columbus</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>CHOICES</string>
+        <key>ShelterNumber</key>
+        <string>614-224-4663</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Fulton County - Defiance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>House of Ruth</string>
+        <key>ShelterNumber</key>
+        <string>800-782-8555</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Fulton County - Toledo</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA Battered Womens Shelter</string>
+        <key>ShelterNumber</key>
+        <string>419-241-7386</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Gallia County - Gallipolis</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Serenity House, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>800-942-9577</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Geauga County - Chardon</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>WomenSafe, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>888-285-5665</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Greene County - Xenia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Family Violence Prevention Center of Greene County</string>
+        <key>ShelterNumber</key>
+        <string>937-372-4552</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Guernsey County - Cambridge</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Haven of Hope</string>
+        <key>ShelterNumber</key>
+        <string>800-304-4673</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Hamilton County - Cincinnati</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA Battered Womens Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-872-9259</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Hamilton County - Cincinnati</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Rape Crisis &amp; Abuse Center of Hamilton County</string>
+        <key>ShelterNumber</key>
+        <string>800-872-9259</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Hancock County - Findlay</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Open Arms</string>
+        <key>ShelterNumber</key>
+        <string>419-422-4766</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Hardin County - Lima</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Crossroads Crisis Center</string>
+        <key>ShelterNumber</key>
+        <string>877-228-4357</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Harrison County - St. Clairsville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Womens Tri-County Help Center</string>
+        <key>ShelterNumber</key>
+        <string>800-695-1639</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Henry County - Defiance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>House of Ruth</string>
+        <key>ShelterNumber</key>
+        <string>800-782-8555</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Highland County - Hillsboro</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Highland County DV Task Force</string>
+        <key>ShelterNumber</key>
+        <string>866-296-5415</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Hocking County - Athens</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>My Sisters Place</string>
+        <key>ShelterNumber</key>
+        <string>800-443-3402</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Holmes County - Wooster</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Every Womans House</string>
+        <key>ShelterNumber</key>
+        <string>800-686-1122</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Huron County - Mansfield</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>The Domestic Violence Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-931-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Huron County - Sandusky</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Safe Harbour DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-953-2207</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Jackson County - Gallipolis</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Serenity House, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>800-942-9577</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Jefferson County - Steubenville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>A.L.I.V.E., Inc.</string>
+        <key>ShelterNumber</key>
+        <string>888-611-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Knox County - Mt. Vernon</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>New Directions</string>
+        <key>ShelterNumber</key>
+        <string>740-397-4357</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Lake County - Painesville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Forbes House</string>
+        <key>ShelterNumber</key>
+        <string>440-357-1018</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Lawrence County - Ironton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Lawrence County DV Task Force</string>
+        <key>ShelterNumber</key>
+        <string>888-372-7433</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Licking County - Newark</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Center for New Beginnings</string>
+        <key>ShelterNumber</key>
+        <string>800-686-2760</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Logan County - Springfield</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Project Woman</string>
+        <key>ShelterNumber</key>
+        <string>800-634-9893</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Lorain County - Elyria</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Genesis House</string>
+        <key>ShelterNumber</key>
+        <string>440-244-1853</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Lucas County - Toledo</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA Battered Womens Shelter</string>
+        <key>ShelterNumber</key>
+        <string>419-241-7386</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Madison County - London</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>A Friends House</string>
+        <key>ShelterNumber</key>
+        <string>800-301-1447</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Madison County - Circleville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Haven House of Pickaway County</string>
+        <key>ShelterNumber</key>
+        <string>740-477-9113</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Mahoning County - Youngstown</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Sojourner House</string>
+        <key>ShelterNumber</key>
+        <string>330-747-4040</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Mahoning County - Alliance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Alliance Area DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>330-823-7223</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Marion County - Marion</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Turning Point</string>
+        <key>ShelterNumber</key>
+        <string>800-232-6505</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Medina County - Akron</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Battered Womens Shelter of Summit &amp; Medina Counties</string>
+        <key>ShelterNumber</key>
+        <string>877-414-1344</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Meigs County - Gallipolis</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Serenity House, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>800-942-9577</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Mercer County - Celina</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Family Crisis Network</string>
+        <key>ShelterNumber</key>
+        <string>419-586-1133</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Miami County - Troy</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Family Abuse Shelter of Miami County</string>
+        <key>ShelterNumber</key>
+        <string>800-351-7347</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Monroe County- St. Clairsville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Womens Tri-County Help Center</string>
+        <key>ShelterNumber</key>
+        <string>800-695-1639</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Montgomery County - Dayton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA of Dayton Shelter &amp; Housing Services</string>
+        <key>ShelterNumber</key>
+        <string>937-222-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Morgan County - Zanesville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Transitions</string>
+        <key>ShelterNumber</key>
+        <string>740-454-3213</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Morrow County - Marion</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Turning Point</string>
+        <key>ShelterNumber</key>
+        <string>800-232-6505</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Muskingum County - Zanesville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Transitions</string>
+        <key>ShelterNumber</key>
+        <string>740-454-3213</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Noble County - Marietta</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>EVE, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>800-974-3111</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Noble County - Cambridge</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Haven of Hope</string>
+        <key>ShelterNumber</key>
+        <string>800-304-4673</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Ottawa County - Sandusky</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Safe Harbour DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-953-2207</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Ottawa County - Toledo</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA Battered Womens Shelter</string>
+        <key>ShelterNumber</key>
+        <string>419-241-7386</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Paulding County - Defiance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>House of Ruth</string>
+        <key>ShelterNumber</key>
+        <string>800-782-8555</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Perry County - Zanesville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Transitions</string>
+        <key>ShelterNumber</key>
+        <string>740-454-3213</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Pickaway County - Circleville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Haven House of Pickaway County</string>
+        <key>ShelterNumber</key>
+        <string>740-477-9113</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Pike County - Waverly</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Pike County Partnership Against Domestic Violence</string>
+        <key>ShelterNumber</key>
+        <string>740-947-2147</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Portage County - Kent</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Safer Futures</string>
+        <key>ShelterNumber</key>
+        <string>330-673-2500</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Portage County - Alliance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Alliance Area DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>330-823-7223</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Preble County - Eaton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Preble County DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>937-456-6891</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Putnam County - Ottawa</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Crime Victims Services</string>
+        <key>ShelterNumber</key>
+        <string>877-274-7471</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Richland County - Mansfield</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>The Domestic Violence Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-931-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Ross County - Chillicothe</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Ross County Coalition Against DV</string>
+        <key>ShelterNumber</key>
+        <string>866-828-2273</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Sandusky County - Fostoria</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>First Step</string>
+        <key>ShelterNumber</key>
+        <string>800-466-6228</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Scioto County - Portsmouth</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Southern Ohio DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>740-456-8217</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Seneca County - Fostoria</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>First Step</string>
+        <key>ShelterNumber</key>
+        <string>800-466-6228</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Shelby County - Sidney</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>New Choices</string>
+        <key>ShelterNumber</key>
+        <string>937-498-7261</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Stark County - Alliance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Alliance Area DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>330-823-7223</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Stark County - Canton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Domestic Violence Project, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>330-453-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Summit County - Akron</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Battered Womens Shelter of Summit &amp; Medina Counties</string>
+        <key>ShelterNumber</key>
+        <string>888-395-4357</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Trumbull County - Warren</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Someplace Safe</string>
+        <key>ShelterNumber</key>
+        <string>330-393-1565</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Tuscarawas County - New Philadelphia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Harbor House, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>888-214-3927</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Union County - Marion</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Turning Point</string>
+        <key>ShelterNumber</key>
+        <string>800-232-6505</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Union County - Columbus</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Choices</string>
+        <key>ShelterNumber</key>
+        <string>614-224-4663</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Van Wert County - Van Wert</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Crisis Care Line/House of Transition</string>
+        <key>ShelterNumber</key>
+        <string>419-238-4357</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Vinton County - Athens</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Shepherds House</string>
+        <key>ShelterNumber</key>
+        <string>866-596-9271</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Warren County - Lebanon</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Warren County Abuse &amp; Rape Crisis Shelter</string>
+        <key>ShelterNumber</key>
+        <string>888-860-4084</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Washington County - Marietta</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>EVE, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>800-974-3111</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Wayne County - Wooster</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Every Womans House</string>
+        <key>ShelterNumber</key>
+        <string>800-686-1122</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Williams County - Defiance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>House of Ruth</string>
+        <key>ShelterNumber</key>
+        <string>800-782-8555</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Wood County - Fostoria</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>First Step</string>
+        <key>ShelterNumber</key>
+        <string>800-466-6228</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Wood County - Toledo</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA Battered Womens Shelter</string>
+        <key>ShelterNumber</key>
+        <string>419-241-7386</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Wood County - Bowling Green</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>The Cocoon Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-472-9411</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Wyandot County - Fostoria</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>First Step</string>
+        <key>ShelterNumber</key>
+        <string>800-466-6228</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Wyandot County - Marion</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Turning Point</string>
+        <key>ShelterNumber</key>
+        <string>800-232-6505</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Advocates of Ozaukee</string>
+        <key>ShelterCity</key>
+        <string>Saukville</string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>262-284-6902 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Agnesian Healthcare Domestic Violence Program</string>
+        <key>ShelterCity</key>
+        <string>Fond du Lac</string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>920-926-4290 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>American Indians Against Abuse, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Hayward </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>888-330-7402 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Asha Family Services, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Milwaukee </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>414-875-1511 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Association for the Prevention of Family Violence (APFV)</string>
+        <key>ShelterCity</key>
+        <string>Elkhorn </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>262-723-4653 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Aurora Abuse Response Services</string>
+        <key>ShelterCity</key>
+        <string>Miwaukee </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>414-219-5146</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>AVAIL, Inc.  (Advocates for Victims of domestic and sexual Abuse In Langlade Co.)</string>
+        <key>ShelterCity</key>
+        <string>Antigo </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-623-5767</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Bad River Chippewa Tribe DAP</string>
+        <key>ShelterCity</key>
+        <string>Odanah </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-682-8379 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Beloit Domestic Violence Survivor Center, a program of Family Services of S. WI &amp; N. IL Inc.</string>
+        <key>ShelterCity</key>
+        <string>Beloit </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-365-1119 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Bolton Refuge House</string>
+        <key>ShelterCity</key>
+        <string>Eau Claire </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-834-9578</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Bolton Refuge House - Buffalo County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Alma </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-685-2424 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Bolton Refuge House - Jackson County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Black River Falls </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-284-9970 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Brighter Tomorrows</string>
+        <key>ShelterCity</key>
+        <string>Sparta </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>888-886-2327</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>CAP Services - Family Crisis Center</string>
+        <key>ShelterCity</key>
+        <string>Stevens Point </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-343-7125 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>CAP Services/Family Crisis Center - Waupaca County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Waupaca </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-343-7125 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>CAP Services/Family Crisis Center - Waushara County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Wautoma </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-343-7125 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Caring House, Inc - Florence County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Iron Mountain Michigan</string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-392-7838</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Catholic Charities of Green Bay - Family Strengthening</string>
+        <key>ShelterCity</key>
+        <string>Green Bay </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>920-436-8888</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Catholic Charities of the Diocese of La Crosse Domestic Abuse Program for Crawford County</string>
+        <key>ShelterCity</key>
+        <string>Prairie du Chien </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>888-200-8426</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Catholic Charities Oshkosh-Refugee Family Strengthening Project</string>
+        <key>ShelterCity</key>
+        <string>Oshkosh </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>877-500-3580</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Center Against Sexual &amp; Domestic Abuse, Inc. (CASDA)</string>
+        <key>ShelterCity</key>
+        <string>Superior </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-649-2921</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Center Against Sexual and Domestic Abuse, Inc. (CASDA) - Bayfield County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Washburn </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-649-2921</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Christine Ann DA Services - Green Lake County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Green Lake </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-261-5998</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Christine Ann Domestic Abuse Services</string>
+        <key>ShelterCity</key>
+        <string>Neenah </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>920-235-5998 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Community Referral Agency - Burnett County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Siren </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-261-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Community Referral Agency, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Milltown </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-261-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Disability Rights Wisconsin</string>
+        <key>ShelterCity</key>
+        <string>Madison </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-928-8778</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Domestic Abuse Intervention Services (DAIS)</string>
+        <key>ShelterCity</key>
+        <string>Madison </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-251-4445</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Domestic Violence Escape (DOVE), Inc.</string>
+        <key>ShelterCity</key>
+        <string>Ironwood Michigan</string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>906-932-0310 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Eau Claire Family Strengthening Advocate</string>
+        <key>ShelterCity</key>
+        <string>Eau Claire </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-379-6833 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Embrace (formerly Time-Out)</string>
+        <key>ShelterCity</key>
+        <string>Ladysmith </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-924-0556</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Embrace (formerly Time-Out) - Price County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Phillips </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-339-4521</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Embrace (formerly Time-Out) - Washburn County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Spooner </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-635-5245</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>End Domestic Abuse Barron County</string>
+        <key>ShelterCity</key>
+        <string>Barron </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-924-2624</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Family Advocates - Iowa County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Dodgeville </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-924-2624 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Family Advocates - Lafayette County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Darlington </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-924-2624 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Family Advocates Inc.</string>
+        <key>ShelterCity</key>
+        <string>Platteville </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-924-2624</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Family Support Center</string>
+        <key>ShelterCity</key>
+        <string>Chippewa Falls </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-400-7020 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Freedom, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Madison </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-661-4088</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Friends of Abused Families</string>
+        <key>ShelterCity</key>
+        <string>West Bend </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>262-334-7298 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Golden House</string>
+        <key>ShelterCity</key>
+        <string>Green Bay </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>920-432-4244 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Green Haven Family Advocates, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Monroe </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-325-7711 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Gundersen Lutheran Domestic Abuse/Sexual Assault Program</string>
+        <key>ShelterCity</key>
+        <string>La Crosse </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-775-5950 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Harbor House Domestic Abuse Programs - Calumet County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Chilton </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-970-1171 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Harbor House Domestic Abuse Programs, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Appleton </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>920-832-1666</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>HAVEN, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Merrill </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-536-1300 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>HELP of Door County, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Sturgeon Bay </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>920-743-8818</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Hmong American Women&apos;s Association</string>
+        <key>ShelterCity</key>
+        <string>Milwaukee </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>877-740-4292 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Ho-Chunk Nation Domestic Abuse Program</string>
+        <key>ShelterCity</key>
+        <string>Black River Falls </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>877-740-4292</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Hope House - Adams County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Baraboo </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-356-7500 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Hope House - Columbia County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Baraboo </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-356-7500 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Hope House - Juneau County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Baraboo </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-356-7500 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Hope House - Marquette County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Baraboo </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-356-7500 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Hope House of South Central Wisconsin</string>
+        <key>ShelterCity</key>
+        <string>Baraboo </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-356-7500 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>in courage (formerly Manitowoc County Domestic Violence Center)</string>
+        <key>ShelterCity</key>
+        <string>Manitowoc </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>920-684-5770 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>La Crosse Family Strengthening Program</string>
+        <key>ShelterCity</key>
+        <string>La Crosse </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-781-5744 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Lac du Flambeau Domestic Abuse &amp; Sexual Assault Program</string>
+        <key>ShelterCity</key>
+        <string>Lac du Flambeau </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-236-7660</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Latina Resource Center - UMOS</string>
+        <key>ShelterCity</key>
+        <string>Milwaukee </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>414-389-6510</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Maehnowesekiyah Wellness Center- Oskeh-Waepeqtah Domestic Violence &amp; Sexual Assault Program</string>
+        <key>ShelterCity</key>
+        <string>Gresham </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-799-3931 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Milwaukee LGBT Community Center Antiviolence Project</string>
+        <key>ShelterCity</key>
+        <string>Milwaukee </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>414-292-3072</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Milwaukee Women&apos;s Center/Community Advocates, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Milwaukee </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>414-671-6140 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>New Horizons Shelter and Outreach Centers - Trempeleau Co Outreach</string>
+        <key>ShelterCity</key>
+        <string>Whitehall </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-706-8586 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>New Horizons Shelter and Outreach Centers, Inc</string>
+        <key>ShelterCity</key>
+        <string>La Crosse </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-791-2610 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Northwoods Women Inc./New Day Shelter</string>
+        <key>ShelterCity</key>
+        <string>Ashland </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-682-9565 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Oakwood Haven Domestic and Sexual Violence Shelter and Outreach</string>
+        <key>ShelterCity</key>
+        <string>Hayward </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>877-552-7474 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Oneida Nation Domestic Abuse Program</string>
+        <key>ShelterCity</key>
+        <string>Oneida </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>888-490-2457</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Passages, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Richland Center </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-647-3616</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>PAVE</string>
+        <key>ShelterCity</key>
+        <string>Beaver Dam </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-775-3785 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>People Against Domestic and Sexual Abuse ( PADA)</string>
+        <key>ShelterCity</key>
+        <string>Jefferson </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>920-674-6768</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Personal Development Center - Clark County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Neillsville </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>877-743-6262 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Personal Development Center Inc.</string>
+        <key>ShelterCity</key>
+        <string>Marshfield </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-384-5555 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Rainbow House Domestic Abuse Services - Oconto County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Oconto </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-956-6656 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Rainbow House Domestic Abuse Services, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Marinette </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-735-6656</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Red Cliff Family Violence Prevention Program</string>
+        <key>ShelterCity</key>
+        <string>Bayfield </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-779-3706</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Safe Harbor of Sheboygan County, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Sheboygan </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>920-452-7640</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Safe Haven</string>
+        <key>ShelterCity</key>
+        <string>Shawano </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-526-3421</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Safe Path, Mayo Clinic Health System</string>
+        <key>ShelterCity</key>
+        <string>La Crosse </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-392-7804 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Sawyer County Health and Human Services</string>
+        <key>ShelterCity</key>
+        <string>Hayward </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-569-4162 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Shirley&apos;s House of Hope</string>
+        <key>ShelterCity</key>
+        <string>Marshfield </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-486-9000 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Sojourner Family Peace Center</string>
+        <key>ShelterCity</key>
+        <string>Milwaukee </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>414-933-2722</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Sokaogon Chippewa Tribe</string>
+        <key>ShelterCity</key>
+        <string>Crandon </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-478-7677</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Solutions Center Shelter and Support Services</string>
+        <key>ShelterCity</key>
+        <string>Fond du Lac </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>920-923-2880</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>South East Asian Domestic Violence and Sexual Assault - HAFA</string>
+        <key>ShelterCity</key>
+        <string>Milwaukee </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>414-322-9522 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>St. Croix Tribe Domestic Violence and Sexual Assault Program</string>
+        <key>ShelterCity</key>
+        <string>Siren </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-236-2195</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Stepping Stones, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Medford </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-748-5140 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Stockbridge-Munsee Community Family Services</string>
+        <key>ShelterCity</key>
+        <string>Bowler </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-793-4780</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>The Bridge to Hope - Pepin County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Durand </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-235-9074 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>The Bridge to Hope, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Menomonie </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-235-9074 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>The Family Center, Inc.</string>
+        <key>ShelterCity</key>
+        <string> Rapids </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-421-1511 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>The Women&apos;s Center</string>
+        <key>ShelterCity</key>
+        <string>Waukesha </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>262-542-3828 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>The Women&apos;s Community, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Wausau </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-842-7323</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Tri-County Council on Domestic Violence and Sexual Assault - Forest County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Crandon </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-362-6800 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Tri-County Council on Domestic Violence and Sexual Assault - Vilas County Outreach</string>
+        <key>ShelterCity</key>
+        <string>Rhinelander </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-362-6800 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Tri-County Council on Domestic Violence and Sexual Assault, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Rhinelander </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-362-6800 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Turningpoint for Victims of Domestic and Sexual Violence, Inc</string>
+        <key>ShelterCity</key>
+        <string>River Falls </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>715-425-6751 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Turningpoint for Victims of Domestic Violence &amp; Sexual Assault - St. Croix County Outreach</string>
+        <key>ShelterCity</key>
+        <string>River Falls </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-345-5104 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>UNIDOS Against Domestic Violence</string>
+        <key>ShelterCity</key>
+        <string>Madison </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>800-510-9195 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Vernon County Domestic Abuse Project</string>
+        <key>ShelterCity</key>
+        <string>Viroqua </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-637-7007 </string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Violence Intervention Project, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Algoma </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>920-837-2424</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Wisconsin Coalition Against Sexual Assault (WCASA)</string>
+        <key>ShelterCity</key>
+        <string>Madison </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-257-1516</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Wisconsin Dept of Health Services - Office of Aging &amp; Elder Abuse</string>
+        <key>ShelterCity</key>
+        <string>Madison </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>866-229-9695</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Wise Women Gathering Place</string>
+        <key>ShelterCity</key>
+        <string>Green Bay </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>920-490-0627</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Women and Children&apos;s Horizons, Inc.</string>
+        <key>ShelterCity</key>
+        <string>Kenosha </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>262-652-9900</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>Women&apos;s Resource Center of Racine</string>
+        <key>ShelterCity</key>
+        <string>Racine </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>262-633-3233</string>
+    </dict>
+    <dict>
+        <key>ShelterName</key>
+        <string>YWCA Alternatives to Violence</string>
+        <key>ShelterCity</key>
+        <string>Janesville </string>
+        <key>ShelterState</key>
+        <string>WI</string>
+        <key>ShelterNumber</key>
+        <string>608-752-2583</string>
+    </dict>
 </array>
 </plist>

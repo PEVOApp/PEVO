@@ -14,6 +14,7 @@
 @property (strong, nonatomic) IBOutlet UIScrollView *PPNewScrollView;
 @property (strong, nonatomic) IBOutlet UILabel *PPNewInfoLabel;
 @property (strong, nonatomic) IBOutlet UITextView *PPNewInfoDetailTextView;
+@property (strong, nonatomic) IBOutlet UILabel *PPNewInfoDetail;
 
 @property (nonatomic,strong) PPInfo *PPNewInfo;
 

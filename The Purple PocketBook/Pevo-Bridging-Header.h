@@ -17,5 +17,3 @@
 #import "DVLawTableViewController.h"
 #import "DVDetailLawViewController.h"
 #import "TheLaw.h"
-
-

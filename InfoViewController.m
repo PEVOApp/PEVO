@@ -22,7 +22,10 @@
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
     self.PPNewInfoLabel.text = _PPNewInfo.infoTitle;
-    self.PPNewInfoDetailTextView.text = _PPNewInfo.infoDetail;
+    self.PPNewInfoDetail.text = _PPNewInfo.infoDetail;
+    
+    [self.PPNewScrollView setScrollEnabled:YES];
+    [self.PPNewScrollView setContentSize:CGSizeMake(320, 1000)];
     
 
 }
@@ -32,18 +35,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-- (void)viewDidAppear:(BOOL)animated {
-    
-    [self.PPNewScrollView setScrollEnabled:YES];
-    [self.PPNewScrollView setContentSize:CGSizeMake(0, 1000)];
-    
-}
-
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
-    [self.PPNewScrollView setContentSize:CGSizeMake(0, 1000)];
-    
-}
 
 @end

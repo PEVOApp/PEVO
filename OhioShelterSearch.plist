@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Adams County - Manchester</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Reach Out</string>
+        <key>ShelterNumber</key>
+        <string>800-448-2273</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Allen County - Lima</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Crossroads Crisis Center</string>
+        <key>ShelterNumber</key>
+        <string>877-228-4357</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Allen County - Lima</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Lima Samaritan House</string>
+        <key>ShelterNumber</key>
+        <string>419-222-4663</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Ashland County - Mansfield</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>The Domestic Violence Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-931-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Ashland County - Ashland</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Rape Crisis Domestic Violence Safe Haven</string>
+        <key>ShelterNumber</key>
+        <string>419-289-8085</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Ashtabula County - Ashtabula</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Homesafe, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>800-952-2873</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Athens County - Athens</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>My Sisters Place</string>
+        <key>ShelterNumber</key>
+        <string>800-443-3402</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Auglaize County - Wapakoneta</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Auglaize County Crisis Center</string>
+        <key>ShelterNumber</key>
+        <string>419-738-5511</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Belmont County - St. Clairsville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Womens Tri-County Help Center</string>
+        <key>ShelterNumber</key>
+        <string>800-695-1639</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Brown County - Batavia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA House of Peace</string>
+        <key>ShelterNumber</key>
+        <string>513-753-7281</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Butler County - Hamilton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA Dove House</string>
+        <key>ShelterNumber</key>
+        <string>800-618-6523</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Butler County - Middletown</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Angel Place Shelter</string>
+        <key>ShelterNumber</key>
+        <string>877-952-6435</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Carroll County - Carrollton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Caritus House</string>
+        <key>ShelterNumber</key>
+        <string>330-627-5765</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Carroll County - Alliance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Alliance Area DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>330-823-7223</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Carroll County - Canton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Domestic Violence Project, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>330-453-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Carroll County - New Philadelphia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Harbor House, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>888-214-3927</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Champaign County - Springfield</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Project Woman</string>
+        <key>ShelterNumber</key>
+        <string>800-634-9893</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Clark County - Springfield</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Project Woman</string>
+        <key>ShelterNumber</key>
+        <string>800-634-9893</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Clermont County - Batavia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA House of Peace</string>
+        <key>ShelterNumber</key>
+        <string>513-753-7281</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Clinton County - Hillsboro</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Highland County DV Task Force</string>
+        <key>ShelterNumber</key>
+        <string>866-296-5415</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Clinton County - Batavia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA House of Peace</string>
+        <key>ShelterNumber</key>
+        <string>513-753-7281</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Clinton County - Xenia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Family Violence Prevention Center of Greene County</string>
+        <key>ShelterNumber</key>
+        <string>937-372-4552</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Columbiana County - Lisbon</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Christinas House</string>
+        <key>ShelterNumber</key>
+        <string>330-420-0036</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Columbiana County - Alliance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Alliance Area DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>330-823-7223</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Coshocton County - Coshocton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>First Step F.V.I.S.</string>
+        <key>ShelterNumber</key>
+        <string>740-622-9533</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Crawford County - Marion</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Turning Point</string>
+        <key>ShelterNumber</key>
+        <string>800-232-6505</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Cuyahoga County - Cleveland</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>The Domestic Violence Center</string>
+        <key>ShelterNumber</key>
+        <string>216-391-4357</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Cuyahoga County - Cleveland</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>West Side Catholic Shelter</string>
+        <key>ShelterNumber</key>
+        <string>216-631-4141</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Cuyahoga County - Cleveland</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Jewish Family Services Association Project Chai</string>
+        <key>ShelterNumber</key>
+        <string>216-691-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Darke County - Greenville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Shelter from Violence, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>937-548-2020</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Defiance County - Defiance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>House of Ruth</string>
+        <key>ShelterNumber</key>
+        <string>800-782-8555</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Defiance County - Naploeon</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Center for Child &amp; Family Advocacy</string>
+        <key>ShelterNumber</key>
+        <string>800-782-1314</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Delaware County - Columbus</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>CHOICES</string>
+        <key>ShelterNumber</key>
+        <string>614-224-4663</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Delaware County - Marion</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Turning Point</string>
+        <key>ShelterNumber</key>
+        <string>800-232-6505</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Erie County - Sandusky</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Safe Harbour DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-953-2207</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Fairfield County - Lancaster</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>The Lighthouse</string>
+        <key>ShelterNumber</key>
+        <string>740-687-4423</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Fayette County - Washington Court House</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>My Sisters House</string>
+        <key>ShelterNumber</key>
+        <string>740-636-9300</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Franklin County - Columbus</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>CHOICES</string>
+        <key>ShelterNumber</key>
+        <string>614-224-4663</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Fulton County - Defiance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>House of Ruth</string>
+        <key>ShelterNumber</key>
+        <string>800-782-8555</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Fulton County - Toledo</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA Battered Womens Shelter</string>
+        <key>ShelterNumber</key>
+        <string>419-241-7386</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Gallia County - Gallipolis</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Serenity House, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>800-942-9577</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Geauga County - Chardon</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>WomenSafe, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>888-285-5665</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Greene County - Xenia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Family Violence Prevention Center of Greene County</string>
+        <key>ShelterNumber</key>
+        <string>937-372-4552</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Guernsey County - Cambridge</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Haven of Hope</string>
+        <key>ShelterNumber</key>
+        <string>800-304-4673</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Hamilton County - Cincinnati</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA Battered Womens Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-872-9259</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Hamilton County - Cincinnati</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Rape Crisis &amp; Abuse Center of Hamilton County</string>
+        <key>ShelterNumber</key>
+        <string>800-872-9259</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Hancock County - Findlay</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Open Arms</string>
+        <key>ShelterNumber</key>
+        <string>419-422-4766</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Hardin County - Lima</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Crossroads Crisis Center</string>
+        <key>ShelterNumber</key>
+        <string>877-228-4357</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Harrison County - St. Clairsville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Womens Tri-County Help Center</string>
+        <key>ShelterNumber</key>
+        <string>800-695-1639</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Henry County - Defiance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>House of Ruth</string>
+        <key>ShelterNumber</key>
+        <string>800-782-8555</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Highland County - Hillsboro</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Highland County DV Task Force</string>
+        <key>ShelterNumber</key>
+        <string>866-296-5415</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Hocking County - Athens</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>My Sisters Place</string>
+        <key>ShelterNumber</key>
+        <string>800-443-3402</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Holmes County - Wooster</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Every Womans House</string>
+        <key>ShelterNumber</key>
+        <string>800-686-1122</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Huron County - Mansfield</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>The Domestic Violence Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-931-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Huron County - Sandusky</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Safe Harbour DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-953-2207</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Jackson County - Gallipolis</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Serenity House, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>800-942-9577</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Jefferson County - Steubenville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>A.L.I.V.E., Inc.</string>
+        <key>ShelterNumber</key>
+        <string>888-611-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Knox County - Mt. Vernon</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>New Directions</string>
+        <key>ShelterNumber</key>
+        <string>740-397-4357</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Lake County - Painesville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Forbes House</string>
+        <key>ShelterNumber</key>
+        <string>440-357-1018</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Lawrence County - Ironton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Lawrence County DV Task Force</string>
+        <key>ShelterNumber</key>
+        <string>888-372-7433</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Licking County - Newark</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Center for New Beginnings</string>
+        <key>ShelterNumber</key>
+        <string>800-686-2760</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Logan County - Springfield</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Project Woman</string>
+        <key>ShelterNumber</key>
+        <string>800-634-9893</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Lorain County - Elyria</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Genesis House</string>
+        <key>ShelterNumber</key>
+        <string>440-244-1853</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Lucas County - Toledo</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA Battered Womens Shelter</string>
+        <key>ShelterNumber</key>
+        <string>419-241-7386</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Madison County - London</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>A Friends House</string>
+        <key>ShelterNumber</key>
+        <string>800-301-1447</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Madison County - Circleville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Haven House of Pickaway County</string>
+        <key>ShelterNumber</key>
+        <string>740-477-9113</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Mahoning County - Youngstown</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Sojourner House</string>
+        <key>ShelterNumber</key>
+        <string>330-747-4040</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Mahoning County - Alliance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Alliance Area DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>330-823-7223</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Marion County - Marion</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Turning Point</string>
+        <key>ShelterNumber</key>
+        <string>800-232-6505</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Medina County - Akron</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Battered Womens Shelter of Summit &amp; Medina Counties</string>
+        <key>ShelterNumber</key>
+        <string>877-414-1344</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Meigs County - Gallipolis</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Serenity House, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>800-942-9577</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Mercer County - Celina</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Family Crisis Network</string>
+        <key>ShelterNumber</key>
+        <string>419-586-1133</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Miami County - Troy</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Family Abuse Shelter of Miami County</string>
+        <key>ShelterNumber</key>
+        <string>800-351-7347</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Monroe County- St. Clairsville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Womens Tri-County Help Center</string>
+        <key>ShelterNumber</key>
+        <string>800-695-1639</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Montgomery County - Dayton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA of Dayton Shelter &amp; Housing Services</string>
+        <key>ShelterNumber</key>
+        <string>937-222-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Morgan County - Zanesville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Transitions</string>
+        <key>ShelterNumber</key>
+        <string>740-454-3213</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Morrow County - Marion</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Turning Point</string>
+        <key>ShelterNumber</key>
+        <string>800-232-6505</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Muskingum County - Zanesville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Transitions</string>
+        <key>ShelterNumber</key>
+        <string>740-454-3213</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Noble County - Marietta</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>EVE, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>800-974-3111</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Noble County - Cambridge</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Haven of Hope</string>
+        <key>ShelterNumber</key>
+        <string>800-304-4673</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Ottawa County - Sandusky</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Safe Harbour DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-953-2207</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Ottawa County - Toledo</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA Battered Womens Shelter</string>
+        <key>ShelterNumber</key>
+        <string>419-241-7386</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Paulding County - Defiance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>House of Ruth</string>
+        <key>ShelterNumber</key>
+        <string>800-782-8555</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Perry County - Zanesville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Transitions</string>
+        <key>ShelterNumber</key>
+        <string>740-454-3213</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Pickaway County - Circleville</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Haven House of Pickaway County</string>
+        <key>ShelterNumber</key>
+        <string>740-477-9113</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Pike County - Waverly</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Pike County Partnership Against Domestic Violence</string>
+        <key>ShelterNumber</key>
+        <string>740-947-2147</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Portage County - Kent</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Safer Futures</string>
+        <key>ShelterNumber</key>
+        <string>330-673-2500</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Portage County - Alliance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Alliance Area DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>330-823-7223</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Preble County - Eaton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Preble County DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>937-456-6891</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Putnam County - Ottawa</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Crime Victims Services</string>
+        <key>ShelterNumber</key>
+        <string>877-274-7471</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Richland County - Mansfield</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>The Domestic Violence Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-931-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Ross County - Chillicothe</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Ross County Coalition Against DV</string>
+        <key>ShelterNumber</key>
+        <string>866-828-2273</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Sandusky County - Fostoria</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>First Step</string>
+        <key>ShelterNumber</key>
+        <string>800-466-6228</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Scioto County - Portsmouth</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Southern Ohio DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>740-456-8217</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Seneca County - Fostoria</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>First Step</string>
+        <key>ShelterNumber</key>
+        <string>800-466-6228</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Shelby County - Sidney</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>New Choices</string>
+        <key>ShelterNumber</key>
+        <string>937-498-7261</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Stark County - Alliance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Alliance Area DV Shelter</string>
+        <key>ShelterNumber</key>
+        <string>330-823-7223</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Stark County - Canton</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Domestic Violence Project, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>330-453-7233</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Summit County - Akron</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Battered Womens Shelter of Summit &amp; Medina Counties</string>
+        <key>ShelterNumber</key>
+        <string>888-395-4357</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Trumbull County - Warren</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Someplace Safe</string>
+        <key>ShelterNumber</key>
+        <string>330-393-1565</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Tuscarawas County - New Philadelphia</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Harbor House, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>888-214-3927</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Union County - Marion</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Turning Point</string>
+        <key>ShelterNumber</key>
+        <string>800-232-6505</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Union County - Columbus</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Choices</string>
+        <key>ShelterNumber</key>
+        <string>614-224-4663</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Van Wert County - Van Wert</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Crisis Care Line/House of Transition</string>
+        <key>ShelterNumber</key>
+        <string>419-238-4357</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Vinton County - Athens</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Shepherds House</string>
+        <key>ShelterNumber</key>
+        <string>866-596-9271</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Warren County - Lebanon</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Warren County Abuse &amp; Rape Crisis Shelter</string>
+        <key>ShelterNumber</key>
+        <string>888-860-4084</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Washington County - Marietta</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>EVE, Inc.</string>
+        <key>ShelterNumber</key>
+        <string>800-974-3111</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Wayne County - Wooster</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Every Womans House</string>
+        <key>ShelterNumber</key>
+        <string>800-686-1122</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Williams County - Defiance</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>House of Ruth</string>
+        <key>ShelterNumber</key>
+        <string>800-782-8555</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Wood County - Fostoria</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>First Step</string>
+        <key>ShelterNumber</key>
+        <string>800-466-6228</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Wood County - Toledo</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>YWCA Battered Womens Shelter</string>
+        <key>ShelterNumber</key>
+        <string>419-241-7386</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Wood County - Bowling Green</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>The Cocoon Shelter</string>
+        <key>ShelterNumber</key>
+        <string>800-472-9411</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Wyandot County - Fostoria</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>First Step</string>
+        <key>ShelterNumber</key>
+        <string>800-466-6228</string>
+    </dict>
+    <dict>
+        <key>ShelterCity</key>
+        <string>Wyandot County - Marion</string>
+        <key>ShelterState</key>
+        <string>OH</string>
+        <key>ShelterName</key>
+        <string>Turning Point</string>
+        <key>ShelterNumber</key>
+        <string>800-232-6505</string>
+    </dict>
+</array>
+</plist>

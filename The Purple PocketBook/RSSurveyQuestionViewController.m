@@ -2,7 +2,7 @@
 //  RSSurveyQuestionViewController.m
 //  RelationshipSurvey
 //
-//  Created by Rusty Zarse on 1/28/14.
+//  Created by Alicia on 1/28/14.
 //
 //
 
@@ -31,6 +31,7 @@
     return self;
 }
 
+
 - (void)viewWillAppear:(BOOL)animated {
     self.questions = @[NSLocalizedString(@"Has he/she ever used a weapon against you/threatened you with a weapon?", @"question1"),
                        NSLocalizedString(@"Does your partner's behavior make you feel as if you are wrong?", @"question2"),
@@ -53,6 +54,19 @@
     [super viewDidLoad];
     _sidebarButton.target = self.revealViewController;
     _sidebarButton.action = @selector(revealToggle:);
+    
+    NSLog(@"RSSurveyQuestionViewController viewDidLoad revealViewController %@", self.revealViewController);
+    
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:nil action:nil];
+    
+    [self.navigationItem setBackBarButtonItem:backButton];
+ 
+    
+    
+}
+
+-(void)back {
+    //back button code
 }
 
 - (void)didReceiveMemoryWarning

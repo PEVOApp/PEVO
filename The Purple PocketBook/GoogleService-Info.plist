@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>412717986619-09fl7kb5eqtout1g3kp495geflgkh26d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.412717986619-09fl7kb5eqtout1g3kp495geflgkh26d</string>
+	<key>API_KEY</key>
+	<string>AIzaSyABxJ_1wPaCGaf6WIBhmFNZ6m9MqEJbFsM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>412717986619</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Purple-Pocketbook</string>
+	<key>PROJECT_ID</key>
+	<string>pevoapp-6ba4c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pevoapp-6ba4c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:412717986619:ios:29e268f30a9cfa18</string>
+	<key>DATABASE_URL</key>
+	<string>https://pevoapp-6ba4c.firebaseio.com</string>
+</dict>
+</plist>

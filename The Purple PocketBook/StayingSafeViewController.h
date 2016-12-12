@@ -14,6 +14,7 @@
 @property (strong, nonatomic) IBOutlet UIScrollView *StayingSafeScrollView;
 @property (strong, nonatomic) IBOutlet UILabel *StayingSafeLabel;
 @property (strong, nonatomic) IBOutlet UITextView *StayingSafeTextView;
+@property (strong, nonatomic) IBOutlet UILabel *StayingSafeDetail;
 
 
 @property (nonatomic,strong) StayingSafe *safe;

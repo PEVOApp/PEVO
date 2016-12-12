@@ -11,6 +11,7 @@
 
 
 
+
 @interface SideBarTableViewController ()
 
 
@@ -36,14 +37,30 @@
     [super viewDidLoad];
     
     
-    
-    
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
-    menuItems = @[@"test", @"pevo home", @"federal law", @"workplace", @"immigration", @"staying safe", @"quiz", @"technology", @"community sponsors"];
+    menuItems = @[@"test", @"pevo home", @"immigration", @"staying safe", @"technology", @"community sponsors", @"quiz"];
     
     
 }
+
+
+- (IBAction)addState
+{
+    NSString *title = @"Add Your State";
+    NSString *message = @"If you want your state to be added to the PEVO app please email info@pevo.us";
+    NSString *okText = @"Ok";
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *okButton = [UIAlertAction actionWithTitle:okText style:UIAlertActionStyleCancel handler:nil];
+    
+    [alert addAction:okButton];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

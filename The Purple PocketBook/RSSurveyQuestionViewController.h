@@ -12,6 +12,10 @@
 @property (weak, nonatomic) IBOutlet UITextView *questionTextBox;
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
+
+
 - (IBAction)answerButtonClicked:(id)sender;
+
+
 
 @end

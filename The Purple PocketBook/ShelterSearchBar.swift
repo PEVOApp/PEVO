@@ -19,7 +19,7 @@ class ShelterSearchBar: UISearchBar {
     // An empty implementation adversely affects performance during animation.
     
     
-    override func drawRect(rect: CGRect) {
+    override func draw(_ rect: CGRect) {
         // Drawing code
         
         // Find the index of the search filed in the search bar subviews.
@@ -36,8 +36,8 @@ class ShelterSearchBar: UISearchBar {
         preferredFont = font
         preferredTextColor = textColor
         
-        searchBarStyle = UISearchBarStyle.Prominent
-        translucent = false
+        searchBarStyle = UISearchBarStyle.prominent
+        isTranslucent = false
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -50,11 +50,11 @@ class ShelterSearchBar: UISearchBar {
         // println(subviews[0].subviews)
         
         var index: Int!
-        let searchBarView = subviews[0]
+        let searchBarView = subviews[0] as UIView
         
-        for var i=0; i<searchBarView.subviews.count; ++i {
-            if searchBarView.subviews[i].isKindOfClass(UITextField) {
-                index = i
+        for x in 0 ..< searchBarView.subviews.count {
+            if searchBarView.subviews[x].isKind(of: UITextField.self) {
+                index = x
                 break
             }
         }

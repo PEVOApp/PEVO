@@ -13,7 +13,7 @@
 
 @property (strong, nonatomic) IBOutlet UIScrollView *DVLawDetailScrollView;
 @property (strong, nonatomic) IBOutlet UILabel *DVLawLabel;
-@property (strong, nonatomic) IBOutlet UITextView *DVLawDetailTextView;
+@property (strong, nonatomic) IBOutlet UILabel *DVLawDetail;
 
 @property (nonatomic,strong) TheLaw *dvLaw;
 

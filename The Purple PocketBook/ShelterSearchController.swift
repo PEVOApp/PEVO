@@ -13,7 +13,7 @@ protocol SearchControllerDelegate {
     func didStartSearching()
     func didTapOnSearchButton()
     func didTapOnCancelButton()
-    func didChangeSearchText(searchText: String)
+    func didChangeSearchText(_ searchText: String)
     
 }
 
@@ -45,7 +45,7 @@ class ShelterSearchController: UISearchController, UISearchBarDelegate {
     }
     
     
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
     
@@ -57,7 +57,7 @@ class ShelterSearchController: UISearchController, UISearchBarDelegate {
     
     // MARK: Custom functions
     
-    func configureSearchBar(frame: CGRect, font: UIFont, textColor: UIColor, bgColor: UIColor) {
+    func configureSearchBar(_ frame: CGRect, font: UIFont, textColor: UIColor, bgColor: UIColor) {
         shelterSearchBar = ShelterSearchBar(frame: frame, font: font , textColor: textColor)
         
         shelterSearchBar.barTintColor = bgColor
@@ -69,25 +69,25 @@ class ShelterSearchController: UISearchController, UISearchBarDelegate {
 
     }
     
-    func searchBarTextDidBeginEditing(searchBar: UISearchBar) {
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
         
         shelterSearchDelegate.didStartSearching()
         
     }
     
-    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         
         shelterSearchBar.resignFirstResponder()
         shelterSearchDelegate.didTapOnSearchButton()
     }
     
-    func searchBarCancelButtonClicked(searchBar: UISearchBar) {
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         
         shelterSearchBar.resignFirstResponder()
         shelterSearchDelegate.didTapOnCancelButton()
     }
 
-    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
         shelterSearchDelegate.didChangeSearchText(searchText)
     }

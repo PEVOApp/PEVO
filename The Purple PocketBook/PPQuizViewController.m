@@ -32,6 +32,8 @@
     
     _sidebarButton.target = self.revealViewController;
     _sidebarButton.action = @selector(revealToggle:);
+    
+    NSLog(@"PPQuizViewController viewDidLoad revealViewController %@", self.revealViewController);
 }
 
 - (void)didReceiveMemoryWarning
